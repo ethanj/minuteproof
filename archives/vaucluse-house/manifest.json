@@ -1,0 +1,57 @@
+{
+  "id": "vaucluse-house",
+  "title": "Vaucluse House",
+  "note": null,
+  "files": [
+    {
+      "name": "vaucluse-house-minute-book-1967-1971.pdf",
+      "title": "Trustees’ minute book, 1967–1971",
+      "source_url": "https://archive.org/download/Vaucluse-43079-1967-71/43079_1967-71.pdf",
+      "bytes": 9206592,
+      "pages": 472,
+      "sha256": "995a20a06fc18531e133b503d4843f1b2c1e10133cf23007c9366696585c1dd6",
+      "status": "complete"
+    },
+    {
+      "name": "vaucluse-house-minute-book-1972-1973.pdf",
+      "title": "Historic Site minute book, 1972–1973",
+      "source_url": "https://archive.org/download/Vaucluse-43079-1972-73/43079_1972-73.pdf",
+      "bytes": 5841704,
+      "pages": 298,
+      "sha256": "103fa309b0beb8cd65034a2b45fd53ac959533d1297051d6364d522bfd91c2f3",
+      "status": "complete"
+    },
+    {
+      "name": "vaucluse-house-minute-book-1973-1974.pdf",
+      "title": "Historic Site minute book, 1973–1974",
+      "source_url": "https://archive.org/download/Vaucluse-43079-1973-74/43079_1973-74.pdf",
+      "bytes": 6045487,
+      "pages": 340,
+      "sha256": "1338c5eebf5ce8ca75d87debcd3c9f519f3a21d4d6ba1a5a0c84b1f70e6a84f0",
+      "status": "complete"
+    },
+    {
+      "name": "vaucluse-house-minute-book-1974-1975.pdf",
+      "title": "Historic Site minute book, 1974–1975",
+      "source_url": "https://archive.org/download/Vaucluse-43079-1974-75/43079_1974-75.pdf",
+      "bytes": 6651823,
+      "pages": 420,
+      "sha256": "97262cc2f3669618cf45437062a92f2fefe613b25c8e2a20cd677ea4f8661565",
+      "status": "complete"
+    },
+    {
+      "name": "state-library-nsw-foundation-report-wentworth-papers.pdf",
+      "title": "State Library NSW Foundation report describing Wentworth family papers",
+      "source_url": "https://www.sl.nsw.gov.au/sites/default/files/foundation_annual_report_2014-15.pdf",
+      "bytes": 6004324,
+      "pages": 36,
+      "sha256": "6f7ad992072a5719cfaf3727eee9e09677eae2103251033b879876a653b82912",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [],
+  "total_bytes": 33749930,
+  "total_pages": 1566,
+  "completed_files": 5,
+  "failed_files": 0
+}

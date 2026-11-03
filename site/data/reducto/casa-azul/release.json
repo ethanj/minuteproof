@@ -1,0 +1,337 @@
+{
+  "response_type": "parse",
+  "job_id": "cd428e06-6588-4b9e-8528-60b325a107d2",
+  "duration": 2.202925205230713,
+  "pdf_url": null,
+  "studio_link": "https://studio.reducto.ai/job/cd428e06-6588-4b9e-8528-60b325a107d2",
+  "usage": {
+    "num_pages": 1,
+    "credits": 1,
+    "credit_breakdown": {
+      "page": 1
+    },
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ]
+    },
+    "non_empty_cell_count": null
+  },
+  "result": {
+    "type": "full",
+    "chunks": [
+      {
+        "content": "[[START OF PAGE 1]]\n\nComunicado: MFK-MDRA/003-25\n\nLa Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.\n\nMUSEO\nFRIDA\n\nKAHLO\n\nComunicado: MFK 003/2025\n\n# Comunicado Oficial\n\n## La Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.\n\nUbicado en la calle Londres 247, la Casa Azul es el lugar donde Frida Kahlo nació, vivió 36 de sus 47 años de vida, creó gran parte de su obra, y murió. Este espacio fue su refugio personal, hogar familiar y taller creativo, representando hoy, uno de los lugares culturales más emblemáticos y valorados tanto en México como en el mundo.\n\nEn agosto de 1955 Diego Rivera creó en el Banco de México el Fideicomiso para los Museos Diego Rivera y Frida Kahlo. Este es un fideicomiso privado y sin fines de lucro que tiene bajo su administración los dos museos: Museo Diego Rivera-Anahuacalli y al Museo Frida Kahlo-Casa Azul.\n\nEstos dos artistas son considerados como fundamentales por su legado cultural y artístico. Existen diversas propuestas en torno a ellos que son independientes de este fideicomiso entre ellas el Museo Dolores Olmedo, administrado por el Fideicomiso Museo Dolores Olmedo Patiño, el Museo Casa Estudio Diego Rivera y Frida Kahlo administrado por el INBAL, así como el más reciente espacio conocido como la “Casa Kahlo” por la Fundación Kahlo.\n\nCabe señalar que cualquier propuesta cultural que honre la memoria y obra de Frida Kahlo será bienvenida, contribuyendo así a la difusión permanente de su legado.\n\nEn caso de ser alguna nueva propuesta vinculada a este Fideicomiso, usaremos nuestros canales oficiales para su divulgación.\n\nAtentamente,\n\nMuseo Frida Kahlo – Casa Azul Fideicomiso del Banco de México para los Museos Diego Rivera y Frida Kahlo\n\n[[END OF PAGE 1]]",
+        "embed": "[[START OF PAGE 1]]\n\nComunicado: MFK-MDRA/003-25\n\nLa Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.\n\nMUSEO\nFRIDA\n\nKAHLO\n\nComunicado: MFK 003/2025\n\n# Comunicado Oficial\n\n## La Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.\n\nUbicado en la calle Londres 247, la Casa Azul es el lugar donde Frida Kahlo nació, vivió 36 de sus 47 años de vida, creó gran parte de su obra, y murió. Este espacio fue su refugio personal, hogar familiar y taller creativo, representando hoy, uno de los lugares culturales más emblemáticos y valorados tanto en México como en el mundo.\n\nEn agosto de 1955 Diego Rivera creó en el Banco de México el Fideicomiso para los Museos Diego Rivera y Frida Kahlo. Este es un fideicomiso privado y sin fines de lucro que tiene bajo su administración los dos museos: Museo Diego Rivera-Anahuacalli y al Museo Frida Kahlo-Casa Azul.\n\nEstos dos artistas son considerados como fundamentales por su legado cultural y artístico. Existen diversas propuestas en torno a ellos que son independientes de este fideicomiso entre ellas el Museo Dolores Olmedo, administrado por el Fideicomiso Museo Dolores Olmedo Patiño, el Museo Casa Estudio Diego Rivera y Frida Kahlo administrado por el INBAL, así como el más reciente espacio conocido como la “Casa Kahlo” por la Fundación Kahlo.\n\nCabe señalar que cualquier propuesta cultural que honre la memoria y obra de Frida Kahlo será bienvenida, contribuyendo así a la difusión permanente de su legado.\n\nEn caso de ser alguna nueva propuesta vinculada a este Fideicomiso, usaremos nuestros canales oficiales para su divulgación.\n\nAtentamente,\n\nMuseo Frida Kahlo – Casa Azul Fideicomiso del Banco de México para los Museos Diego Rivera y Frida Kahlo\n\n[[END OF PAGE 1]]",
+        "enriched": null,
+        "enrichment_success": false,
+        "blocks": [
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[START OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Header",
+            "bbox": {
+              "left": 0.6282679738562091,
+              "top": 0.03977272727272727,
+              "width": 0.23284313725490197,
+              "height": 0.008838383838383838,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Comunicado: MFK-MDRA/003-25",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7231659203767777
+            },
+            "extra": null
+          },
+          {
+            "type": "Header",
+            "bbox": {
+              "left": 0.5825163398692811,
+              "top": 0.06565656565656566,
+              "width": 0.2826797385620915,
+              "height": 0.030303030303030304,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "La Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7434199392795562
+            },
+            "extra": null
+          },
+          {
+            "type": "Figure",
+            "bbox": {
+              "left": 0.4354575163398693,
+              "top": 0.13068181818181818,
+              "width": 0.09967320261437909,
+              "height": 0.07512626262626262,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "MUSEO\nFRIDA\n\nKAHLO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9595463365316391
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.6372549019607843,
+              "top": 0.21148989898989898,
+              "width": 0.2238562091503268,
+              "height": 0.010101010101010102,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Comunicado: MFK 003/2025",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.76143379509449
+            },
+            "extra": null
+          },
+          {
+            "type": "Title",
+            "bbox": {
+              "left": 0.3897058823529412,
+              "top": 0.24368686868686867,
+              "width": 0.2238562091503268,
+              "height": 0.023989898989898988,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Comunicado Oficial",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6805473804473876
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.2687908496732026,
+              "top": 0.2922979797979798,
+              "width": 0.46568627450980393,
+              "height": 0.04861111111111111,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "La Casa Azul – Museo Frida Kahlo: el hogar de Frida, legado vivo de México.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7427147775888443
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.3648989898989899,
+              "width": 0.7263071895424836,
+              "height": 0.0707070707070707,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Ubicado en la calle Londres 247, la Casa Azul es el lugar donde Frida Kahlo nació, vivió 36 de sus 47 años de vida, creó gran parte de su obra, y murió. Este espacio fue su refugio personal, hogar familiar y taller creativo, representando hoy, uno de los lugares culturales más emblemáticos y valorados tanto en México como en el mundo.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9836830288171768
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.4564393939393939,
+              "width": 0.7263071895424836,
+              "height": 0.052398989898989896,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "En agosto de 1955 Diego Rivera creó en el Banco de México el Fideicomiso para los Museos Diego Rivera y Frida Kahlo. Este es un fideicomiso privado y sin fines de lucro que tiene bajo su administración los dos museos: Museo Diego Rivera-Anahuacalli y al Museo Frida Kahlo-Casa Azul.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9798233717679977
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.5296717171717171,
+              "width": 0.7263071895424836,
+              "height": 0.08901515151515152,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Estos dos artistas son considerados como fundamentales por su legado cultural y artístico. Existen diversas propuestas en torno a ellos que son independientes de este fideicomiso entre ellas el Museo Dolores Olmedo, administrado por el Fideicomiso Museo Dolores Olmedo Patiño, el Museo Casa Estudio Diego Rivera y Frida Kahlo administrado por el INBAL, así como el más reciente espacio conocido como la “Casa Kahlo” por la Fundación Kahlo.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9875818938016891
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.6388888888888888,
+              "width": 0.7263071895424836,
+              "height": 0.034722222222222224,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Cabe señalar que cualquier propuesta cultural que honre la memoria y obra de Frida Kahlo será bienvenida, contribuyendo así a la difusión permanente de su legado.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9662082612514495
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.6944444444444444,
+              "width": 0.7263071895424836,
+              "height": 0.03409090909090909,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "En caso de ser alguna nueva propuesta vinculada a este Fideicomiso, usaremos nuestros canales oficiales para su divulgación.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9653864443302155
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.7537878787878788,
+              "width": 0.10294117647058823,
+              "height": 0.00946969696969697,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Atentamente,",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8890356391668319
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1388888888888889,
+              "top": 0.7853535353535354,
+              "width": 0.5629084967320261,
+              "height": 0.034722222222222224,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Museo Frida Kahlo – Casa Azul Fideicomiso del Banco de México para los Museos Diego Rivera y Frida Kahlo",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9126619607210159
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[END OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          }
+        ]
+      }
+    ],
+    "ocr": null,
+    "custom": null
+  },
+  "parse_mode": null,
+  "document_properties": null
+}

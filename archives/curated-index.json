@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-02T23:49:31.227Z",
+  "packs": [
+    {
+      "id": "haas-lilienthal",
+      "title": "Haas–Lilienthal House",
+      "files": 6,
+      "pages": 35,
+      "failed": 0,
+      "bytes": 5513530,
+      "manifest": "./haas-lilienthal/manifest.json"
+    },
+    {
+      "id": "casa-azul",
+      "title": "Casa Azul",
+      "files": 4,
+      "pages": 73,
+      "failed": 0,
+      "bytes": 733191,
+      "manifest": "./casa-azul/manifest.json"
+    },
+    {
+      "id": "casa-de-vidro",
+      "title": "Casa de Vidro",
+      "files": 2,
+      "pages": 266,
+      "failed": 0,
+      "bytes": 50847256,
+      "manifest": "./casa-de-vidro/manifest.json"
+    },
+    {
+      "id": "soane-house",
+      "title": "Sir John Soane’s Museum",
+      "files": 4,
+      "pages": 487,
+      "failed": 0,
+      "bytes": 39714697,
+      "manifest": "./soane-house/manifest.json"
+    },
+    {
+      "id": "shaniwar-wada",
+      "title": "Shaniwar Wada",
+      "files": 5,
+      "pages": 1622,
+      "failed": 0,
+      "bytes": 162272951,
+      "manifest": "./shaniwar-wada/manifest.json"
+    },
+    {
+      "id": "prince-asaka",
+      "title": "Prince Asaka Residence",
+      "files": 3,
+      "pages": 146,
+      "failed": 0,
+      "bytes": 19832109,
+      "manifest": "./prince-asaka/manifest.json"
+    },
+    {
+      "id": "manhyia-palace",
+      "title": "Manhyia Palace",
+      "files": 4,
+      "pages": 1138,
+      "failed": 0,
+      "bytes": 54960345,
+      "manifest": "./manhyia-palace/manifest.json"
+    },
+    {
+      "id": "baron-empain",
+      "title": "Baron Empain Palace",
+      "files": 3,
+      "pages": 45,
+      "failed": 0,
+      "bytes": 7254745,
+      "manifest": "./baron-empain/manifest.json"
+    },
+    {
+      "id": "vaucluse-house",
+      "title": "Vaucluse House",
+      "files": 5,
+      "pages": 1566,
+      "failed": 0,
+      "bytes": 33749930,
+      "manifest": "./vaucluse-house/manifest.json"
+    }
+  ],
+  "total_bytes": 374878754,
+  "total_files": 36,
+  "total_pages": 5378,
+  "failed_files": 0
+}

@@ -1,0 +1,63 @@
+{
+  "id": "shaniwar-wada",
+  "title": "Shaniwar Wada",
+  "note": null,
+  "files": [
+    {
+      "name": "peshwa-daftar-vol-37-karnatak-expeditions.pdf",
+      "title": "Selections from the Peshwa Daftar no. 37 — Karnatak expeditions",
+      "source_url": "https://archive.org/download/zvba-madhavrao-peshvyachya-karnatakatil-swarya-selectio/Madhavrao%20Peshvyachya%20Karnatakatil%20Swarya%20Selections%20From%20The%20Peshwa%20Daftar%20No%2037%20By%20G%20S%20Sardesai%20Marathi%20And%20English%20History%20Mumbai%201934%20-%20Government%20Central%20Press.pdf",
+      "bytes": 93538524,
+      "pages": 216,
+      "sha256": "c9162deac6c3920cc2ec884406e49877d87177e587503fb78580ef06aef75e45",
+      "status": "complete"
+    },
+    {
+      "name": "peshwa-daftar-vol-9-northern-india.pdf",
+      "title": "Selections from the Peshwa Daftar vol. IX — affairs of northern India",
+      "source_url": "https://archive.org/download/india.history.resource.91649/91649.pdf",
+      "bytes": 37429978,
+      "pages": 1138,
+      "sha256": "8059649a6b9199b430431031bd80df17846edb68334e313c5eee9a7b2b2d86c3",
+      "status": "complete"
+    },
+    {
+      "name": "peshwa-daftar-vol-8-shahu-private-life.pdf",
+      "title": "Selections from the Peshwa Daftar no. 8 — Shahu in private life",
+      "source_url": "https://archive.org/download/ljjc-selections-from-the-peshwa-daftar-8-shahu-in-his-p/Selections%20From%20The%20Peshwa%20Daftar%208%20Shahu%20In%20His%20Private%20Life%20English%20Marathi%20Devanagari%20History%20Illustrated%20Mumbai%201931%20-%20Government%20Central%20Press.pdf",
+      "bytes": 18652309,
+      "pages": 56,
+      "sha256": "93b29237ead5f7e85416e6fb38c4202d8c51e9e0e5e6c253366312553e1e8b8f",
+      "status": "complete"
+    },
+    {
+      "name": "introduction-to-the-peshwas-diaries.pdf",
+      "title": "Introduction to the Peishwa’s diaries",
+      "source_url": "https://archive.org/download/introductiontope00ranarich/introductiontope00ranarich.pdf",
+      "bytes": 3678322,
+      "pages": 48,
+      "sha256": "52c0f17f6eb695678da32e9cf589e50e04103c2ed557fe508bebe14f6ee96b41",
+      "status": "complete"
+    },
+    {
+      "name": "icj-description-of-peshwa-daftar-records-1956.pdf",
+      "title": "Government description of Peshwa Daftar records",
+      "source_url": "https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/32/9126.pdf",
+      "bytes": 8973818,
+      "pages": 164,
+      "sha256": "e2300194babb56a80de4bcceb5a1a0f303ff89d6b01412fb41e0af5bc0e660d5",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "Complete digital text of 45 Peshwa Daftar volumes",
+      "url": "https://indike.org/pramana/in.darkages.maratha.daftar.peshwa-daftar",
+      "access": "Public-domain searchable corpus"
+    }
+  ],
+  "total_bytes": 162272951,
+  "total_pages": 1622,
+  "completed_files": 5,
+  "failed_files": 0
+}

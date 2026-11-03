@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-02T21:33:30.178Z",
+  "provider": "Reducto",
+  "sources": {
+    "haas-lilienthal/habs": {
+      "status": "complete",
+      "job_id": "9b989d61-da13-497f-833d-37be3dd2824e",
+      "studio_link": "https://studio.reducto.ai/job/9b989d61-da13-497f-833d-37be3dd2824e",
+      "pages": 15,
+      "credits": 22,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/haas-lilienthal/habs.json"
+    },
+    "casa-azul/release": {
+      "status": "complete",
+      "job_id": "cd428e06-6588-4b9e-8528-60b325a107d2",
+      "studio_link": "https://studio.reducto.ai/job/cd428e06-6588-4b9e-8528-60b325a107d2",
+      "pages": 1,
+      "credits": 1,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/casa-azul/release.json"
+    },
+    "soane-house/guide": {
+      "status": "complete",
+      "job_id": "aa48bda4-db2f-4000-b11d-cdc6d2742e54",
+      "studio_link": "https://studio.reducto.ai/job/aa48bda4-db2f-4000-b11d-cdc6d2742e54",
+      "pages": 10,
+      "credits": 20,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/soane-house/guide.json"
+    },
+    "prince-asaka/timeline": {
+      "status": "complete",
+      "job_id": "70ee5200-b193-41cb-9835-945e2de6ad16",
+      "studio_link": "https://studio.reducto.ai/job/70ee5200-b193-41cb-9835-945e2de6ad16",
+      "pages": 7,
+      "credits": 14,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/prince-asaka/timeline.json"
+    },
+    "manhyia-palace/collections": {
+      "status": "complete",
+      "job_id": "10ddb1f6-90a8-4874-933e-50e6b04d0264",
+      "studio_link": "https://studio.reducto.ai/job/10ddb1f6-90a8-4874-933e-50e6b04d0264",
+      "pages": 24,
+      "credits": 30,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/manhyia-palace/collections.json"
+    },
+    "baron-empain/study": {
+      "status": "complete",
+      "job_id": "32bb522a-bbf5-4fda-83f8-5ada3881cd5f",
+      "studio_link": "https://studio.reducto.ai/job/32bb522a-bbf5-4fda-83f8-5ada3881cd5f",
+      "pages": 21,
+      "credits": 35,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/baron-empain/study.json"
+    },
+    "casa-de-vidro/archive": {
+      "status": "complete",
+      "job_id": "06e16b73-d91d-453e-9eeb-84bdccae2b63",
+      "studio_link": "https://studio.reducto.ai/job/06e16b73-d91d-453e-9eeb-84bdccae2b63",
+      "pages": 5,
+      "credits": 1.25,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/casa-de-vidro/archive.json"
+    },
+    "shaniwar-wada/pune": {
+      "status": "complete",
+      "job_id": "d23f4bc8-796c-4b75-93ef-c8b463f1c3f9",
+      "studio_link": "https://studio.reducto.ai/job/d23f4bc8-796c-4b75-93ef-c8b463f1c3f9",
+      "pages": 5,
+      "credits": 1.25,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/shaniwar-wada/pune.json"
+    },
+    "vaucluse-house/museum": {
+      "status": "complete",
+      "job_id": "d12e4774-c7a1-4bac-b59f-b9ca3b5305eb",
+      "studio_link": "https://studio.reducto.ai/job/d12e4774-c7a1-4bac-b59f-b9ca3b5305eb",
+      "pages": 14,
+      "credits": 3.5,
+      "page_range": {
+        "start": 1,
+        "end": 24
+      },
+      "result": "./data/reducto/vaucluse-house/museum.json"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "prince-asaka",
+  "title": "Prince Asaka Residence",
+  "note": null,
+  "files": [
+    {
+      "name": "prince-asaka-architecture-a-to-z-research-dossier.pdf",
+      "title": "Architecture A–Z research dossier",
+      "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2024/05/teibi-report-design-0523-web-1.pdf",
+      "bytes": 13975988,
+      "pages": 136,
+      "sha256": "3af817e6bc21a29985755e2011cbb9a7cf7eb2d8b3696729c2f9e0520bcc9eb1",
+      "status": "complete"
+    },
+    {
+      "name": "looking-at-architecture-2025-dossier.pdf",
+      "title": "Looking at Architecture 2025 dossier",
+      "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2025/05/PressRelease_en_v1_Looking_at_Architecture_2025.pdf",
+      "bytes": 5313997,
+      "pages": 7,
+      "sha256": "40c7cf9916c3a3565f696663cb10e9046d5099442c519acbbbad9ad1c44eb85f",
+      "status": "complete"
+    },
+    {
+      "name": "animals-in-the-residence-of-prince-asaka.pdf",
+      "title": "Animals in the Residence illustrated handout",
+      "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2026/04/Handout-animals-in-the-residence-of-prince-Asaka.pdf",
+      "bytes": 542124,
+      "pages": 3,
+      "sha256": "590e0062128bc04caf0ce33aa89aea14257e75f2324aedc46bf846876d5fb4ba",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [],
+  "total_bytes": 19832109,
+  "total_pages": 146,
+  "completed_files": 3,
+  "failed_files": 0
+}

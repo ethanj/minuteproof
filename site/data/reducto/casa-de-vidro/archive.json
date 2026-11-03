@@ -1,0 +1,2349 @@
+{
+  "response_type": "parse",
+  "job_id": "06e16b73-d91d-453e-9eeb-84bdccae2b63",
+  "duration": 3.961094856262207,
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/org/25e89aa6-e156-462d-a016-10bb8171fa8e/06e16b73-d91d-453e-9eeb-84bdccae2b63/fe4ca0e3-a4cd-43e5-a876-2493b1e4f20c.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20261102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261102T213334Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2a23e16108071f5c4eb63521fd7df1cd7b02bf7442f0aacc393f3d9cb816d58d",
+  "studio_link": "https://studio.reducto.ai/job/06e16b73-d91d-453e-9eeb-84bdccae2b63",
+  "usage": {
+    "num_pages": 5,
+    "credits": 1.25,
+    "credit_breakdown": {
+      "html_page": 1.25
+    },
+    "page_billing_breakdown": {
+      "1": [
+        "html_page"
+      ],
+      "2": [
+        "html_page"
+      ],
+      "3": [
+        "html_page"
+      ],
+      "4": [
+        "html_page"
+      ],
+      "5": [
+        "html_page"
+      ]
+    },
+    "non_empty_cell_count": null
+  },
+  "result": {
+    "type": "full",
+    "chunks": [
+      {
+        "content": "[[START OF PAGE 1]]\n\n•\n\n- O INSTITUTO\n\n\t◦\n\n\t- MISSÃO E HISTÓRIA\n\n\t◦\n\n\t- ADMINISTRAÇÃO ATUAL\n\n•\n\n- OS FUNDADORES\n\n\t◦\n\n\t- O CASAL BARDI\n\n\t◦\n\n\t- LINA BO BARDI\n\n\t◦\n\n\t- PIETRO MARIA BARDI\n\n•\n\n- A CASA DE VIDRO\n\n\t◦\n\n\t- A CASA DOS BARDI\n\n\t◦\n\n\t- A CASA HOJE\n\n\t◦\n\n\t- GETTY FOUNDATION: PLANO DE GESTÃO E CONSERVAÇÃO\n\n\t◦\n\n\t- RESTAURO DA CASA DE VIDRO ABRANGE CINCO ÁREAS\n\n•\n\n- O ACERVO\n\n\t◦\n\n\t- SOBRE O ACERVO\n\n\t◦\n\n\t- BUSCA ONLINE\n\n\t◦\n\n\t- SOLICITAÇÕES\n\n•\n\n- BLOG\n\n•\n\n- EXPOSIÇÕES NA CASA\n\n•\n\n- ACERVO NO MUNDO\n\n•\n\n- PUBLICAÇÕES\n\n•\n\n- EDIÇÕES\n\n•\n\n- LOJA\n\n•\n\n- VISITE A CASA\n\n•\n\n- ALUGUE O ESPAÇO\n\n•\n\n- APOIE O INSTITUTO\n\n•\n\n- CONTATO\n\n•\n\n- DÚVIDAS FREQUENTES\n\nMENU\n\n•\n\n- PT\n\n•\n\n- EN\n\nPesquisar por:\n\n# SOBRE O ACERVO\n\ngrupo_O ACERVO\n\n•\n\n- 08_SOBRE O ACERVO\n\n•\n\n- 10_SOLICITAÇÕES\n\n[[END OF PAGE 1]]\n\n[[START OF PAGE 2]]\n\n# O acervo de Lina Bo e Pietro Maria Bardi transcende o aspecto pessoal. Apresenta o testemunho de décadas de dedicação à cultura – às artes plásticas, arquitetura e design. Revela em cada detalhe, além do interesse genuíno pela cultura Brasileira, a memória de uma fase importante da história do século XX. O Acervo Documental – separado em Fundo Lina Bo Bardi e Fundo P. M. Bardi – é formado por desenhos, documentos, textos, fotografias, filmes, anotações pessoais, cadernos, maquetes, notícias de jornal, obras de arte e objetos de arte popular brasileira.\n\n## FUNDO LINA BO BARDI\n\nO Fundo Lina Bo Bardi inclui desenhos de projetos arquitetônicos, desenhos de cenografia, expografia, mobiliário, trajes e jóias, além de ilustrações realizadas na infância e adolescência, um arquivo documental de 11.500 documentos relacionados à sua atividade profissional e um acervo de 15.000 fotografias de projetos realizados ao longo da vida de Lina. É possível consultar neste site todos os desenhos da arquiteta Lina Bo Bardi. Para consultar documentos e fotografias é necessário agendar uma visita ao Instituto.\n\n[[END OF PAGE 2]]\n\n[[START OF PAGE 3]]\n\n## FUNDO P. M. BARDI\n\nO Fundo P. M. Bardi contém correspondência com figuras e fotografias nacionais e internacionais relacionadas com artistas e exposições, manuscritos, documentos de pesquisa e livros raros. O arquivo de P.M. Bardi encontra-se fragmentado entre o Instituto Bardi, o MASP e o Archivio Storico Cívico e Biblioteca Trivulziana no Castello Sforzesco, em Milão. Para consultar o Fundo P.M. Bardi é necessário agendar uma visita ao Instituto.\n\n## BIBLIOTECA\n\nO acervo também conta com uma pequena biblioteca composta de livros do casal Bardi sobre arte, arquitetura, design e publicações contemporâneas sobre a vida e obra de ambos. A biblioteca também reúne livros sobre Política, Filosofia, História, Literatura, Antropologia e Sociologia, entre outros.\n\nÉ possível consultar o acervo com visita agendada em  acervo@institutobardi.org.br . A consulta do acervo é limitada para pesquisadores de doutorado, pesquisadores especializados e curadores de museus.\n\nPara estudantes de graduação e pós-graduação assim como pesquisadores júnior, recomendamos revisar a extensa bibliografia que existe sobre a vida e obra do casal.\n\n1\n\n2\n\n3\n\n4\n\n5\n\n[[END OF PAGE 3]]\n\n[[START OF PAGE 4]]\n\n## HISTÓRIA DO ACERVO\n\nO primeiro esforço de organização foi feito em 1989 pelos colaboradores de Lina Bo Bardi, Marcelo Ferraz, e Marcelo Suzuki com o consentimento e apoio de Lina. Esta organização foi realizada na preparação para a primeira exposição da obra da arquiteta realizada durante uma semana na FAU-USP. Pouco depois, Lina Bo Bardi faleceu em 1992, Marcelo Ferraz, André Vainer e Marcelo Suzuki junto com Isa Grinspum Ferraz iniciaram uma organização mais sistemática com o propósito de publicar um livro seguindo as instruções de Lina para buscar tal publicação somente após sua morte. O livro passou a ser guia para uma organização do arquivo [1].\n\nA primeira sistematização com enfoque museológico ocorreu em 2007, com a coordenação de Anna Carboncini, ex-assistente de Pietro Maria Bardi e atual conselheira do Instituto Bardi.\n\nEm 2009, com o apoio da Caixa Econômica Federal (CEF), o Instituto catalogou diversos desenhos, sistematizando o arquivo, acomodando a peculiar diversidade da obra de Lina dentro dos padrões arquivísticos internacionais. Em 2011, com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), o Instituto realizou algumas adaptações a sua infraestrutura com mobiliário adequado para todo o acervo.\n\n## [1] FERRAZ, Marcelo. Entrevista com Maíra Teixeira, in “ As Casas de Lina Bo Bardi e os Sentidos de Habitat” , dissertação de doutorado, Universidade de Brasília, Brasília, 2014. Pág. 241\n\nR. GEN. ALMÉRIO DE MOURA, 200 MORUMBI, SÃO PAULO – SP CEP 05690-080\n\nVISITAÇÃO quintas, sextas e sábados  – 10h, 11h30, 14h e 15h30\n\n•\n\n- O INSTITUTO\n\n•\n\n- OS FUNDADORES\n\n•\n\n- A CASA DE VIDRO\n\n•\n\n- CONTATO\n\n•\n\n- DÚVIDAS FREQUENTES\n\nSIGA O INSTITUTO.\n\n[[END OF PAGE 4]]\n\n[[START OF PAGE 5]]\n\n•\n\n- CRÉDITOS\n\n•\n\n- POLÍTICA DE PRIVACIDADE\n\n•\n\n- TERMOS E CONDIÇÕES\n\n2021 INSTITUTO BARDI\n\n[[END OF PAGE 5]]",
+        "embed": "[[START OF PAGE 1]]\n\n•\n\n- O INSTITUTO\n\n\t◦\n\n\t- MISSÃO E HISTÓRIA\n\n\t◦\n\n\t- ADMINISTRAÇÃO ATUAL\n\n•\n\n- OS FUNDADORES\n\n\t◦\n\n\t- O CASAL BARDI\n\n\t◦\n\n\t- LINA BO BARDI\n\n\t◦\n\n\t- PIETRO MARIA BARDI\n\n•\n\n- A CASA DE VIDRO\n\n\t◦\n\n\t- A CASA DOS BARDI\n\n\t◦\n\n\t- A CASA HOJE\n\n\t◦\n\n\t- GETTY FOUNDATION: PLANO DE GESTÃO E CONSERVAÇÃO\n\n\t◦\n\n\t- RESTAURO DA CASA DE VIDRO ABRANGE CINCO ÁREAS\n\n•\n\n- O ACERVO\n\n\t◦\n\n\t- SOBRE O ACERVO\n\n\t◦\n\n\t- BUSCA ONLINE\n\n\t◦\n\n\t- SOLICITAÇÕES\n\n•\n\n- BLOG\n\n•\n\n- EXPOSIÇÕES NA CASA\n\n•\n\n- ACERVO NO MUNDO\n\n•\n\n- PUBLICAÇÕES\n\n•\n\n- EDIÇÕES\n\n•\n\n- LOJA\n\n•\n\n- VISITE A CASA\n\n•\n\n- ALUGUE O ESPAÇO\n\n•\n\n- APOIE O INSTITUTO\n\n•\n\n- CONTATO\n\n•\n\n- DÚVIDAS FREQUENTES\n\nMENU\n\n•\n\n- PT\n\n•\n\n- EN\n\nPesquisar por:\n\n# SOBRE O ACERVO\n\ngrupo_O ACERVO\n\n•\n\n- 08_SOBRE O ACERVO\n\n•\n\n- 10_SOLICITAÇÕES\n\n[[END OF PAGE 1]]\n\n[[START OF PAGE 2]]\n\n# O acervo de Lina Bo e Pietro Maria Bardi transcende o aspecto pessoal. Apresenta o testemunho de décadas de dedicação à cultura – às artes plásticas, arquitetura e design. Revela em cada detalhe, além do interesse genuíno pela cultura Brasileira, a memória de uma fase importante da história do século XX. O Acervo Documental – separado em Fundo Lina Bo Bardi e Fundo P. M. Bardi – é formado por desenhos, documentos, textos, fotografias, filmes, anotações pessoais, cadernos, maquetes, notícias de jornal, obras de arte e objetos de arte popular brasileira.\n\n## FUNDO LINA BO BARDI\n\nO Fundo Lina Bo Bardi inclui desenhos de projetos arquitetônicos, desenhos de cenografia, expografia, mobiliário, trajes e jóias, além de ilustrações realizadas na infância e adolescência, um arquivo documental de 11.500 documentos relacionados à sua atividade profissional e um acervo de 15.000 fotografias de projetos realizados ao longo da vida de Lina. É possível consultar neste site todos os desenhos da arquiteta Lina Bo Bardi. Para consultar documentos e fotografias é necessário agendar uma visita ao Instituto.\n\n[[END OF PAGE 2]]\n\n[[START OF PAGE 3]]\n\n## FUNDO P. M. BARDI\n\nO Fundo P. M. Bardi contém correspondência com figuras e fotografias nacionais e internacionais relacionadas com artistas e exposições, manuscritos, documentos de pesquisa e livros raros. O arquivo de P.M. Bardi encontra-se fragmentado entre o Instituto Bardi, o MASP e o Archivio Storico Cívico e Biblioteca Trivulziana no Castello Sforzesco, em Milão. Para consultar o Fundo P.M. Bardi é necessário agendar uma visita ao Instituto.\n\n## BIBLIOTECA\n\nO acervo também conta com uma pequena biblioteca composta de livros do casal Bardi sobre arte, arquitetura, design e publicações contemporâneas sobre a vida e obra de ambos. A biblioteca também reúne livros sobre Política, Filosofia, História, Literatura, Antropologia e Sociologia, entre outros.\n\nÉ possível consultar o acervo com visita agendada em  acervo@institutobardi.org.br . A consulta do acervo é limitada para pesquisadores de doutorado, pesquisadores especializados e curadores de museus.\n\nPara estudantes de graduação e pós-graduação assim como pesquisadores júnior, recomendamos revisar a extensa bibliografia que existe sobre a vida e obra do casal.\n\n1\n\n2\n\n3\n\n4\n\n5\n\n[[END OF PAGE 3]]\n\n[[START OF PAGE 4]]\n\n## HISTÓRIA DO ACERVO\n\nO primeiro esforço de organização foi feito em 1989 pelos colaboradores de Lina Bo Bardi, Marcelo Ferraz, e Marcelo Suzuki com o consentimento e apoio de Lina. Esta organização foi realizada na preparação para a primeira exposição da obra da arquiteta realizada durante uma semana na FAU-USP. Pouco depois, Lina Bo Bardi faleceu em 1992, Marcelo Ferraz, André Vainer e Marcelo Suzuki junto com Isa Grinspum Ferraz iniciaram uma organização mais sistemática com o propósito de publicar um livro seguindo as instruções de Lina para buscar tal publicação somente após sua morte. O livro passou a ser guia para uma organização do arquivo [1].\n\nA primeira sistematização com enfoque museológico ocorreu em 2007, com a coordenação de Anna Carboncini, ex-assistente de Pietro Maria Bardi e atual conselheira do Instituto Bardi.\n\nEm 2009, com o apoio da Caixa Econômica Federal (CEF), o Instituto catalogou diversos desenhos, sistematizando o arquivo, acomodando a peculiar diversidade da obra de Lina dentro dos padrões arquivísticos internacionais. Em 2011, com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), o Instituto realizou algumas adaptações a sua infraestrutura com mobiliário adequado para todo o acervo.\n\n## [1] FERRAZ, Marcelo. Entrevista com Maíra Teixeira, in “ As Casas de Lina Bo Bardi e os Sentidos de Habitat” , dissertação de doutorado, Universidade de Brasília, Brasília, 2014. Pág. 241\n\nR. GEN. ALMÉRIO DE MOURA, 200 MORUMBI, SÃO PAULO – SP CEP 05690-080\n\nVISITAÇÃO quintas, sextas e sábados  – 10h, 11h30, 14h e 15h30\n\n•\n\n- O INSTITUTO\n\n•\n\n- OS FUNDADORES\n\n•\n\n- A CASA DE VIDRO\n\n•\n\n- CONTATO\n\n•\n\n- DÚVIDAS FREQUENTES\n\nSIGA O INSTITUTO.\n\n[[END OF PAGE 4]]\n\n[[START OF PAGE 5]]\n\n•\n\n- CRÉDITOS\n\n•\n\n- POLÍTICA DE PRIVACIDADE\n\n•\n\n- TERMOS E CONDIÇÕES\n\n2021 INSTITUTO BARDI\n\n[[END OF PAGE 5]]",
+        "enriched": null,
+        "enrichment_success": false,
+        "blocks": [
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[START OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08819444444444444,
+              "width": 0.7404563492063492,
+              "height": 0.058240383161037454,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08819444444444444,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- O INSTITUTO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.10760790549812359,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.10760790549812359,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- MISSÃO E HISTÓRIA",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.12702136655180274,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.12702136655180274,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- ADMINISTRAÇÃO ATUAL",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.14643482760548188,
+              "width": 0.7404563492063492,
+              "height": 0.0776538442147166,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.14643482760548188,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- OS FUNDADORES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.16584828865916104,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.16584828865916104,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- O CASAL BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.18526174971284018,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.18526174971284018,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- LINA BO BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.20467521076651934,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.20467521076651934,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- PIETRO MARIA BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.22408867182019848,
+              "width": 0.7404563492063492,
+              "height": 0.09706730526839576,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.22408867182019848,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- A CASA DE VIDRO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.24350213287387765,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.24350213287387765,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- A CASA DOS BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2629155939275568,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2629155939275568,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- A CASA HOJE",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.28232905498123595,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.28232905498123595,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- GETTY FOUNDATION: PLANO DE GESTÃO E CONSERVAÇÃO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3017425160349151,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3017425160349151,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- RESTAURO DA CASA DE VIDRO ABRANGE CINCO ÁREAS",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.3211559770885942,
+              "width": 0.7404563492063492,
+              "height": 0.0776538442147166,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.3211559770885942,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- O ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3405694381422734,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3405694381422734,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- SOBRE O ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.35998289919595255,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.35998289919595255,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- BUSCA ONLINE",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3793963602496317,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3793963602496317,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- SOLICITAÇÕES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4130634688902918,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4130634688902918,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- BLOG",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4324769299439709,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4324769299439709,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- EXPOSIÇÕES NA CASA",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.45189039099765005,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.45189039099765005,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- ACERVO NO MUNDO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.47130385205132924,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.47130385205132924,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- PUBLICAÇÕES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4907173131050084,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4907173131050084,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- EDIÇÕES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5101307741586876,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5101307741586876,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- LOJA",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5295442352123667,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5295442352123667,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- VISITE A CASA",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5489576962660458,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5489576962660458,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- ALUGUE O ESPAÇO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.568371157319725,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.568371157319725,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- APOIE O INSTITUTO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5877846183734041,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5877846183734041,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- CONTATO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6071980794270833,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6071980794270833,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- DÚVIDAS FREQUENTES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.6551188356547243,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "MENU",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7030395918823652,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7030395918823652,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- PT",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7224530529360444,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7224530529360444,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- EN",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7561201615767045,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Pesquisar por:",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Title",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7946335103969381,
+              "width": 0.7908531746031746,
+              "height": 0.0388269221073583,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "SOBRE O ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8525603202708509,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "grupo_O ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8719737813245301,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8719737813245301,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- 08_SOBRE O ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8913872423782092,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8913872423782092,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- 10_SOLICITAÇÕES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[END OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "[[START OF PAGE 2]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Title",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.06681397306397306,
+              "width": 0.7908531746031746,
+              "height": 0.6212307537177328,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "O acervo de Lina Bo e Pietro Maria Bardi transcende o aspecto pessoal. Apresenta o testemunho de décadas de dedicação à cultura – às artes plásticas, arquitetura e design. Revela em cada detalhe, além do interesse genuíno pela cultura Brasileira, a memória de uma fase importante da história do século XX. O Acervo Documental – separado em Fundo Lina Bo Bardi e Fundo P. M. Bardi – é formado por desenhos, documentos, textos, fotografias, filmes, anotações pessoais, cadernos, maquetes, notícias de jornal, obras de arte e objetos de arte popular brasileira.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7443038668477308,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "FUNDO LINA BO BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7911702846608445,
+              "width": 0.7908531746031746,
+              "height": 0.13589422737575405,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "O Fundo Lina Bo Bardi inclui desenhos de projetos arquitetônicos, desenhos de cenografia, expografia, mobiliário, trajes e jóias, além de ilustrações realizadas na infância e adolescência, um arquivo documental de 11.500 documentos relacionados à sua atividade profissional e um acervo de 15.000 fotografias de projetos realizados ao longo da vida de Lina. É possível consultar neste site todos os desenhos da arquiteta Lina Bo Bardi. Para consultar documentos e fotografias é necessário agendar uma visita ao Instituto.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "[[END OF PAGE 2]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "[[START OF PAGE 3]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.10397322536344346,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732254,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "FUNDO P. M. BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.15083964317655724,
+              "width": 0.7908531746031746,
+              "height": 0.11648076632207494,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "O Fundo P. M. Bardi contém correspondência com figuras e fotografias nacionais e internacionais relacionadas com artistas e exposições, manuscritos, documentos de pesquisa e livros raros. O arquivo de P.M. Bardi encontra-se fragmentado entre o Instituto Bardi, o MASP e o Archivio Storico Cívico e Biblioteca Trivulziana no Castello Sforzesco, em Milão. Para consultar o Fundo P.M. Bardi é necessário agendar uma visita ao Instituto.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3187333093850835,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "BIBLIOTECA",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3655997271981973,
+              "width": 0.7908531746031746,
+              "height": 0.0776538442147166,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "O acervo também conta com uma pequena biblioteca composta de livros do casal Bardi sobre arte, arquitetura, design e publicações contemporâneas sobre a vida e obra de ambos. A biblioteca também reúne livros sobre Política, Filosofia, História, Literatura, Antropologia e Sociologia, entre outros.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.45750721899989477,
+              "width": 0.7908531746031746,
+              "height": 0.0776538442147166,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "É possível consultar o acervo com visita agendada em  acervo@institutobardi.org.br . A consulta do acervo é limitada para pesquisadores de doutorado, pesquisadores especializados e curadores de museus.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5494147108015923,
+              "width": 0.7908531746031746,
+              "height": 0.058240383161037454,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Para estudantes de graduação e pós-graduação assim como pesquisadores júnior, recomendamos revisar a extensa bibliografia que existe sobre a vida e obra do casal.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.6361623891365916,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "1",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.6840831453642326,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "2",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7320039015918736,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "3",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7799246578195146,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "4",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8278454140471556,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "5",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "[[END OF PAGE 3]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "[[START OF PAGE 4]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.06681397306397306,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "HISTÓRIA DO ACERVO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.11368039087708683,
+              "width": 0.7908531746031746,
+              "height": 0.17472114948311235,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "O primeiro esforço de organização foi feito em 1989 pelos colaboradores de Lina Bo Bardi, Marcelo Ferraz, e Marcelo Suzuki com o consentimento e apoio de Lina. Esta organização foi realizada na preparação para a primeira exposição da obra da arquiteta realizada durante uma semana na FAU-USP. Pouco depois, Lina Bo Bardi faleceu em 1992, Marcelo Ferraz, André Vainer e Marcelo Suzuki junto com Isa Grinspum Ferraz iniciaram uma organização mais sistemática com o propósito de publicar um livro seguindo as instruções de Lina para buscar tal publicação somente após sua morte. O livro passou a ser guia para uma organização do arquivo [1].",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3026551879471801,
+              "width": 0.7908531746031746,
+              "height": 0.058240383161037454,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "A primeira sistematização com enfoque museológico ocorreu em 2007, com a coordenação de Anna Carboncini, ex-assistente de Pietro Maria Bardi e atual conselheira do Instituto Bardi.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3751492186951985,
+              "width": 0.7908531746031746,
+              "height": 0.11648076632207495,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Em 2009, com o apoio da Caixa Econômica Federal (CEF), o Instituto catalogou diversos desenhos, sistematizando o arquivo, acomodando a peculiar diversidade da obra de Lina dentro dos padrões arquivísticos internacionais. Em 2011, com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), o Instituto realizou algumas adaptações a sua infraestrutura com mobiliário adequado para todo o acervo.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5138813542653095,
+              "width": 0.7908531746031746,
+              "height": 0.026012210867354096,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "[1] FERRAZ, Marcelo. Entrevista com Maíra Teixeira, in “ As Casas de Lina Bo Bardi e os Sentidos de Habitat” , dissertação de doutorado, Universidade de Brasília, Brasília, 2014. Pág. 241",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5621449343806995,
+              "width": 0.7908531746031746,
+              "height": 0.058240383161037454,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "R. GEN. ALMÉRIO DE MOURA, 200 MORUMBI, SÃO PAULO – SP CEP 05690-080",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.6683060737693779,
+              "width": 0.7908531746031746,
+              "height": 0.0388269221073583,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "VISITAÇÃO quintas, sextas e sábados  – 10h, 11h30, 14h e 15h30",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7213866434637172,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7213866434637172,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- O INSTITUTO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7408001045173963,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7408001045173963,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- OS FUNDADORES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7602135655710754,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7602135655710754,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- A CASA DE VIDRO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7796270266247546,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7796270266247546,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- CONTATO",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7990404876784337,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7990404876784337,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- DÚVIDAS FREQUENTES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.9000418136004139,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "SIGA O INSTITUTO.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "[[END OF PAGE 4]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "[[START OF PAGE 5]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- CRÉDITOS",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.10048108170463313,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.10048108170463313,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- POLÍTICA DE PRIVACIDADE",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11989454275831228,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11989454275831228,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- TERMOS E CONDIÇÕES",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.15356165139897235,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "2021 INSTITUTO BARDI",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "[[END OF PAGE 5]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          }
+        ]
+      }
+    ],
+    "ocr": null,
+    "custom": null
+  },
+  "parse_mode": null,
+  "document_properties": null
+}

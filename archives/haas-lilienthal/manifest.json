@@ -1,0 +1,66 @@
+{
+  "id": "haas-lilienthal",
+  "title": "Haas–Lilienthal House",
+  "note": "A selected in-project copy. The existing 520 MB San Francisco archive remains the canonical full pack in Downloads.",
+  "files": [
+    {
+      "name": "haas-habs-record.pdf",
+      "title": "Historic American Buildings Survey",
+      "source_url": "../dist/assets/docs/haas-habs-record.pdf",
+      "bytes": 245716,
+      "pages": 15,
+      "sha256": "81d02fb4dfcaeaf7a8b20818e4e4ce2cbe89c099c431c25627bb4a17cc00191c",
+      "status": "complete"
+    },
+    {
+      "name": "haas-national-register.pdf",
+      "title": "National Register nomination",
+      "source_url": "../dist/assets/docs/haas-national-register.pdf",
+      "bytes": 755534,
+      "pages": 10,
+      "sha256": "2b1dd7b89f91782f9b539588342e85cc314935a2be1e12cfe4f3e86a2d76255f",
+      "status": "complete"
+    },
+    {
+      "name": "haas-photo-cards.pdf",
+      "title": "Handwritten National Register photo cards",
+      "source_url": "../dist/assets/docs/haas-photo-cards.pdf",
+      "bytes": 1796634,
+      "pages": 6,
+      "sha256": "8ec68465414598c4c36640b348b5559acc607d718d23de478e29591e2f0ced00",
+      "status": "complete"
+    },
+    {
+      "name": "william-chapman-letter.pdf",
+      "title": "William Chapman handwritten letter",
+      "source_url": "../dist/assets/docs/william-chapman-letter.pdf",
+      "bytes": 98560,
+      "pages": 1,
+      "sha256": "1dd9475a1be64cd7632369ca57cc0bd830ce281cd13de6ad0ac490d12830ba10",
+      "status": "complete"
+    },
+    {
+      "name": "1906-newspaper.pdf",
+      "title": "1906 newspaper",
+      "source_url": "../dist/assets/docs/1906-newspaper.pdf",
+      "bytes": 2579164,
+      "pages": 1,
+      "sha256": "0db6969d17f2dedc72af231caad4bdbe4634fcf9cfd26d304e1ab48b725405bb",
+      "status": "complete"
+    },
+    {
+      "name": "mayor-proclamation.pdf",
+      "title": "Mayor proclamation",
+      "source_url": "../dist/assets/docs/mayor-proclamation.pdf",
+      "bytes": 37922,
+      "pages": 2,
+      "sha256": "ef506b126b10749cf7252516eae2baa62463811700339ca145e95c01964528c0",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [],
+  "total_bytes": 5513530,
+  "total_pages": 35,
+  "completed_files": 6,
+  "failed_files": 0
+}

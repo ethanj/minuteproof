@@ -1,0 +1,45 @@
+{
+  "id": "baron-empain",
+  "title": "Baron Empain Palace",
+  "note": null,
+  "files": [
+    {
+      "name": "baron-empain-reuse-and-structural-analysis.pdf",
+      "title": "Reuse and structural analysis of Baron Empain Palace",
+      "source_url": "https://sci-cult.com/wp-content/uploads/2018/04/4-1_No_3.pdf",
+      "bytes": 4306973,
+      "pages": 21,
+      "sha256": "dccc2feff060c08f1bf8c41a3ce688c1225c449892f7d40e8b885dda8f81c290",
+      "status": "complete"
+    },
+    {
+      "name": "baron-empain-conservation-and-sustainable-reuse.pdf",
+      "title": "Conservation and sustainable reuse",
+      "source_url": "https://flore.unifi.it/bitstream/2158/1247487/1/Puma%20et%20al_2021_IOP_Conf._Ser.__Earth_Environ._Sci._863_012009.pdf",
+      "bytes": 1375182,
+      "pages": 10,
+      "sha256": "a9bb2e173db58e268e32f362c4e80d742b4df02944de118de3fd9b5e523234eb",
+      "status": "complete"
+    },
+    {
+      "name": "sustainable-restoration-survey-and-analysis-smc-2021.pdf",
+      "title": "Sustainable restoration: survey and analysis — full SMC issue",
+      "source_url": "https://iris.unipa.it/retrieve/e3ad8928-c0b6-da0e-e053-3705fe0a2b96/SMC_14_2021_%20Estratto%20R.M.Vitrano_com.pdf",
+      "bytes": 1572590,
+      "pages": 14,
+      "sha256": "300b0737861c11bfd7984e140a463db53febf244d0fb7b9c678d930ecfa82b00",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "Egyptian Presidency restoration dossier overview",
+      "url": "https://www.presidency.eg/en/%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9/%D8%AA%D8%B1%D9%85%D9%8A%D9%85-%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%88%D9%86-%D8%A5%D9%85%D8%A8%D8%A7%D9%86/",
+      "access": "Public project record; full institutional dossier not offered as one download"
+    }
+  ],
+  "total_bytes": 7254745,
+  "total_pages": 45,
+  "completed_files": 3,
+  "failed_files": 0
+}

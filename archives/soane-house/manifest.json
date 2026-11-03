@@ -1,0 +1,54 @@
+{
+  "id": "soane-house",
+  "title": "Sir John Soane’s Museum",
+  "note": null,
+  "files": [
+    {
+      "name": "soane-description-of-house-and-museum-1843-wellcome-scan.pdf",
+      "title": "Description of the House and Museum — historic scan",
+      "source_url": "https://archive.org/download/b30456678/b30456678.pdf",
+      "bytes": 26058838,
+      "pages": 206,
+      "sha256": "0942a5984ee28cf2f70731a20167fd38eb7b685d16e0b27c52a84e81685fb046",
+      "status": "complete"
+    },
+    {
+      "name": "soane-description-of-house-and-museum-getty-scan.pdf",
+      "title": "Description of the House and Museum — Getty scan",
+      "source_url": "https://archive.org/download/gri_descriptiono00soan/gri_descriptiono00soan.pdf",
+      "bytes": 10860940,
+      "pages": 219,
+      "sha256": "4a15dde19a41ac74de7ab78817c6268f0de5e5f091dd31c6983fa60685447955",
+      "status": "complete"
+    },
+    {
+      "name": "soane-museum-illustrated-guide.pdf",
+      "title": "Museum and house illustrated guide",
+      "source_url": "https://www.soane.org/sites/default/files/downloads/sir-john-soanes-museum-easy-read-guide.pdf",
+      "bytes": 1401972,
+      "pages": 10,
+      "sha256": "59dad3e3f3dfb31f8b5ea65825af4ce76fa43c774e8209adeb411830af8d3cec",
+      "status": "complete"
+    },
+    {
+      "name": "soane-museum-annual-report-2018-19.pdf",
+      "title": "Museum annual report with digitisation notes",
+      "source_url": "https://www.soane.org/sites/default/files/2023-06/SJSM%20ARA%202018-19_Web%20accessible.pdf",
+      "bytes": 1392947,
+      "pages": 52,
+      "sha256": "930a23b3e482a65f0fc484be1d12fcd5527e06e0194dda15dcc263f13f223738",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "Digitized office day books, 1791–1837",
+      "url": "https://collections.soane.org/archives?ci_search_type=ARCI&mi_search_type=adv&sort=7&t=ARC11740&tn=Archives",
+      "access": "Item-level online archive"
+    }
+  ],
+  "total_bytes": 39714697,
+  "total_pages": 487,
+  "completed_files": 4,
+  "failed_files": 0
+}

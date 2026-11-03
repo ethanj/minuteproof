@@ -1,0 +1,14 @@
+{
+  "name": "archive-house-workshop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Zillow-style interface for exploring historic houses through messy public archives and Reducto parses.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "archives:download": "node scripts/download-bulky-archives.mjs",
+    "reducto:parse": "node scripts/parse-archives.mjs --primary --preview-pages=24"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

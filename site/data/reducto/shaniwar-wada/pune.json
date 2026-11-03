@@ -1,0 +1,5629 @@
+{
+  "response_type": "parse",
+  "job_id": "d23f4bc8-796c-4b75-93ef-c8b463f1c3f9",
+  "duration": 3.0870742797851562,
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/org/25e89aa6-e156-462d-a016-10bb8171fa8e/d23f4bc8-796c-4b75-93ef-c8b463f1c3f9/480ed79c-fe05-4e59-b3e9-059dac985702.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20261102%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261102T213337Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=67bf65ec150e3cdf6728c0d8694a0aa8a2c4c8b950a2ac993e01286385f13b74",
+  "studio_link": "https://studio.reducto.ai/job/d23f4bc8-796c-4b75-93ef-c8b463f1c3f9",
+  "usage": {
+    "num_pages": 5,
+    "credits": 1.25,
+    "credit_breakdown": {
+      "html_page": 1.25
+    },
+    "page_billing_breakdown": {
+      "1": [
+        "html_page"
+      ],
+      "2": [
+        "html_page"
+      ],
+      "3": [
+        "html_page"
+      ],
+      "4": [
+        "html_page"
+      ],
+      "5": [
+        "html_page"
+      ]
+    },
+    "non_empty_cell_count": null
+  },
+  "result": {
+    "type": "full",
+    "chunks": [
+      {
+        "content": "[[START OF PAGE 1]]\n\n•\n\n•\n\n•\n\n- Accessibility Links\n\nAccessibility Tools\n\nColor Contrast\n\n◦\n\n- High Contrast High Contrast\n\n◦\n\n- Normal Contrast Normal Contrast - Selected\n\n◦\n\n- Highlight Links Highlight Links - Selected\n\n◦\n\n- Invert Invert page colors\n\n◦\n\n- Saturation Apply saturation\n\nText Size\n\n◦\n\n- Font Size Increase Font Size Increase\n\n◦\n\n- Normal Font Normal Font - Selected\n\n◦\n\n- Font Size Decrease Font Size Decrease\n\n◦\n\n- Text Spacing Text Spacing\n\n◦\n\n- Line Height Line Height\n\nOther Controls\n\n\t◦\n\n\t- Big Cursor Big Cursor\n\n\t◦\n\n\t- Hide Image Hide Image\n\n\t◦\n\n\t- Text to Speech\n\n•\n\n- महाराष्ट्र शासन\n\n•\n\n- Government Of Maharashtra\n\nपुणे  Pune\n\nSearch Search\n\nMenu Toggle\n\nMore\n\n•\n\n- Home\n\n•\n\n- About Pune\n\n\t◦\n\n\t- ABOUT DISTRICT\n\n\t◦\n\n\t- Who’s who\n\n\t◦\n\n\t- Organisation Chart\n\n\t◦\n\n\t- Map of District\n\n\t◦\n\n\t- Transport\n\n\t◦\n\n\t- Public Representative\n\n\t◦\n\n\t- Administrative Setup\n\n\t\t▪\n\n\t\t- Muncipal Corporations\n\n\t\t▪\n\n\t\t- Tahsils\n\n\t\t▪\n\n\t\t- Municipal Council\n\n•\n\n- Directory\n\n\t◦\n\n\t- STD & PIN Codes\n\n\t◦\n\n\t- Helpline\n\n\t◦\n\n\t- Disaster Management\n\n\t◦\n\n\t- Cabinet Ministers\n\n[[END OF PAGE 1]]\n\n[[START OF PAGE 2]]\n\n\t◦\n\n\t- Public Utilities\n\n\t\t▪\n\n\t\t- Banks\n\n\t\t▪\n\n\t\t- Colleges/Universities\n\n\t\t▪\n\n\t\t- Electricity\n\n\t\t▪\n\n\t\t- Hospitals\n\n\t\t▪\n\n\t\t- Municipalities\n\n\t\t▪\n\n\t\t- NGOs\n\n\t\t▪\n\n\t\t- Postal\n\n\t\t▪\n\n\t\t- Schools\n\n•\n\n- Departments\n\n\t◦\n\n\t- Collector Office\n\n\t\t▪\n\n\t\t- Nagarpalika Branch\n\n\t\t▪\n\n\t\t- District Rehabilitation Branch\n\n\t\t▪\n\n\t\t- District Mining Department\n\n\t\t▪\n\n\t\t- District Supply Office\n\n\t\t▪\n\n\t\t- Employment Guarantee Scheme Branch\n\n\t\t▪\n\n\t\t- Tenancy Branch\n\n\t\t▪\n\n\t\t- Disaster Management Control Room\n\n\t\t▪\n\n\t\t- Home Branch & Special Executive Magistrate, Pune City\n\n\t\t▪\n\n\t\t- Land Acquisition (PLAQ) Pune\n\n\t\t▪\n\n\t\t- Election Branch\n\n\t◦\n\n\t- State Excise Department\n\n\t◦\n\n\t- Mahavitaran\n\n\t◦\n\n\t- Public Works Department (PWD)\n\n\t◦\n\n\t- Sarthi\n\n\t◦\n\n\t- Tribal Development Department\n\n\t◦\n\n\t- Office of the Deputy Commissioner of Labour\n\n•\n\n- Documents\n\n\t◦\n\n\t- Land Acquisition Awards\n\n\t◦\n\n\t- Seniority List\n\n\t◦\n\n\t- Land Orders\n\n\t◦\n\n\t- Waqf Properties – Second Survey Report\n\n\t◦\n\n\t- High Court Aurangabad – PIL No. 34/2017\n\n\t◦\n\n\t- Social Economic Review\n\n\t◦\n\n\t- Assembly Election- Form 20\n\n\t◦\n\n\t- Other\n\n•\n\n- SIR 2026\n\n•\n\n- Census 2027\n\n•\n\n- RTI/Citizen Charter\n\n•\n\n- Tourism\n\n\t◦\n\n\t- How to Reach\n\n\t◦\n\n\t- Tourist Places\n\n\t◦\n\n\t- Religious Places\n\n\t◦\n\n\t- Culture & Heritage\n\n[[END OF PAGE 2]]\n\n[[START OF PAGE 3]]\n\n•\n\n- Schemes\n\n•\n\n- Notices\n\n\t◦\n\n\t- Announcements\n\n\t◦\n\n\t- Tenders\n\n\t◦\n\n\t- Recruitment\n\n\t◦\n\n\t- Events\n\n\t◦\n\n\t- Upcoming Events\n\n\t◦\n\n\t- Notice\n\n\t◦\n\n\t- Order\n\n•\n\n- Citizen Services\n\n\t◦\n\n\t- Public Services\n\n\t◦\n\n\t- Election\n\n\t◦\n\n\t- Revenue\n\n\t◦\n\n\t- Supply\n\n\t◦\n\n\t- NIC Services\n\n\t◦\n\n\t- UMANG\n\n•\n\n- Media Gallery\n\n\t◦\n\n\t- Photo Gallery\n\n\t◦\n\n\t- Video Gallery\n\n•\n\n- Form\n\n•\n\n- National Informatic Centre, Pune\n\n•\n\n- Security Audit\n\n•\n\n- 100 Days Program\n\n•\n\n- Important Links\n\nClose\n\n•\n\n- Home\n\n•\n\n- Tourism\n\n•\n\n- Tourist Places\n\n•\n\n- Shanivarwada\n\n•\n\n- Facebook\n\n•\n\n- X\n\n# Shanivarwada\n\nDirection\n\nCategory    Historic\n\nshaniwarwada\n\nShaniwarwada Internal view\n\n[[END OF PAGE 3]]\n\n[[START OF PAGE 4]]\n\nShaniwar Wada a 13 storey palace of Peshwas was built by Bajirao-I, in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.The structure was built giving security the highest priority. The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh, Mastani, Jambhal, Khidki. The statue of Bajirao-i on horse in front of Shniwarwada. In side one can see Ganesh Mahal, Rang Mahal, Aarsa Mahal, Hasti_Dant Mahal, Diwan Khana and fountain. A light and music show is conducted every day showing history of Peshwas.\n\nThe palace was the seat of Peshwa power and later was destroyed by a fire in 1828. All that remails are the walls that fortified this palace, with sturdy doors, studded with spikers for added protection\n\n## How to Reach:\n\n## By Air\n\nNearest Airport - Pune\n\n## By Train\n\nNearest Railway Station - Pune Station\n\n## By Road\n\n3-4 kms from Pune railway station.\n\n## Useful Links\n\n•\n\n- Help\n\n•\n\n- Website Policies\n\n•\n\n- Visitor Count\n\n•\n\n- Feedback\n\n•\n\n- Contact Us\n\n•\n\n- Web Information Manager\n\n•\n\n- Site Map\n\nContent Owned by District Administration\n\n© District Pune , Developed and hosted by  National Informatics Centre , Ministry of Electronics & Information Technology , Government of India\n\nLast Updated:  18.08.2025\n\n[[END OF PAGE 4]]\n\n[[START OF PAGE 5]]\n\n## Follow Us\n\n•\n\n•\n\n•\n\n•\n\n•\n\n- Secure, Scalable and Sugamya Website as a Service, opens in a new window\n\n•\n\n- National Informatics Center, opens in a new window\n\n•\n\n- Digital India Power To Empower, opens in a new window\n\nGo to top\n\n[[END OF PAGE 5]]",
+        "embed": "[[START OF PAGE 1]]\n\n•\n\n•\n\n•\n\n- Accessibility Links\n\nAccessibility Tools\n\nColor Contrast\n\n◦\n\n- High Contrast High Contrast\n\n◦\n\n- Normal Contrast Normal Contrast - Selected\n\n◦\n\n- Highlight Links Highlight Links - Selected\n\n◦\n\n- Invert Invert page colors\n\n◦\n\n- Saturation Apply saturation\n\nText Size\n\n◦\n\n- Font Size Increase Font Size Increase\n\n◦\n\n- Normal Font Normal Font - Selected\n\n◦\n\n- Font Size Decrease Font Size Decrease\n\n◦\n\n- Text Spacing Text Spacing\n\n◦\n\n- Line Height Line Height\n\nOther Controls\n\n\t◦\n\n\t- Big Cursor Big Cursor\n\n\t◦\n\n\t- Hide Image Hide Image\n\n\t◦\n\n\t- Text to Speech\n\n•\n\n- महाराष्ट्र शासन\n\n•\n\n- Government Of Maharashtra\n\nपुणे  Pune\n\nSearch Search\n\nMenu Toggle\n\nMore\n\n•\n\n- Home\n\n•\n\n- About Pune\n\n\t◦\n\n\t- ABOUT DISTRICT\n\n\t◦\n\n\t- Who’s who\n\n\t◦\n\n\t- Organisation Chart\n\n\t◦\n\n\t- Map of District\n\n\t◦\n\n\t- Transport\n\n\t◦\n\n\t- Public Representative\n\n\t◦\n\n\t- Administrative Setup\n\n\t\t▪\n\n\t\t- Muncipal Corporations\n\n\t\t▪\n\n\t\t- Tahsils\n\n\t\t▪\n\n\t\t- Municipal Council\n\n•\n\n- Directory\n\n\t◦\n\n\t- STD & PIN Codes\n\n\t◦\n\n\t- Helpline\n\n\t◦\n\n\t- Disaster Management\n\n\t◦\n\n\t- Cabinet Ministers\n\n[[END OF PAGE 1]]\n\n[[START OF PAGE 2]]\n\n\t◦\n\n\t- Public Utilities\n\n\t\t▪\n\n\t\t- Banks\n\n\t\t▪\n\n\t\t- Colleges/Universities\n\n\t\t▪\n\n\t\t- Electricity\n\n\t\t▪\n\n\t\t- Hospitals\n\n\t\t▪\n\n\t\t- Municipalities\n\n\t\t▪\n\n\t\t- NGOs\n\n\t\t▪\n\n\t\t- Postal\n\n\t\t▪\n\n\t\t- Schools\n\n•\n\n- Departments\n\n\t◦\n\n\t- Collector Office\n\n\t\t▪\n\n\t\t- Nagarpalika Branch\n\n\t\t▪\n\n\t\t- District Rehabilitation Branch\n\n\t\t▪\n\n\t\t- District Mining Department\n\n\t\t▪\n\n\t\t- District Supply Office\n\n\t\t▪\n\n\t\t- Employment Guarantee Scheme Branch\n\n\t\t▪\n\n\t\t- Tenancy Branch\n\n\t\t▪\n\n\t\t- Disaster Management Control Room\n\n\t\t▪\n\n\t\t- Home Branch & Special Executive Magistrate, Pune City\n\n\t\t▪\n\n\t\t- Land Acquisition (PLAQ) Pune\n\n\t\t▪\n\n\t\t- Election Branch\n\n\t◦\n\n\t- State Excise Department\n\n\t◦\n\n\t- Mahavitaran\n\n\t◦\n\n\t- Public Works Department (PWD)\n\n\t◦\n\n\t- Sarthi\n\n\t◦\n\n\t- Tribal Development Department\n\n\t◦\n\n\t- Office of the Deputy Commissioner of Labour\n\n•\n\n- Documents\n\n\t◦\n\n\t- Land Acquisition Awards\n\n\t◦\n\n\t- Seniority List\n\n\t◦\n\n\t- Land Orders\n\n\t◦\n\n\t- Waqf Properties – Second Survey Report\n\n\t◦\n\n\t- High Court Aurangabad – PIL No. 34/2017\n\n\t◦\n\n\t- Social Economic Review\n\n\t◦\n\n\t- Assembly Election- Form 20\n\n\t◦\n\n\t- Other\n\n•\n\n- SIR 2026\n\n•\n\n- Census 2027\n\n•\n\n- RTI/Citizen Charter\n\n•\n\n- Tourism\n\n\t◦\n\n\t- How to Reach\n\n\t◦\n\n\t- Tourist Places\n\n\t◦\n\n\t- Religious Places\n\n\t◦\n\n\t- Culture & Heritage\n\n[[END OF PAGE 2]]\n\n[[START OF PAGE 3]]\n\n•\n\n- Schemes\n\n•\n\n- Notices\n\n\t◦\n\n\t- Announcements\n\n\t◦\n\n\t- Tenders\n\n\t◦\n\n\t- Recruitment\n\n\t◦\n\n\t- Events\n\n\t◦\n\n\t- Upcoming Events\n\n\t◦\n\n\t- Notice\n\n\t◦\n\n\t- Order\n\n•\n\n- Citizen Services\n\n\t◦\n\n\t- Public Services\n\n\t◦\n\n\t- Election\n\n\t◦\n\n\t- Revenue\n\n\t◦\n\n\t- Supply\n\n\t◦\n\n\t- NIC Services\n\n\t◦\n\n\t- UMANG\n\n•\n\n- Media Gallery\n\n\t◦\n\n\t- Photo Gallery\n\n\t◦\n\n\t- Video Gallery\n\n•\n\n- Form\n\n•\n\n- National Informatic Centre, Pune\n\n•\n\n- Security Audit\n\n•\n\n- 100 Days Program\n\n•\n\n- Important Links\n\nClose\n\n•\n\n- Home\n\n•\n\n- Tourism\n\n•\n\n- Tourist Places\n\n•\n\n- Shanivarwada\n\n•\n\n- Facebook\n\n•\n\n- X\n\n# Shanivarwada\n\nDirection\n\nCategory    Historic\n\nshaniwarwada\n\nShaniwarwada Internal view\n\n[[END OF PAGE 3]]\n\n[[START OF PAGE 4]]\n\nShaniwar Wada a 13 storey palace of Peshwas was built by Bajirao-I, in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.The structure was built giving security the highest priority. The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh, Mastani, Jambhal, Khidki. The statue of Bajirao-i on horse in front of Shniwarwada. In side one can see Ganesh Mahal, Rang Mahal, Aarsa Mahal, Hasti_Dant Mahal, Diwan Khana and fountain. A light and music show is conducted every day showing history of Peshwas.\n\nThe palace was the seat of Peshwa power and later was destroyed by a fire in 1828. All that remails are the walls that fortified this palace, with sturdy doors, studded with spikers for added protection\n\n## How to Reach:\n\n## By Air\n\nNearest Airport - Pune\n\n## By Train\n\nNearest Railway Station - Pune Station\n\n## By Road\n\n3-4 kms from Pune railway station.\n\n## Useful Links\n\n•\n\n- Help\n\n•\n\n- Website Policies\n\n•\n\n- Visitor Count\n\n•\n\n- Feedback\n\n•\n\n- Contact Us\n\n•\n\n- Web Information Manager\n\n•\n\n- Site Map\n\nContent Owned by District Administration\n\n© District Pune , Developed and hosted by  National Informatics Centre , Ministry of Electronics & Information Technology , Government of India\n\nLast Updated:  18.08.2025\n\n[[END OF PAGE 4]]\n\n[[START OF PAGE 5]]\n\n## Follow Us\n\n•\n\n•\n\n•\n\n•\n\n•\n\n- Secure, Scalable and Sugamya Website as a Service, opens in a new window\n\n•\n\n- National Informatics Center, opens in a new window\n\n•\n\n- Digital India Power To Empower, opens in a new window\n\nGo to top\n\n[[END OF PAGE 5]]",
+        "enriched": null,
+        "enrichment_success": false,
+        "blocks": [
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[START OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0.3494422989662247,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08106762065095398,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Accessibility Links",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.10048108170463313,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Accessibility Tools",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11989454275831228,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Color Contrast",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.13930800381199143,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.13930800381199143,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- High Contrast High Contrast",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.15872146486567057,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.15872146486567057,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Normal Contrast Normal Contrast - Selected",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.17813492591934973,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.17813492591934973,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Highlight Links Highlight Links - Selected",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.19754838697302887,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.19754838697302887,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Invert Invert page colors",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.21696184802670804,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.21696184802670804,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Saturation Apply saturation",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.23637530908038717,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Text Size",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2557887701340663,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2557887701340663,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Font Size Increase Font Size Increase",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2752022311877455,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2752022311877455,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Normal Font Normal Font - Selected",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.29461569224142464,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.29461569224142464,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Font Size Decrease Font Size Decrease",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3140291532951038,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3140291532951038,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Text Spacing Text Spacing",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3334426143487829,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3334426143487829,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Line Height Line Height",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.3528560754024621,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Other Controls",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.37226953645614125,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.37226953645614125,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Big Cursor Big Cursor",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3916829975098204,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3916829975098204,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Hide Image Hide Image",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.4110964585634995,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.4110964585634995,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Text to Speech",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4447635672041596,
+              "width": 0.7404563492063492,
+              "height": 0.021465728794016554,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4447635672041596,
+              "width": 0.7404563492063492,
+              "height": 0.021465728794016554,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- महाराष्ट्र शासन",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.46622929599817614,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.46622929599817614,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Government Of Maharashtra",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.4998964046388362,
+              "width": 0.7908531746031746,
+              "height": 0.021465728794016554,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "पुणे  Pune",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5213621334328528,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Search Search",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5407755944865319,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "Menu Toggle",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.560189055540211,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "More",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5938561641808712,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5938561641808712,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Home",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6132696252345503,
+              "width": 0.7404563492063492,
+              "height": 0.21354807159047065,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6132696252345503,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- About Pune",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6326830862882294,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6326830862882294,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- ABOUT DISTRICT",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6520965473419086,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6520965473419086,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Who’s who",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6715100083955877,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6715100083955877,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Organisation Chart",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6909234694492669,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6909234694492669,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Map of District",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7103369305029461,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7103369305029461,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Transport",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7297503915566252,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7297503915566252,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Public Representative",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7491638526103044,
+              "width": 0.6900595238095238,
+              "height": 0.0776538442147166,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7491638526103044,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Administrative Setup",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.7685773136639835,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.7685773136639835,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t- Muncipal Corporations",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.7879907747176627,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.7879907747176627,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t- Tahsils",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.8074042357713418,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.8074042357713418,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t\t- Municipal Council",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.8268176968250209,
+              "width": 0.7404563492063492,
+              "height": 0.10636833011100598,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.8268176968250209,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "- Directory",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8462311578787001,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8462311578787001,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- STD & PIN Codes",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8656446189323793,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8656446189323793,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Helpline",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8850580799860585,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8850580799860585,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Disaster Management",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.9044715410397376,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.9044715410397376,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "\t- Cabinet Ministers",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 1,
+              "original_page": 1
+            },
+            "content": "[[END OF PAGE 1]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "[[START OF PAGE 2]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.06681397306397306,
+              "width": 0.6900595238095238,
+              "height": 0.17472114948311235,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.06681397306397306,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Public Utilities",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.08622743411765221,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.08622743411765221,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Banks",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.10564089517133136,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.10564089517133136,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Colleges/Universities",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.12505435622501052,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.12505435622501052,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Electricity",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.14446781727868965,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.14446781727868965,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Hospitals",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.16388127833236882,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.16388127833236882,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Municipalities",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.18329473938604796,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.18329473938604796,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- NGOs",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.20270820043972712,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.20270820043972712,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Postal",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.22212166149340626,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.22212166149340626,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Schools",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.24153512254708542,
+              "width": 0.7404563492063492,
+              "height": 0.3494422989662247,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.24153512254708542,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- Departments",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.26094858360076456,
+              "width": 0.6900595238095238,
+              "height": 0.21354807159047065,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.26094858360076456,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Collector Office",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.2803620446544437,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.2803620446544437,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Nagarpalika Branch",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.2997755057081229,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.2997755057081229,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- District Rehabilitation Branch",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.31918896676180203,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.31918896676180203,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- District Mining Department",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.33860242781548117,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.33860242781548117,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- District Supply Office",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.3580158888691603,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.3580158888691603,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Employment Guarantee Scheme Branch",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.3774293499228395,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.3774293499228395,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Tenancy Branch",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.39684281097651863,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.39684281097651863,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Disaster Management Control Room",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.41625627203019777,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.41625627203019777,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Home Branch & Special Executive Magistrate, Pune City",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.4356697330838769,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.4356697330838769,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Land Acquisition (PLAQ) Pune",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.45508319413755605,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t▪",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.25576388888888885,
+              "top": 0.45508319413755605,
+              "width": 0.6396626984126984,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t\t- Election Branch",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.47449665519123524,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.47449665519123524,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- State Excise Department",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.4939101162449144,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.4939101162449144,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Mahavitaran",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5133235772985936,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5133235772985936,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Public Works Department (PWD)",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5327370383522727,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5327370383522727,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Sarthi",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5521504994059518,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.5521504994059518,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Tribal Development Department",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.571563960459631,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.571563960459631,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Office of the Deputy Commissioner of Labour",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5909774215133101,
+              "width": 0.7404563492063492,
+              "height": 0.17472114948311235,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5909774215133101,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- Documents",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6103908825669893,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6103908825669893,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Land Acquisition Awards",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6298043436206684,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6298043436206684,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Seniority List",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6492178046743475,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6492178046743475,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Land Orders",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6686312657280268,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6686312657280268,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Waqf Properties – Second Survey Report",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6880447267817059,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.6880447267817059,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- High Court Aurangabad – PIL No. 34/2017",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.707458187835385,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.707458187835385,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Social Economic Review",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7268716488890642,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7268716488890642,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Assembly Election- Form 20",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7462851099427433,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.7462851099427433,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Other",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7656985709964225,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7656985709964225,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- SIR 2026",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7851120320501016,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7851120320501016,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- Census 2027",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.8045254931037807,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.8045254931037807,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- RTI/Citizen Charter",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.82393895415746,
+              "width": 0.7404563492063492,
+              "height": 0.09706730526839576,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.82393895415746,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "- Tourism",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8433524152111391,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8433524152111391,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- How to Reach",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8627658762648183,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8627658762648183,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Tourist Places",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8821793373184974,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.8821793373184974,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Religious Places",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.9015927983721765,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.9015927983721765,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "\t- Culture & Heritage",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 2,
+              "original_page": 2
+            },
+            "content": "[[END OF PAGE 2]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "[[START OF PAGE 3]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.06681397306397306,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.06681397306397306,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Schemes",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08622743411765221,
+              "width": 0.7404563492063492,
+              "height": 0.1553076884294332,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.08622743411765221,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Notices",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.10564089517133136,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.10564089517133136,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Announcements",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.12505435622501052,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.12505435622501052,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Tenders",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.14446781727868965,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.14446781727868965,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Recruitment",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.16388127833236882,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.16388127833236882,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Events",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.18329473938604796,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.18329473938604796,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Upcoming Events",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.20270820043972712,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.20270820043972712,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Notice",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.22212166149340626,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.22212166149340626,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Order",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.24153512254708542,
+              "width": 0.7404563492063492,
+              "height": 0.13589422737575405,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.24153512254708542,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Citizen Services",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.26094858360076456,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.26094858360076456,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Public Services",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2803620446544437,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2803620446544437,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Election",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2997755057081229,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.2997755057081229,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Revenue",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.31918896676180203,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.31918896676180203,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Supply",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.33860242781548117,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.33860242781548117,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- NIC Services",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3580158888691603,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.3580158888691603,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- UMANG",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.3774293499228395,
+              "width": 0.7404563492063492,
+              "height": 0.058240383161037454,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.3774293499228395,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Media Gallery",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.39684281097651863,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.39684281097651863,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Photo Gallery",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.41625627203019777,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t◦",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.20536706349206346,
+              "top": 0.41625627203019777,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "\t- Video Gallery",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4356697330838769,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4356697330838769,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Form",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.45508319413755605,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.45508319413755605,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- National Informatic Centre, Pune",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.47449665519123524,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.47449665519123524,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Security Audit",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4939101162449144,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.4939101162449144,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- 100 Days Program",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5133235772985936,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5133235772985936,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Important Links",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5612443335262345,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Close",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5949114421668946,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.5949114421668946,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Home",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6143249032205738,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6143249032205738,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Tourism",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6337383642742529,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6337383642742529,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Tourist Places",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.653151825327932,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.653151825327932,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Shanivarwada",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6868189339685921,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6868189339685921,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- Facebook",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7062323950222713,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7062323950222713,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "- X",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Title",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7447457438425049,
+              "width": 0.7908531746031746,
+              "height": 0.0388269221073583,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Shanivarwada",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8026725537164177,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Direction",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8220860147700968,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Category    Historic",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.8557531234107569,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "shaniwarwada",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.889420232051417,
+              "width": 0.6900595238095238,
+              "height": 0.01941346105367915,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "Shaniwarwada Internal view",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 3,
+              "original_page": 3
+            },
+            "content": "[[END OF PAGE 3]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "[[START OF PAGE 4]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.06681397306397306,
+              "width": 0.7908531746031746,
+              "height": 0.1553076884294332,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Shaniwar Wada a 13 storey palace of Peshwas was built by Bajirao-I, in the year 1736.It was head quarter of the Peshwas and it symbolizes Pune’s culture.The structure was built giving security the highest priority. The main entrance is known as ‘Delhi Darwaja’ & others have names like Ganesh, Mastani, Jambhal, Khidki. The statue of Bajirao-i on horse in front of Shniwarwada. In side one can see Ganesh Mahal, Rang Mahal, Aarsa Mahal, Hasti_Dant Mahal, Diwan Khana and fountain. A light and music show is conducted every day showing history of Peshwas.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.23637530908038717,
+              "width": 0.7908531746031746,
+              "height": 0.058240383161037454,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "The palace was the seat of Peshwa power and later was destroyed by a fire in 1828. All that remails are the walls that fortified this palace, with sturdy doors, studded with spikers for added protection",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3123614834872159,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "How to Reach:",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.35922790130032967,
+              "width": 0.7908531746031746,
+              "height": 0.02271414092092803,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "By Air",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.3986188098980254,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Nearest Airport - Pune",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.43470903862847227,
+              "width": 0.7908531746031746,
+              "height": 0.02271414092092803,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "By Train",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.474099947226168,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Nearest Railway Station - Pune Station",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5101901759566149,
+              "width": 0.7908531746031746,
+              "height": 0.02271414092092803,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "By Road",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5495810845543105,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "3-4 kms from Pune railway station.",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.5867403368537809,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Useful Links",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6336067546668946,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6336067546668946,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Help",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6530202157205738,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6530202157205738,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Website Policies",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6724336767742529,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6724336767742529,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Visitor Count",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6918471378279321,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.6918471378279321,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Feedback",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7112605988816113,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7112605988816113,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Contact Us",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7306740599352904,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7306740599352904,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Web Information Manager",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7500875209889696,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.7500875209889696,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "- Site Map",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.7837546296296296,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Content Owned by District Administration",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8174217382702897,
+              "width": 0.7908531746031746,
+              "height": 0.0388269221073583,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "© District Pune , Developed and hosted by  National Informatics Centre , Ministry of Electronics & Information Technology , Government of India",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.8705023079646289,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "Last Updated:  18.08.2025",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 4,
+              "original_page": 4
+            },
+            "content": "[[END OF PAGE 4]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "[[START OF PAGE 5]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Section Header",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.06681397306397306,
+              "width": 0.7908531746031746,
+              "height": 0.02912062656732253,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "Follow Us",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11368039087708683,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11368039087708683,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11368039087708683,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.11368039087708683,
+              "width": 0.7404563492063492,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.12793403846406776,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.12793403846406776,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- Secure, Scalable and Sugamya Website as a Service, opens in a new window",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.14734749951774692,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.14734749951774692,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- National Informatics Center, opens in a new window",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.16676096057142606,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "•",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "List Item",
+            "bbox": {
+              "left": 0.15497023809523808,
+              "top": 0.16676096057142606,
+              "width": 0.7404563492063492,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "- Digital India Power To Empower, opens in a new window",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Text",
+            "bbox": {
+              "left": 0.1045734126984127,
+              "top": 0.20042806921208614,
+              "width": 0.7908531746031746,
+              "height": 0.01941346105367915,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "Go to top",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          },
+          {
+            "type": "Page Number",
+            "bbox": {
+              "left": 0,
+              "top": 0,
+              "width": 0,
+              "height": 0,
+              "page": 5,
+              "original_page": 5
+            },
+            "content": "[[END OF PAGE 5]]",
+            "image_url": null,
+            "chart_data": null,
+            "confidence": "high",
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": null
+            },
+            "extra": null
+          }
+        ]
+      }
+    ],
+    "ocr": null,
+    "custom": null
+  },
+  "parse_mode": null,
+  "document_properties": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "casa-de-vidro",
+  "title": "Casa de Vidro",
+  "note": null,
+  "files": [
+    {
+      "name": "casa-de-vidro-conservation-management-plan-475-pages.pdf",
+      "title": "Casa de Vidro conservation management plan",
+      "source_url": "https://media.getty.edu/Text/c0d9548c-5520-5268-beff-e6ae1ab292b5.pdf",
+      "bytes": 49719578,
+      "pages": 239,
+      "sha256": "0221ead00a4e363c5eead5aa8b28b49f7ad335367e5019c92d715ee9ee8ae6e8",
+      "status": "complete"
+    },
+    {
+      "name": "lina-bo-bardi-drawing-100-works-catalogue.pdf",
+      "title": "Lina Bo Bardi: Drawing — exhibition catalogue",
+      "source_url": "https://www.fmirobcn.org/media/upload/pdf/ddp-lina-bo-bardi-eng_155066026076.pdf",
+      "bytes": 1127678,
+      "pages": 27,
+      "sha256": "4c6c21ed012eeb3b0211dc6fc437e9b84a30cae6228078029685a7afd37a6b87",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "Instituto Bardi online archive — 8,000+ drawings",
+      "url": "https://acervo.institutobardi.org.br/",
+      "access": "Searchable online; documents and photographs require an onsite appointment"
+    }
+  ],
+  "total_bytes": 50847256,
+  "total_pages": 266,
+  "completed_files": 2,
+  "failed_files": 0
+}

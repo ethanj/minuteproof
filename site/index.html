@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Archive House — the world's most interesting historic homes, reconstructed from real public records." />
+    <title>Archive House — Historic homes &amp; their records</title>
+    <link rel="stylesheet" href="./global.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <nav class="nav-left" aria-label="Browse">
+        <a href="#browse">Explore</a>
+      </nav>
+      <a class="brand" href="./" aria-label="Archive House home">
+        <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M5 19.5 21 6l16 13.5v16H26V25H16v10.5H5z"></path><path d="M12 17.5h18"></path></svg>
+        <span>archivehouse</span>
+      </a>
+      <nav class="nav-right" aria-label="Account">
+        <button type="button" id="open-submit">List a house</button>
+        <button type="button" id="saved-nav">Saved <span id="saved-count">0</span></button>
+        <button class="signin-button" type="button">Sign in</button>
+      </nav>
+    </header>
+
+    <section class="search-toolbar" id="browse">
+      <label class="global-search">
+        <input id="search-input" type="search" placeholder="Address, house, city, or archive" autocomplete="off" />
+        <button type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
+      </label>
+      <div class="toolbar-filters" id="filters">
+        <button class="filter active" type="button" data-filter="All">All archives</button>
+        <button class="filter" type="button" data-filter="Handwritten">Handwritten</button>
+        <button class="filter" type="button" data-filter="Plans">Plans & drawings</button>
+        <button class="filter" type="button" data-filter="Photographs">Photographs</button>
+        <button class="filter" type="button" data-filter="Long-form">Long-form records</button>
+        <button class="save-search" id="save-search" type="button">♡ Save search</button>
+      </div>
+    </section>
+
+    <main class="browse-shell">
+      <section class="map-panel" aria-label="Map of archive houses">
+        <img class="map-art" src="./assets/world-map.png" alt="World map" />
+        <div class="map-pins" id="map-pins"></div>
+        <div class="map-tools" aria-hidden="true"><button>＋</button><button>−</button></div>
+        <button class="map-area-button" id="map-area-button" type="button">Search this area</button>
+        <div class="map-key"><span></span><b id="map-count">9</b> historic homes</div>
+        <p class="map-credit">Archive locations are approximate</p>
+      </section>
+
+      <section class="results-panel" aria-live="polite">
+        <header class="results-header">
+          <div>
+            <h1>Historic homes around the world</h1>
+            <p><span id="result-count">9</span> results · Every listing links to the record</p>
+          </div>
+          <button id="sort-toggle" type="button">Sort: Curator’s picks <span>⌄</span></button>
+        </header>
+        <div class="listing-grid" id="listing-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <h2>No archive houses found</h2>
+          <p>Try another city, collection, or story.</p>
+          <button type="button" id="clear-search">Clear search</button>
+        </div>
+        <footer class="results-footer">
+          <b>Archive House</b>
+          <span>Public records, parsed with Reducto</span>
+          <button id="open-credits" type="button">Sources &amp; credits</button>
+        </footer>
+      </section>
+    </main>
+
+    <div class="property-overlay" id="property-overlay" aria-hidden="true">
+      <header class="property-toolbar">
+        <button id="property-back" type="button">← <span>Back to results</span></button>
+        <a class="brand compact-brand" href="./">
+          <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M5 19.5 21 6l16 13.5v16H26V25H16v10.5H5z"></path><path d="M12 17.5h18"></path></svg>
+          <span>archivehouse</span>
+        </a>
+        <div>
+          <button id="property-share" type="button">↗ Share</button>
+          <button id="property-save" type="button">♡ Save</button>
+          <button id="property-close" type="button" aria-label="Close property">×</button>
+        </div>
+      </header>
+      <div id="property-content"></div>
+    </div>
+
+    <dialog class="submit-dialog" id="submit-dialog">
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Close">×</button>
+      <p class="dialog-eyebrow">List a historic property</p>
+      <h2>Add a house to the map</h2>
+      <p>Point us toward a place with a story and a paper trail. This prototype saves nominations on your device.</p>
+      <form id="submit-form">
+        <label>House or property<input name="house" required placeholder="e.g. Maison de Verre" /></label>
+        <label>City and country<input name="location" required placeholder="Paris, France" /></label>
+        <label>Why should it be listed?<textarea name="story" rows="4" placeholder="The history, mystery, or archive behind it"></textarea></label>
+        <label>Archive or museum link<input name="archive" type="url" placeholder="https://…" /></label>
+        <button type="submit">Submit property</button>
+      </form>
+    </dialog>
+
+    <dialog class="credits-dialog" id="credits-dialog">
+      <button class="dialog-close" type="button" data-credits-close aria-label="Close">×</button>
+      <p class="dialog-eyebrow">Sources &amp; credits</p>
+      <h2>Every listing starts with a record.</h2>
+      <p>Property facts come from the institutions linked in each listing. Photography is drawn from Wikimedia Commons and collection pages for this prototype; confirm exact rights before public release.</p>
+      <div id="credit-list"></div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="./global.js"></script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+[
+  {
+    "id": "haas-lilienthal",
+    "name": "Haas–Lilienthal House",
+    "city": "San Francisco",
+    "country": "United States",
+    "continent": "North America",
+    "built": "1886",
+    "style": "Queen Anne",
+    "category": "Survivors",
+    "status": "House museum",
+    "hook": "The house that stayed when San Francisco burned.",
+    "summary": "A family home read through architectural surveys, preservation forms, photographs, a fire map, newspapers, and first-person accounts of the 1906 earthquake.",
+    "image": "./assets/images/haas-house.jpg",
+    "pin": { "x": 16, "y": 36 },
+    "official_url": "https://www.haas-lilienthalhouse.org/",
+    "source_note": "Four representative documents are ready for Reducto. The wider workshop pack contains 194 files (about 520 MB) spanning the house, the 1906 earthquake, city maps, newspapers, photographs, and first-person accounts.",
+    "archive_pack": {
+      "scope": "194 files · about 520 MB",
+      "date_range": "1886–present",
+      "access": "Public digital + local workshop pack",
+      "formats": ["Handwritten letters", "Survey drawings", "Photo cards", "Newspapers", "Fire maps", "Preservation forms"],
+      "messiness": ["handwriting", "faded scans", "mixed layouts", "historic maps"]
+    },
+    "sources": [
+      { "id": "habs", "title": "Historic American Buildings Survey", "institution": "Library of Congress", "type": "Architectural survey", "year": "1975", "input": "./assets/docs/haas-habs-record.pdf", "source_url": "https://www.loc.gov/pictures/item/ca0652/", "parse_ready": true },
+      { "id": "register", "title": "National Register nomination", "institution": "National Park Service", "type": "Preservation form", "year": "1973", "input": "./assets/docs/haas-national-register.pdf", "source_url": "./assets/docs/haas-national-register.pdf", "parse_ready": true },
+      { "id": "cards", "title": "National Register photo cards", "institution": "National Park Service", "type": "Handwritten photo cards", "year": "1973", "input": "./assets/docs/haas-photo-cards.pdf", "source_url": "./assets/docs/haas-photo-cards.pdf", "parse_ready": true },
+      { "id": "letter", "title": "William Chapman letter", "institution": "UC Berkeley Digital Collections", "type": "Handwritten letter", "year": "1906", "input": "./assets/docs/william-chapman-letter.pdf", "source_url": "./assets/docs/william-chapman-letter.pdf", "parse_ready": true }
+    ]
+  },
+  {
+    "id": "casa-azul",
+    "name": "Casa Azul",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "continent": "North America",
+    "built": "Early 20th c.",
+    "style": "Courtyard house",
+    "category": "Artists’ homes",
+    "status": "Museum",
+    "hook": "Frida Kahlo’s private universe, room by room.",
+    "summary": "The house preserves paintings, photographs, clothing, books, furnishings, folk art, and the personal objects through which Frida Kahlo constructed a life and image.",
+    "image": "./assets/houses/casa-azul.jpg",
+    "pin": { "x": 22, "y": 49 },
+    "official_url": "https://www.museofridakahlo.org.mx/museo/?lang=en",
+    "source_note": "This pack reaches beyond the museum page into Frida Kahlo’s letters, photographs, clippings, invoices, interview notes, and research files. Reproduction permissions should be confirmed before a public launch.",
+    "archive_pack": {
+      "scope": "805 digitized images + 3.7 linear feet of research files",
+      "date_range": "1920s–2010",
+      "access": "Public digital + reading-room collections",
+      "formats": ["Handwritten letters", "Photographs", "Clippings", "Invoices", "Interview notes", "Finding aids"],
+      "messiness": ["Spanish + English", "handwriting", "annotations", "mixed media"]
+    },
+    "sources": [
+      { "id": "museum", "title": "The Casa Azul collection", "institution": "Museo Frida Kahlo", "type": "Collection record", "year": "Current", "input": "https://www.museofridakahlo.org.mx/museo/?lang=en", "source_url": "https://www.museofridakahlo.org.mx/museo/?lang=en", "parse_ready": false },
+      { "id": "release", "title": "La Casa Azul: hogar y legado", "institution": "Museo Frida Kahlo", "type": "Institutional publication", "year": "2025", "input": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2025/06/Comunicado-MFK-MDRA003-La-Casa-Azul-MFK-el-hogar-de-Frida-legado-vivo-de-Me%CC%81xico_VF-1.pdf", "source_url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2025/06/Comunicado-MFK-MDRA003-La-Casa-Azul-MFK-el-hogar-de-Frida-legado-vivo-de-Me%CC%81xico_VF-1.pdf", "parse_ready": true },
+      { "id": "weatherwax", "title": "John Weatherwax papers relating to Kahlo and Rivera", "institution": "Smithsonian Archives of American Art", "type": "Digitized correspondence & photographs", "year": "1930s–1980s", "input": "https://www.aaa.si.edu/collections/john-weatherwax-papers-relating-to-frida-kahlo-and-diego-rivera-9609/how-to-use", "source_url": "https://www.aaa.si.edu/collections/john-weatherwax-papers-relating-to-frida-kahlo-and-diego-rivera-9609/how-to-use", "parse_ready": false },
+      { "id": "herrera", "title": "Hayden Herrera research files on Frida Kahlo", "institution": "Smithsonian Archives of American Art", "type": "Research archive", "year": "1920s–2010", "input": "https://www.aaa.si.edu/collections/hayden-herrera-papers-21730/series-3", "source_url": "https://www.aaa.si.edu/collections/hayden-herrera-papers-21730/series-3", "parse_ready": false },
+      { "id": "herrera-finding-aid", "title": "Hayden Herrera papers finding aid", "institution": "Smithsonian Institution", "type": "Long finding aid", "year": "2024", "input": "https://sirismm.si.edu/EADpdfs/AAA.herrhayd.pdf", "source_url": "https://sirismm.si.edu/EADpdfs/AAA.herrhayd.pdf", "parse_ready": false },
+      { "id": "nmwa-finding-aid", "title": "Frida Kahlo papers finding aid", "institution": "National Museum of Women in the Arts", "type": "Archival finding aid", "year": "2022", "input": "https://nmwa.org/wp-content/uploads/2022/07/Frida-Kahlo-Finding-Aid-June-2022.pdf", "source_url": "https://nmwa.org/wp-content/uploads/2022/07/Frida-Kahlo-Finding-Aid-June-2022.pdf", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "casa-de-vidro",
+    "name": "Casa de Vidro",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "continent": "South America",
+    "built": "1951–52",
+    "style": "Brazilian modernism",
+    "category": "Experiments",
+    "status": "Institute & museum",
+    "hook": "A glass house suspended inside the Atlantic forest.",
+    "summary": "Lina Bo Bardi’s first built project became a home, a meeting place, and eventually the center of an archive containing drawings, photographs, notebooks, and design work.",
+    "image": "./assets/houses/casa-de-vidro.jpg",
+    "pin": { "x": 34, "y": 68 },
+    "official_url": "https://institutobardi.org.br/a-casa-de-vidro/a-casa-dos-bardi/",
+    "source_note": "The Instituto Bardi’s archive combines drawings, documents, personal notes, notebooks, models, newspapers, films, and photographs; many materials require an onsite research appointment.",
+    "archive_pack": {
+      "scope": "11,500 professional records + 15,000 photographs",
+      "date_range": "1914–1992",
+      "access": "8,000+ drawings online; documents and photographs onsite",
+      "formats": ["Architectural drawings", "Personal notebooks", "Photographs", "Models", "Films", "Newspapers"],
+      "messiness": ["Portuguese + Italian", "sketches", "annotations", "oversize plans"]
+    },
+    "sources": [
+      { "id": "archive", "title": "Lina Bo Bardi archive", "institution": "Instituto Bardi", "type": "Digital collection", "year": "Ongoing", "input": "https://institutobardi.org.br/o-acervo/sobre-o-acervo/", "source_url": "https://institutobardi.org.br/o-acervo/sobre-o-acervo/", "parse_ready": true },
+      { "id": "conservation", "title": "Casa de Vidro conservation plan", "institution": "Getty Foundation / Instituto Bardi", "type": "Conservation report", "year": "2020", "input": "https://www.getty.edu/foundation/pdfs/kim/instituto_bardi_casa_de_vidro_cmp_english.pdf", "source_url": "https://www.getty.edu/foundation/pdfs/kim/instituto_bardi_casa_de_vidro_cmp_english.pdf", "parse_ready": false },
+      { "id": "house", "title": "The Bardi house", "institution": "Instituto Bardi", "type": "Drawings & photographs", "year": "1949–95", "input": "https://institutobardi.org.br/a-casa-de-vidro/a-casa-dos-bardi/", "source_url": "https://institutobardi.org.br/a-casa-de-vidro/a-casa-dos-bardi/", "parse_ready": false },
+      { "id": "online-catalogue", "title": "Lina Bo Bardi online archive", "institution": "Instituto Bardi", "type": "Searchable drawing catalogue", "year": "Ongoing", "input": "https://acervo.institutobardi.org.br/", "source_url": "https://acervo.institutobardi.org.br/", "parse_ready": false },
+      { "id": "drawings", "title": "Lina Bo Bardi: Drawing", "institution": "Fundació Joan Miró", "type": "100-drawing exhibition catalogue", "year": "2019", "input": "https://www.fmirobcn.org/media/upload/pdf/ddp-lina-bo-bardi-eng_155066026076.pdf", "source_url": "https://www.fmirobcn.org/media/upload/pdf/ddp-lina-bo-bardi-eng_155066026076.pdf", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "soane-house",
+    "name": "Sir John Soane’s Museum",
+    "city": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "built": "1792–1824",
+    "style": "Neoclassical assemblage",
+    "category": "Collectors’ houses",
+    "status": "Museum",
+    "hook": "A home designed to hold an entire world of objects.",
+    "summary": "Soane continually rebuilt three adjoining houses into a dense architectural experiment filled with models, fragments, paintings, drawings, and ingenious moving walls.",
+    "image": "./assets/houses/soane-house.jpg",
+    "pin": { "x": 48, "y": 31 },
+    "official_url": "https://www.soane.org/",
+    "source_note": "The house sits inside an unusually dense paper trail: architectural drawings, office day books, account journals, notebooks, personal papers, rare books, and the room-by-room catalogue Soane commissioned in 1835.",
+    "archive_pack": {
+      "scope": "30,000 drawings + 7,000 books + business and personal papers",
+      "date_range": "1753–1837",
+      "access": "Searchable digital catalogue + appointment archive",
+      "formats": ["Office day books", "Architectural drawings", "Account journals", "Notebooks", "Personal papers", "Rare books"],
+      "messiness": ["cursive handwriting", "ledger tables", "foldouts", "historic cataloguing"]
+    },
+    "sources": [
+      { "id": "collections", "title": "Soane collections online", "institution": "Sir John Soane’s Museum", "type": "Collection catalogue", "year": "Ongoing", "input": "https://collections.soane.org/", "source_url": "https://collections.soane.org/", "parse_ready": false },
+      { "id": "guide", "title": "Museum and house guide", "institution": "Sir John Soane’s Museum", "type": "Illustrated guide", "year": "Current", "input": "https://www.soane.org/sites/default/files/downloads/sir-john-soanes-museum-easy-read-guide.pdf", "source_url": "https://www.soane.org/sites/default/files/downloads/sir-john-soanes-museum-easy-read-guide.pdf", "parse_ready": true },
+      { "id": "archive", "title": "The Soane archive", "institution": "Sir John Soane’s Museum", "type": "Archive catalogue", "year": "1753–1837", "input": "https://collections.soane.org/art99672", "source_url": "https://collections.soane.org/art99672", "parse_ready": false },
+      { "id": "research-library", "title": "Research Library and Archive", "institution": "Sir John Soane’s Museum", "type": "Holdings overview", "year": "Current", "input": "https://www.soane.org/collections/research-library-and-archive", "source_url": "https://www.soane.org/collections/research-library-and-archive", "parse_ready": false },
+      { "id": "day-books", "title": "Soane office day books", "institution": "Sir John Soane’s Museum", "type": "Digitized handwritten ledgers", "year": "1791–1837", "input": "https://collections.soane.org/archives?ci_search_type=ARCI&mi_search_type=adv&sort=7&t=ARC11740&tn=Archives", "source_url": "https://collections.soane.org/archives?ci_search_type=ARCI&mi_search_type=adv&sort=7&t=ARC11740&tn=Archives", "parse_ready": false },
+      { "id": "description", "title": "Description of the House and Museum", "institution": "Oxford Digital Editions", "type": "Digitized 1843 catalogue", "year": "1843", "input": "https://editions.mml.ox.ac.uk/editions/soanes-museum/", "source_url": "https://editions.mml.ox.ac.uk/editions/soanes-museum/", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "shaniwar-wada",
+    "name": "Shaniwar Wada",
+    "city": "Pune",
+    "country": "India",
+    "continent": "Asia",
+    "built": "1730s",
+    "style": "Maratha palace-fort",
+    "category": "Legend & record",
+    "status": "Historic ruins",
+    "hook": "A royal palace where the documented record meets the ghost story.",
+    "summary": "The surviving gate, walls, plans, and official histories tell one story; later accounts of haunting tell another. Archive House keeps evidence and folklore visibly separate.",
+    "image": "./assets/houses/shaniwar-wada.jpg",
+    "pin": { "x": 69, "y": 50 },
+    "official_url": "https://pune.gov.in/en/tourist-place/shaniwarwada/",
+    "source_note": "The deeper pack connects the surviving palace to the Peshwa administration’s letters, accounts, orders, and diaries. Folklore remains visibly separated from the documentary record.",
+    "archive_pack": {
+      "scope": "45 volumes · 34,046 passages · 2.15M words",
+      "date_range": "1700–1818",
+      "access": "Complete public-domain digital text + government records",
+      "formats": ["Private letters", "Orders", "Accounts", "Diaries", "Dispatches", "Government records"],
+      "messiness": ["Modi-derived Marathi", "archaic language", "multi-volume", "dense correspondence"]
+    },
+    "sources": [
+      { "id": "pune", "title": "Shaniwar Wada heritage record", "institution": "District Pune, Government of Maharashtra", "type": "Government heritage page", "year": "Current", "input": "https://pune.gov.in/en/tourist-place/shaniwarwada/", "source_url": "https://pune.gov.in/en/tourist-place/shaniwarwada/", "parse_ready": true },
+      { "id": "tourism", "title": "Shaniwar Wada visitor record", "institution": "Incredible India, Ministry of Tourism", "type": "National tourism record", "year": "Current", "input": "https://www.incredibleindia.gov.in/en/maharashtra/pune/shaniwar-wada", "source_url": "https://www.incredibleindia.gov.in/en/maharashtra/pune/shaniwar-wada", "parse_ready": false },
+      { "id": "peshwa-daftar", "title": "Selections from the Peshwa Daftar", "institution": "Pramāṇa / Government Central Press", "type": "45-volume digital corpus", "year": "1700–1818", "input": "https://indike.org/pramana/in.darkages.maratha.daftar.peshwa-daftar", "source_url": "https://indike.org/pramana/in.darkages.maratha.daftar.peshwa-daftar", "parse_ready": false },
+      { "id": "peshwa-books", "title": "Selections from the Peshwa Daftar, volumes 1–5", "institution": "Google Books / University of Virginia", "type": "Digitized government volumes", "year": "1930", "input": "https://books.google.com/books/about/Selections_from_the_Peshwa_Daftar.html?id=zG1TAAAAYAAJ", "source_url": "https://books.google.com/books/about/Selections_from_the_Peshwa_Daftar.html?id=zG1TAAAAYAAJ", "parse_ready": false },
+      { "id": "archive-scale", "title": "Peshwa Daftar archival correspondence", "institution": "International Court of Justice", "type": "Government archive description", "year": "1956", "input": "https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/32/9126.pdf", "source_url": "https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/32/9126.pdf", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "prince-asaka",
+    "name": "Prince Asaka Residence",
+    "city": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "built": "1933",
+    "style": "Japanese Art Deco",
+    "category": "Royal residences",
+    "status": "Art museum",
+    "hook": "French Art Deco remade through Japanese craft.",
+    "summary": "The residence brings French designers and Japanese architects and artisans into a single building whose later lives included official residence, guest house, event venue, and museum.",
+    "image": "./assets/houses/prince-asaka.jpg",
+    "pin": { "x": 84, "y": 39 },
+    "official_url": "https://www.teien-art-museum.ne.jp/en/museum/building/",
+    "source_note": "The museum’s pack works like a layered building file: floor plans, room-by-room records, designer attributions, restoration research, annual exhibition dossiers, and illustrated thematic handouts.",
+    "archive_pack": {
+      "scope": "Room-by-room file + floor plans + 3 illustrated dossiers",
+      "date_range": "1933–present",
+      "access": "Public digital",
+      "formats": ["Floor plans", "Room records", "Designer credits", "Exhibition dossiers", "Object handouts", "Restoration notes"],
+      "messiness": ["Japanese + English", "diagram labels", "mixed image-text", "historic attributions"]
+    },
+    "sources": [
+      { "id": "rooms", "title": "Rooms and floor map", "institution": "Tokyo Metropolitan Teien Art Museum", "type": "Architectural record", "year": "Current", "input": "https://www.teien-art-museum.ne.jp/en/museum/floor_map/", "source_url": "https://www.teien-art-museum.ne.jp/en/museum/floor_map/", "parse_ready": false },
+      { "id": "timeline", "title": "Looking at Architecture", "institution": "Tokyo Metropolitan Teien Art Museum", "type": "Exhibition dossier", "year": "2025", "input": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2025/05/PressRelease_en_v1_Looking_at_Architecture_2025.pdf", "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2025/05/PressRelease_en_v1_Looking_at_Architecture_2025.pdf", "parse_ready": true },
+      { "id": "animals", "title": "Animals in the Residence", "institution": "Tokyo Metropolitan Teien Art Museum", "type": "Collection handout", "year": "2026", "input": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2026/04/Handout-animals-in-the-residence-of-prince-Asaka.pdf", "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2026/04/Handout-animals-in-the-residence-of-prince-Asaka.pdf", "parse_ready": true },
+      { "id": "building", "title": "The Former Residence of Prince Asaka", "institution": "Tokyo Metropolitan Teien Art Museum", "type": "Building history", "year": "Current", "input": "https://www.teien-art-museum.ne.jp/en/museum/building/", "source_url": "https://www.teien-art-museum.ne.jp/en/museum/building/", "parse_ready": false },
+      { "id": "az", "title": "Architecture A–Z research dossier", "institution": "Tokyo Metropolitan Teien Art Museum", "type": "Illustrated research report", "year": "2024", "input": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2024/05/teibi-report-design-0523-web-1.pdf", "source_url": "https://www.teien-art-museum.ne.jp/wp-content/uploads/2024/05/teibi-report-design-0523-web-1.pdf", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "manhyia-palace",
+    "name": "Manhyia Palace",
+    "city": "Kumasi",
+    "country": "Ghana",
+    "continent": "Africa",
+    "built": "1925",
+    "style": "Asante royal residence",
+    "category": "Royal residences",
+    "status": "Palace museum",
+    "hook": "A palace holding the memory of Asante kings and queen mothers.",
+    "summary": "The former residence of the Asantehene opens onto court life, regalia, exile and return, and the continuing cultural authority of the Asante Kingdom.",
+    "image": "./assets/houses/manhyia-palace.jpg",
+    "pin": { "x": 48, "y": 58 },
+    "official_url": "https://manhyiapalace.org/manhyia-palace-museum",
+    "source_note": "This is an institution-led archive. Record groups are available for consultation, but the site should not imply unrestricted access, ownership, or reuse of culturally sensitive material.",
+    "archive_pack": {
+      "scope": "18+ processed record groups, with fuller lists in the reading room",
+      "date_range": "1926–present",
+      "access": "Catalogue online; records by consultation",
+      "formats": ["Court dockets", "Minute books", "Account books", "Stool histories", "Maps & plans", "Newspaper clippings"],
+      "messiness": ["handwritten ledgers", "legal records", "mixed classifications", "culturally sensitive"]
+    },
+    "sources": [
+      { "id": "museum", "title": "Manhyia Palace Museum", "institution": "Manhyia Palace", "type": "Institutional collection page", "year": "Current", "input": "https://manhyiapalace.org/manhyia-palace-museum", "source_url": "https://manhyiapalace.org/manhyia-palace-museum", "parse_ready": false },
+      { "id": "collections", "title": "Collections management at Manhyia", "institution": "University of Education, Winneba", "type": "Research report", "year": "2025", "input": "https://ir.uew.edu.gh/bitstream/handle/123456789/3314/Collections%20management%20at%20Manhyia%20palace%20museum.pdf?isAllowed=y&sequence=1", "source_url": "https://ir.uew.edu.gh/bitstream/handle/123456789/3314/Collections%20management%20at%20Manhyia%20palace%20museum.pdf?isAllowed=y&sequence=1", "parse_ready": true },
+      { "id": "holdings", "title": "Holdings of the Manhyia Archives", "institution": "Manhyia Archives", "type": "Archive class list", "year": "1926–present", "input": "https://www.manhyiaarchives.org/holdings", "source_url": "https://www.manhyiaarchives.org/holdings", "parse_ready": false },
+      { "id": "mag1", "title": "Kumasi Traditional Council records (MAG 1)", "institution": "Manhyia Archives", "type": "Record group", "year": "20th c.", "input": "https://www.manhyiaarchives.org/holdings", "source_url": "https://www.manhyiaarchives.org/holdings", "parse_ready": false },
+      { "id": "audiovisual", "title": "Manhyia Palace Photo and Video Archives", "institution": "Audio Visual Africa / University of Michigan", "type": "Photographic & video archive", "year": "Ongoing", "input": "https://sites.lsa.umich.edu/audio-visual-africa/manhyia-palace/", "source_url": "https://sites.lsa.umich.edu/audio-visual-africa/manhyia-palace/", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "baron-empain",
+    "name": "Baron Empain Palace",
+    "city": "Cairo",
+    "country": "Egypt",
+    "continent": "Africa",
+    "built": "1906–11",
+    "style": "Indo-European revival",
+    "category": "Myth & restoration",
+    "status": "Historic monument",
+    "hook": "A desert palace built to follow the sun.",
+    "summary": "Railway ambition, an experimental suburb, extraordinary architecture, decades of abandonment, and a major restoration converge in one of Cairo’s strangest residences.",
+    "image": "./assets/houses/baron-empain.jpg",
+    "pin": { "x": 57, "y": 44 },
+    "official_url": "https://egymonuments.gov.eg/en/monuments/baron-empain-palace",
+    "source_note": "The government restoration created a full building dossier with façades, 3D projections, excavation records, photographs, technical studies, and a management plan. Haunted-house claims remain labeled as folklore.",
+    "archive_pack": {
+      "scope": "Full restoration dossier + 2 technical studies",
+      "date_range": "1906–2021",
+      "access": "Public reports + institutional project record",
+      "formats": ["Façade drawings", "3D projections", "Excavation records", "Condition photographs", "Technical studies", "Management plan"],
+      "messiness": ["Arabic + English", "engineering diagrams", "site photography", "layered restoration data"]
+    },
+    "sources": [
+      { "id": "monument", "title": "Baron Empain Palace", "institution": "Egypt Ministry of Tourism and Antiquities", "type": "Monument record", "year": "Current", "input": "https://egymonuments.gov.eg/en/monuments/baron-empain-palace", "source_url": "https://egymonuments.gov.eg/en/monuments/baron-empain-palace", "parse_ready": false },
+      { "id": "restoration", "title": "Restoration of Baron Empain Palace", "institution": "Egyptian Presidency", "type": "Restoration record", "year": "2020", "input": "https://www.presidency.eg/en/%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9/%D8%AA%D8%B1%D9%85%D9%8A%D9%85-%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%88%D9%86-%D8%A5%D9%85%D8%A8%D8%A7%D9%86/", "source_url": "https://www.presidency.eg/en/%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9/%D8%AA%D8%B1%D9%85%D9%8A%D9%85-%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%88%D9%86-%D8%A5%D9%85%D8%A8%D8%A7%D9%86/", "parse_ready": false },
+      { "id": "study", "title": "Re-use and structural analysis of Baron Empain Palace", "institution": "Scientific Culture / Cairo University", "type": "Open-access research paper", "year": "2018", "input": "https://sci-cult.com/wp-content/uploads/2018/04/4-1_No_3.pdf", "source_url": "https://sci-cult.com/wp-content/uploads/2018/04/4-1_No_3.pdf", "parse_ready": true },
+      { "id": "sustainability", "title": "Conservation and sustainable reuse", "institution": "SBE21 Heritage", "type": "Technical restoration paper", "year": "2021", "input": "https://sbe21heritage.eurac.edu/wp-content/uploads/2021/04/364_MAboulnaga__Baron-Empain-Palace-in-Heliopolis-Cairo-Egypt.pdf", "source_url": "https://sbe21heritage.eurac.edu/wp-content/uploads/2021/04/364_MAboulnaga__Baron-Empain-Palace-in-Heliopolis-Cairo-Egypt.pdf", "parse_ready": false },
+      { "id": "heliopolis", "title": "Heliopolis district architectural record", "institution": "Bulletin d’Information Archéologique", "type": "Historic district report", "year": "2016", "input": "https://www.egyptologues.net/archeologie/bia61/bia61.pdf", "source_url": "https://www.egyptologues.net/archeologie/bia61/bia61.pdf", "parse_ready": false },
+      { "id": "mwnf", "title": "Baron Empain Palace catalogue record", "institution": "Museum With No Frontiers / CULTNAT", "type": "Architectural catalogue", "year": "Current", "input": "https://sharinghistory.museumwnf.org/database_item.php?id=monument%3BAWE%3Beg%3B1%3Ben", "source_url": "https://sharinghistory.museumwnf.org/database_item.php?id=monument%3BAWE%3Beg%3B1%3Ben", "parse_ready": false }
+    ]
+  },
+  {
+    "id": "vaucluse-house",
+    "name": "Vaucluse House",
+    "city": "Sydney",
+    "country": "Australia",
+    "continent": "Oceania",
+    "built": "1839",
+    "style": "Gothic Revival estate",
+    "category": "House museums",
+    "status": "House museum",
+    "hook": "The private estate that became Australia’s first house museum.",
+    "summary": "The house, grounds, family objects, photographs, and changing museum interpretation reveal how a private estate was turned into public history.",
+    "image": "./assets/houses/vaucluse-house.jpg",
+    "pin": { "x": 85, "y": 74 },
+    "official_url": "https://mhnsw.au/visit-us/vaucluse-house/",
+    "source_note": "The house record opens into three Wentworth family paper collections containing maps, journals, logbooks, letters, paintings, prints, drawings, books, auction records, and the museum’s own restoration files.",
+    "archive_pack": {
+      "scope": "3 family paper collections + museum and conservation records",
+      "date_range": "1827–present",
+      "access": "Public digital + State Library collections",
+      "formats": ["Family letters", "Journals", "Logbooks", "Maps", "Auction records", "Conservation files"],
+      "messiness": ["cursive handwriting", "bound volumes", "foldout maps", "mixed object records"]
+    },
+    "sources": [
+      { "id": "museum", "title": "Vaucluse House", "institution": "Museums of History NSW", "type": "Institutional record", "year": "Current", "input": "https://mhnsw.au/visit-us/vaucluse-house/", "source_url": "https://mhnsw.au/visit-us/vaucluse-house/", "parse_ready": true },
+      { "id": "heritage", "title": "Vaucluse House: a centenary", "institution": "Museums of History NSW", "type": "Curatorial history", "year": "2015", "input": "https://mhnsw.au/stories/general/vaucluse-house-centenary/", "source_url": "https://mhnsw.au/stories/general/vaucluse-house-centenary/", "parse_ready": false },
+      { "id": "collections", "title": "Vaucluse museum collection", "institution": "Museums of History NSW", "type": "Object collection", "year": "1827–1910", "input": "https://mhnsw.au/collections/museum-collections/", "source_url": "https://mhnsw.au/collections/museum-collections/", "parse_ready": false },
+      { "id": "papers", "title": "Wentworth family papers collections", "institution": "State Library of New South Wales", "type": "Family papers, maps & drawings", "year": "19th–20th c.", "input": "https://www.sl.nsw.gov.au/sites/default/files/foundation_annual_report_2014-15.pdf", "source_url": "https://www.sl.nsw.gov.au/sites/default/files/foundation_annual_report_2014-15.pdf", "parse_ready": false },
+      { "id": "preservation", "title": "Preserving a grand harbourside estate", "institution": "Museums of History NSW", "type": "Heritage & conservation history", "year": "Current", "input": "https://mhnsw.au/vaucluse-house-preserving-a-grand-harbourside-estate/", "source_url": "https://mhnsw.au/vaucluse-house-preserving-a-grand-harbourside-estate/", "parse_ready": false },
+      { "id": "turrets", "title": "Conservation in action: the turrets", "institution": "Museums of History NSW", "type": "Conservation field note", "year": "Current", "input": "https://mhnsw.au/stories/conservation/conservation-action-vaucluse-house-turrets/", "source_url": "https://mhnsw.au/stories/conservation/conservation-action-vaucluse-house-turrets/", "parse_ready": false },
+      { "id": "coaches", "title": "Whatever happened to the coaches?", "institution": "Museums of History NSW", "type": "Object provenance story", "year": "Current", "input": "https://mhnsw.au/stories/general/whatever-happened-coaches-vaucluse-house/", "source_url": "https://mhnsw.au/stories/general/whatever-happened-coaches-vaucluse-house/", "parse_ready": false }
+    ]
+  }
+]

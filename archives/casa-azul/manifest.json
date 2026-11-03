@@ -1,0 +1,54 @@
+{
+  "id": "casa-azul",
+  "title": "Casa Azul",
+  "note": "Public institutional publications and finding aids. The Smithsonian image collection is linked in the manifest because it is not offered as a bulk public download.",
+  "files": [
+    {
+      "name": "museo-frida-kahlo-casa-azul-hogar-y-legado-2025.pdf",
+      "title": "La Casa Azul: hogar y legado",
+      "source_url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2025/06/Comunicado-MFK-MDRA003-La-Casa-Azul-MFK-el-hogar-de-Frida-legado-vivo-de-Me%CC%81xico_VF-1.pdf",
+      "bytes": 82335,
+      "pages": 1,
+      "sha256": "205c4f55e9996c2ae73ee5e733ba04392bfa7d96bb5618afbee0f2c67374b4b8",
+      "status": "complete"
+    },
+    {
+      "name": "smithsonian-hayden-herrera-papers-finding-aid.pdf",
+      "title": "Hayden Herrera papers finding aid",
+      "source_url": "https://sirismm.si.edu/EADpdfs/AAA.herrhayd.pdf",
+      "bytes": 258717,
+      "pages": 38,
+      "sha256": "f683de5176c6b01c1df1db8338ff350858a3622d94c00e4c8add164a56df3abe",
+      "status": "complete"
+    },
+    {
+      "name": "nmwa-frida-kahlo-papers-finding-aid.pdf",
+      "title": "Frida Kahlo papers finding aid",
+      "source_url": "https://nmwa.org/wp-content/uploads/2022/07/Frida-Kahlo-Finding-Aid-June-2022.pdf",
+      "bytes": 305389,
+      "pages": 24,
+      "sha256": "a8b744267d7858996e1f9a65dbfe50a8248dc742154686bca072c2d43127dd92",
+      "status": "complete"
+    },
+    {
+      "name": "smithsonian-weatherwax-kahlo-rivera-finding-aid.pdf",
+      "title": "John Weatherwax papers relating to Frida Kahlo and Diego Rivera — finding aid",
+      "source_url": "https://sirismm.si.edu/EADpdfs/AAA.weatjohn.pdf",
+      "bytes": 86750,
+      "pages": 10,
+      "sha256": "fb2d8771b205307ebac7a2772188581b2917c8f7c3de21c7f5008d8dca1ce2dc",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "John Weatherwax papers relating to Frida Kahlo and Diego Rivera — 805 digitized images",
+      "url": "https://www.aaa.si.edu/collections/john-weatherwax-papers-relating-to-frida-kahlo-and-diego-rivera-9609/how-to-use",
+      "access": "Public item-by-item digital access; no bulk package offered"
+    }
+  ],
+  "total_bytes": 733191,
+  "total_pages": 73,
+  "completed_files": 4,
+  "failed_files": 0
+}

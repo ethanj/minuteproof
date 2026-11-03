@@ -1,0 +1,54 @@
+{
+  "id": "manhyia-palace",
+  "title": "Manhyia Palace",
+  "note": "Includes institution-led holdings information plus historical context scans. Colonial-era publications are retained as sources to interrogate, not as neutral interpretation.",
+  "files": [
+    {
+      "name": "collections-management-at-manhyia-palace-museum.pdf",
+      "title": "Collections management at Manhyia Palace Museum",
+      "source_url": "https://ir.uew.edu.gh/bitstream/handle/123456789/3314/Collections%20management%20at%20Manhyia%20palace%20museum.pdf?isAllowed=y&sequence=1",
+      "bytes": 13319909,
+      "pages": 266,
+      "sha256": "427ab472e75c2d950f245500edd2df82089be453c04299ee52e7adc086aa11b7",
+      "status": "complete"
+    },
+    {
+      "name": "correspondence-relating-to-ashanti-1901.pdf",
+      "title": "Correspondence relating to Ashanti, 1901",
+      "source_url": "https://archive.org/download/india.history.resource.106615/106615.pdf",
+      "bytes": 4953166,
+      "pages": 68,
+      "sha256": "69b733c9e109a8ff70a588732f0aa072ad949b5912a0c495b2a20b16aac8789a",
+      "status": "complete"
+    },
+    {
+      "name": "downfall-of-prempeh-1900-scan.pdf",
+      "title": "The Downfall of Prempeh — historic scan",
+      "source_url": "https://archive.org/download/downfallofprempe00baderich/downfallofprempe00baderich.pdf",
+      "bytes": 9765338,
+      "pages": 132,
+      "sha256": "3fa89a47ce05b0efca381bb3f5a86f006ddc87f11a1828bfdab09766a34ce3a5",
+      "status": "complete"
+    },
+    {
+      "name": "history-of-the-gold-coast-and-ashanti-volumes.pdf",
+      "title": "A History of the Gold Coast and Ashanti — historic scan",
+      "source_url": "https://archive.org/download/cu31924088423466/cu31924088423466.pdf",
+      "bytes": 26921932,
+      "pages": 672,
+      "sha256": "666cb57b269f95b3976f3dbab89de778f957dafb5974816c973c9c20c2d77388",
+      "status": "complete"
+    }
+  ],
+  "linked_collections": [
+    {
+      "title": "Manhyia Archives holdings and record groups",
+      "url": "https://www.manhyiaarchives.org/holdings",
+      "access": "Catalogue online; underlying records by consultation"
+    }
+  ],
+  "total_bytes": 54960345,
+  "total_pages": 1138,
+  "completed_files": 4,
+  "failed_files": 0
+}
