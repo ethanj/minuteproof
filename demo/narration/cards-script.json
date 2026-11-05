@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "chapters": [
+    { "id": "intro", "paragraphs": [
+      ["When you buy a home or fund a group, you get its board minutes: the official record of what the board decided. Often hundreds of pages."],
+      ["Checking them for problems is called due diligence."],
+      ["This is MinuteProof."],
+      ["It uses Reducto, an AI document reader, to turn the pages into data you can check, and DuckDB, a fast database, to spot the patterns."]
+    ] },
+    { "id": "outro", "paragraphs": [
+      ["That's MinuteProof."],
+      ["Next, imagine this on any pile of minutes: a homeowners' association packet before a home closing, city council and school board minutes, nonprofits, or a lender's files."],
+      ["Every buyer could get a cited due-diligence report in minutes."]
+    ] }
+  ]
+}

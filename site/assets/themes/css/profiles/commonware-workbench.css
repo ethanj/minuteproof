@@ -1,0 +1,99 @@
+/**
+ * Optional values profile: the Commonware workbench's readings of Scientific
+ * Clay and Minimal, version 1.
+ *
+ * The workbench gives these two themes different values from the canonical
+ * maps: its status accents are darkened so they hold as boundaries, its
+ * Minimal uses a deeper blue, tighter radii and a lighter heading weight, and
+ * it uses system monospace. Loading this file after theme.css keeps that
+ * appearance exactly. It declares values for contract tokens only, under the
+ * two theme selectors; it adds no token, selector or layout.
+ *
+ * Surfaces this profile allows its status fills on: the canvas and the base,
+ * raised and glass surfaces. On the two inset
+ * surfaces three pairings measure just under 4.5:1 (Scientific Clay danger
+ * text on its fill over --surface-recessed, 4.48; Minimal light success text
+ * on its fill over --surface-muted and --surface-recessed, 4.43). The values
+ * are kept as the workbench has them; do not put those fills on those
+ * surfaces without checking the rendered result.
+ *
+ * The workbench's own product tokens (--category-*, --backdrop-scrim,
+ * --shadow-modal) are not here; they stay in the workbench.
+ */
+
+[data-theme="scientific-clay"] {
+  --status-success: #047857;
+  --status-success-text: #065f46;
+  --status-success-soft: rgba(16, 185, 129, 0.16);
+  --status-info: #0369a1;
+  --status-info-text: #075985;
+  --status-info-soft: rgba(14, 165, 233, 0.16);
+  --status-warning: #b45309;
+  --status-warning-text: #92400e;
+  --status-warning-soft: rgba(245, 158, 11, 0.18);
+  --status-danger-text: #b91c1c;
+  --status-danger-soft: rgba(220, 38, 38, 0.14);
+  --status-danger-border: rgba(220, 38, 38, 0.30);
+
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-heading: "Nunito", system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+[data-theme="minimal"] {
+  --text-inverse: #ffffff;
+  --text-interactive: #1f5fbf;
+  --focus-ring: #1f5fbf;
+
+  --interactive-primary: #1f5fbf;
+  --interactive-primary-soft: rgba(31, 95, 191, 0.10);
+  --interactive-secondary: #1f5fbf;
+  --interactive-secondary-text: #1f5fbf;
+
+  --status-success: #0f7a3a;
+  --status-success-text: #0f7a3a;
+  --status-success-soft: rgba(15, 122, 58, 0.10);
+  --status-info: #1f5fbf;
+  --status-info-text: #1f5fbf;
+  --status-info-soft: rgba(31, 95, 191, 0.10);
+  --status-warning: #b45309;
+  --status-warning-text: #8a5000;
+  --status-warning-soft: rgba(180, 83, 9, 0.12);
+  --status-danger-text: #b00020;
+  --status-danger-border: rgba(176, 0, 32, 0.20);
+
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-heading: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-weight-heading: 600;
+
+  --radius-card: 6px;
+  --radius-control: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme="minimal"] {
+    --text-inverse: #16181d;
+    --text-interactive: #7eb1ff;
+    --focus-ring: #7eb1ff;
+
+    --interactive-primary: #7eb1ff;
+    --interactive-primary-soft: rgba(126, 177, 255, 0.14);
+    --interactive-secondary: #7eb1ff;
+    --interactive-secondary-text: #7eb1ff;
+
+    --status-success: #4fd28a;
+    --status-success-text: #4fd28a;
+    --status-success-soft: rgba(79, 210, 138, 0.16);
+    --status-info: #5fa8ff;
+    --status-info-text: #5fa8ff;
+    --status-info-soft: rgba(95, 168, 255, 0.16);
+    --status-warning: #e1b84e;
+    --status-warning-text: #e1b84e;
+    --status-warning-soft: rgba(225, 184, 78, 0.16);
+    --status-danger: #ff8a8a;
+    --status-danger-text: #ff8a8a;
+    --status-danger-soft: rgba(255, 138, 138, 0.16);
+    --status-danger-border: rgba(255, 138, 138, 0.30);
+  }
+}

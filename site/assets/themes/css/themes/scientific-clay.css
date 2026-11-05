@@ -1,0 +1,129 @@
+/**
+ * Scientific Clay: an always-light, tactile material.
+ *
+ * Pale lavender canvas, translucent raised surfaces, generous radii and
+ * layered soft shadows. The vivid status hues are decoration: fills, marks
+ * and icons. Words that state a status use the -text inks, which are the
+ * readable counterparts. Values only; the ambient glow is a separate opt-in
+ * stylesheet.
+ */
+
+[data-theme="scientific-clay"] {
+  color-scheme: light;
+
+  --canvas: #f4f1fa;
+  --surface-base: rgba(255, 255, 255, 0.72);
+  --surface-raised: rgba(255, 255, 255, 0.84);
+  --surface-muted: rgba(247, 244, 251, 0.82);
+  --surface-recessed: #efebf5;
+  --surface-glass: rgba(255, 255, 255, 0.64);
+
+  --text-primary: #332f3a;
+  --text-muted: #635f69;
+  --text-inverse: #ffffff;
+  --text-interactive: #6d28d9;
+  --border-subtle: rgba(124, 58, 237, 0.14);
+  --focus-ring: #7c3aed;
+
+  --interactive-primary: #7c3aed;
+  --interactive-primary-soft: rgba(124, 58, 237, 0.12);
+  --interactive-secondary: #db2777;
+  --interactive-secondary-text: #9d174d;
+
+  --status-success: #10b981;
+  --status-success-text: #126c45;
+  --status-success-soft: rgba(18, 108, 69, 0.1);
+  --status-info: #0ea5e9;
+  --status-info-text: #6d28d9;
+  --status-info-soft: rgba(124, 58, 237, 0.12);
+  --status-warning: #f59e0b;
+  --status-warning-text: #8a4500;
+  --status-warning-soft: rgba(245, 158, 11, 0.14);
+  --status-danger: #dc2626;
+  --status-danger-text: #b42332;
+  --status-danger-soft: rgba(220, 38, 38, 0.1);
+  --status-danger-border: rgba(220, 38, 38, 0.24);
+
+  --font-body: "DM Sans", sans-serif;
+  --font-heading: "Nunito", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-weight-heading: 800;
+  --max-content-width: 70ch;
+
+  --radius-container: 48px;
+  --radius-card: 32px;
+  --radius-control: 20px;
+
+  --shadow-surface: 18px 18px 44px rgba(73, 56, 105, 0.16), -16px -16px 38px rgba(255, 255, 255, 0.92), inset 1px 1px 0 rgba(255, 255, 255, 0.86), inset -1px -1px 0 rgba(124, 58, 237, 0.08);
+  --shadow-card: 12px 14px 30px rgba(73, 56, 105, 0.14), -10px -10px 26px rgba(255, 255, 255, 0.86), inset 1px 1px 0 rgba(255, 255, 255, 0.82), inset -1px -1px 0 rgba(124, 58, 237, 0.08);
+  --shadow-button: 7px 8px 16px rgba(73, 56, 105, 0.18), -6px -6px 14px rgba(255, 255, 255, 0.84), inset 1px 1px 0 rgba(255, 255, 255, 0.78), inset -1px -1px 0 rgba(124, 58, 237, 0.10);
+  --shadow-hover: 10px 12px 24px rgba(73, 56, 105, 0.18);
+  --shadow-pressed: inset 5px 5px 12px rgba(73, 56, 105, 0.18), inset -5px -5px 12px rgba(255, 255, 255, 0.74), 1px 1px 0 rgba(255, 255, 255, 0.72), -1px -1px 0 rgba(124, 58, 237, 0.08);
+
+  --motion-fast: 160ms;
+  --motion-standard: 240ms;
+  --motion-easing: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --ambient-violet: rgba(124, 58, 237, 0.10);
+  --ambient-pink: rgba(219, 39, 119, 0.10);
+  --ambient-sky: rgba(14, 165, 233, 0.10);
+}
+
+/*
+ * Clay Dark: the same tactile material at night, on pages with theme families
+ * only (`data-theme-scheme` is stamped by the family resolver; no other page
+ * carries it, so the light map above is unchanged everywhere else). Load
+ * `adapters/llmwiki-public-explicit.css` after the adapter for its panels.
+ *
+ * Designed, not inverted: a warm plum canvas, lavender-tinted translucent
+ * surfaces, warm off-white ink and lifted status inks. The tactile shadows
+ * keep their two-light structure, with a deep shadow below and a faint
+ * lavender rim above in place of the white highlight. Only scheme-dependent
+ * values are restated; type, radii and motion come from the rule above.
+ */
+[data-theme="scientific-clay"][data-theme-scheme="dark"] {
+  color-scheme: dark;
+
+  --canvas: #1c1722;
+  --surface-base: rgba(52, 43, 64, 0.72);
+  --surface-raised: rgba(64, 53, 78, 0.84);
+  --surface-muted: rgba(45, 37, 55, 0.82);
+  --surface-recessed: #16121b;
+  --surface-glass: rgba(58, 48, 72, 0.64);
+
+  --text-primary: #f1ebf6;
+  --text-muted: #bdb3c8;
+  --text-inverse: #1c1324;
+  --text-interactive: #c9b5ff;
+  --border-subtle: rgba(196, 170, 255, 0.16);
+  --focus-ring: #b79cff;
+
+  --interactive-primary: #a78bfa;
+  --interactive-primary-soft: rgba(167, 139, 250, 0.16);
+  --interactive-secondary: #f472b6;
+  --interactive-secondary-text: #f7a8cc;
+
+  --status-success: #34d399;
+  --status-success-text: #7fdcb0;
+  --status-success-soft: rgba(52, 211, 153, 0.14);
+  --status-info: #38bdf8;
+  --status-info-text: #c9b5ff;
+  --status-info-soft: rgba(167, 139, 250, 0.16);
+  --status-warning: #fbbf24;
+  --status-warning-text: #f8c77a;
+  --status-warning-soft: rgba(245, 158, 11, 0.16);
+  --status-danger: #f87171;
+  --status-danger-text: #ffa3a3;
+  --status-danger-soft: rgba(248, 113, 113, 0.14);
+  --status-danger-border: rgba(248, 113, 113, 0.32);
+
+  --shadow-surface: 18px 18px 44px rgba(6, 3, 12, 0.55), -14px -14px 34px rgba(160, 130, 220, 0.07), inset 1px 1px 0 rgba(220, 200, 255, 0.10), inset -1px -1px 0 rgba(0, 0, 0, 0.30);
+  --shadow-card: 12px 14px 30px rgba(6, 3, 12, 0.50), -9px -9px 24px rgba(160, 130, 220, 0.06), inset 1px 1px 0 rgba(220, 200, 255, 0.09), inset -1px -1px 0 rgba(0, 0, 0, 0.28);
+  --shadow-button: 7px 8px 16px rgba(6, 3, 12, 0.55), -5px -5px 12px rgba(160, 130, 220, 0.07), inset 1px 1px 0 rgba(220, 200, 255, 0.12), inset -1px -1px 0 rgba(0, 0, 0, 0.30);
+  --shadow-hover: 10px 12px 24px rgba(6, 3, 12, 0.60);
+  --shadow-pressed: inset 5px 5px 12px rgba(6, 3, 12, 0.55), inset -5px -5px 12px rgba(160, 130, 220, 0.08), 1px 1px 0 rgba(220, 200, 255, 0.06), -1px -1px 0 rgba(0, 0, 0, 0.30);
+
+  --ambient-violet: rgba(167, 139, 250, 0.12);
+  --ambient-pink: rgba(244, 114, 182, 0.08);
+  --ambient-sky: rgba(56, 189, 248, 0.07);
+}

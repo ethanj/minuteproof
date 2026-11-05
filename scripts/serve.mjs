@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
 import { createReadStream } from "node:fs";
+import { execFile } from "node:child_process";
 import { stat } from "node:fs/promises";
 import { createServer } from "node:http";
 import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
+import { promisify } from "node:util";
 import { parseDocument, resolveApiKey, uploadDocument } from "./reducto-client.mjs";
 
 const projectDirectory = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -14,6 +16,15 @@ const port = Number(process.env.PORT || 4173);
 const host = process.env.HOST || "127.0.0.1";
 const maximumUploadBytes = Number(process.env.MAX_UPLOAD_BYTES || 110 * 1024 * 1024);
 const reductoAuth = await resolveApiKey();
+const runFile = promisify(execFile);
+const minutesDatabase = path.join(projectDirectory, "due-diligence/minutes.duckdb");
+const minutesQueries = new Map([
+  ["summary", "SELECT * FROM dd_summary;"],
+  ["red-flags", "SELECT * FROM dd_red_flags;"],
+  ["recurring", "SELECT * FROM dd_recurring;"],
+  ["spend", "SELECT * FROM dd_spend;"],
+  ["items", "SELECT * FROM dd_items;"],
+]);
 const types = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -27,6 +38,8 @@ const types = {
   ".tif": "image/tiff",
   ".tiff": "image/tiff",
   ".webp": "image/webp",
+  ".woff2": "font/woff2",
+  ".woff": "font/woff",
 };
 
 function respondJSON(response, status, payload) {
@@ -42,6 +55,37 @@ function httpError(status, message) {
   const error = new Error(message);
   error.httpStatus = status;
   return error;
+}
+
+async function handleDueDiligenceAPI(request, response, pathname) {
+  if (!pathname.startsWith("/api/due-diligence/")) return false;
+  const name = pathname.slice("/api/due-diligence/".length);
+  const sql = minutesQueries.get(name);
+  if (!sql) {
+    respondJSON(response, 404, { error: "Unknown due-diligence endpoint." });
+    return true;
+  }
+  if (request.method !== "GET") {
+    response.setHeader("Allow", "GET");
+    respondJSON(response, 405, { error: "Method not allowed." });
+    return true;
+  }
+  try {
+    await stat(minutesDatabase);
+    const { stdout } = await runFile("/Users/ethan/.local/bin/duckdb", ["-readonly", "-json", minutesDatabase, sql], {
+      maxBuffer: 32 * 1024 * 1024,
+      timeout: 15000,
+    });
+    const rows = JSON.parse(stdout || "[]");
+    respondJSON(response, 200, name === "summary" ? rows[0] : rows);
+  } catch (error) {
+    respondJSON(response, error.code === "ENOENT" ? 503 : 500, {
+      error: error.code === "ENOENT"
+        ? "Due-diligence database is missing. Run node due-diligence/load.mjs."
+        : "Could not query the due-diligence database.",
+    });
+  }
+  return true;
 }
 
 async function readBody(request, limit) {
@@ -134,9 +178,9 @@ async function handleReductoAPI(request, response, pathname) {
 }
 
 createServer(async (request, response) => {
-  const pathname = decodeURIComponent(new URL(request.url, `http://${request.headers.host || `${host}:${port}`}`).pathname);
-
   try {
+    const pathname = decodeURIComponent(new URL(request.url, `http://${request.headers.host || `${host}:${port}`}`).pathname);
+    if (await handleDueDiligenceAPI(request, response, pathname)) return;
     if (await handleReductoAPI(request, response, pathname)) return;
 
     const relative = pathname === "/" ? "index.html" : pathname.replace(/^\/+/, "");
@@ -149,7 +193,11 @@ createServer(async (request, response) => {
       "X-Content-Type-Options": "nosniff",
     });
     createReadStream(filePath).pipe(response);
-  } catch {
+  } catch (error) {
+    if (error instanceof URIError) {
+      respondJSON(response, 400, { error: "Bad request" });
+      return;
+    }
     response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
     response.end("Not found");
   }

@@ -1,0 +1,148 @@
+{
+  "schema": "atomicstrata-themes-fonts/v1",
+  "faces": [
+    {
+      "family": "DM Sans",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "file": "dm-sans-latin-400-normal.woff2",
+      "sha256": "68f48197955120ae120a24d181a3e61b8e392a821db990133485eefe754c613b",
+      "package": "@fontsource/dm-sans",
+      "version": "5.2.6",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "DM Sans",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "file": "dm-sans-latin-500-normal.woff2",
+      "sha256": "62cb4a24e2efb000ebd5690b2a1c5e0b74c69002714e562dbccab94c99657097",
+      "package": "@fontsource/dm-sans",
+      "version": "5.2.6",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "DM Sans",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "file": "dm-sans-latin-700-normal.woff2",
+      "sha256": "aeb2534cdbc600bc34bc99ad9ce546f83e9faf11c6c4011f540b727fae698980",
+      "package": "@fontsource/dm-sans",
+      "version": "5.2.6",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Nunito",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "file": "nunito-latin-700-normal.woff2",
+      "sha256": "fa89300b9bbb3bd0f60d6991aa055965d98e2ccca27bf8688fe0c39cdc796846",
+      "package": "@fontsource/nunito",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Nunito",
+      "weight": 800,
+      "style": "normal",
+      "subset": "latin",
+      "file": "nunito-latin-800-normal.woff2",
+      "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+      "package": "@fontsource/nunito",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Nunito",
+      "weight": 900,
+      "style": "normal",
+      "subset": "latin",
+      "file": "nunito-latin-900-normal.woff2",
+      "sha256": "9ca32f5d8334579387361096944286df451272a557bb09bd906254a623aba99e",
+      "package": "@fontsource/nunito",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "file": "space-grotesk-latin-400-normal.woff2",
+      "sha256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673",
+      "package": "@fontsource/space-grotesk",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "file": "space-grotesk-latin-500-normal.woff2",
+      "sha256": "1b1a8131d9edf975d9decee81e2f2bf504812f7a4f498e5500f28a613e22e64c",
+      "package": "@fontsource/space-grotesk",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "file": "space-grotesk-latin-600-normal.woff2",
+      "sha256": "685bbbf69fa616df1ef81847c85fc76be097ddfb3468ff2257be54511ab3130f",
+      "package": "@fontsource/space-grotesk",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": 700,
+      "style": "normal",
+      "subset": "latin",
+      "file": "space-grotesk-latin-700-normal.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+      "package": "@fontsource/space-grotesk",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 400,
+      "style": "normal",
+      "subset": "latin",
+      "file": "jetbrains-mono-latin-400-normal.woff2",
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+      "package": "@fontsource/jetbrains-mono",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 500,
+      "style": "normal",
+      "subset": "latin",
+      "file": "jetbrains-mono-latin-500-normal.woff2",
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "package": "@fontsource/jetbrains-mono",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 600,
+      "style": "normal",
+      "subset": "latin",
+      "file": "jetbrains-mono-latin-600-normal.woff2",
+      "sha256": "400c6bfda18d5d14acad1c15d6dcb9f8e13c015e7286317e0b9a482539bef147",
+      "package": "@fontsource/jetbrains-mono",
+      "version": "5.3.0",
+      "license": "OFL-1.1"
+    }
+  ]
+}

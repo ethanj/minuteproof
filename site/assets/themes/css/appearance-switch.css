@@ -1,0 +1,499 @@
+/**
+ * Optional material for the compact appearance switch
+ * (`mountAppearanceSwitch` from `@atomicstrata/themes/appearance-switch`, or
+ * `AppearanceSwitch` from `@atomicstrata/themes/react`).
+ *
+ * Every rule is scoped under `.asw[data-appearance-switch]`, the one element
+ * the switch appends, so nothing outside it changes. It reads semantic tokens
+ * only: shape comes from `--radius-control` and `--radius-card`, so the
+ * switch takes the corners, depth and type of whichever theme or design
+ * system is in force rather than fixed ones. Each family's palette preview
+ * carries its own `data-theme`, so the package's theme maps colour it.
+ *
+ * Placement. The switch's element carries `data-placement`: `inline` stays
+ * in the flow of its host; each corner (`top-right`, the default, `top-left`,
+ * `bottom-right`, `bottom-left`) fixes it to that corner of the viewport,
+ * clear of the device's safe-area insets. Two custom properties, set by the
+ * product on the switch or on any ancestor, move it without script:
+ *
+ *   --appearance-switch-inset    distance from the viewport edges (16px)
+ *   --appearance-switch-z-index  stacking order of a corner switch, and of an inline switch while its panel
+ *                                is open (1000); a host's own ancestor stacking contexts still govern it
+ *
+ * A corner switch is fixed to the viewport only when no ancestor has a
+ * transform, filter or containment that makes it the containing block: put
+ * its host near the application root, or use `inline`. Inline in a top bar
+ * or title row, make the host a flex item of that row (`align-items:
+ * center`) and give it `display: flex`, so the switch's box is the host's
+ * box and centres on the row whatever its height or font size.
+ *
+ * Size. The primary button and the chevron's tab attached to its right side
+ * form one shape; they stay separate buttons, each with its own target of at
+ * least 44px. A third custom property sizes what is seen of them:
+ *
+ *   --appearance-switch-size     the primary button's visible face (2.125rem)
+ *
+ * The default follows the root font size; an `em` value follows the host's
+ * text instead. The panel's text and spacing are in `rem`, so it grows with
+ * the page's type, and it stays inside the viewport at any size.
+ *
+ * This file only reads these three properties, with those values when
+ * unset, and declares no custom property itself.
+ *
+ * Every choice keeps a 44px target too. Focus is drawn on the visible part
+ * of each button and each choice, motion stops under reduced motion, and in
+ * forced colours the state is carried by system colours and borders.
+ */
+
+.asw[data-appearance-switch] {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  /* Keeps the shadow and the tab, stacked below the primary button, above whatever is behind the switch. */
+  isolation: isolate;
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}
+
+/* Inline, the switch centres on the line it shares with its host's text. */
+.asw[data-appearance-switch][data-placement="inline"] {
+  vertical-align: middle;
+}
+
+/* While its panel is open, an inline switch outranks the page content after it: the host isolates its own
+   stacking, so the panel's order inside it cannot reach past a later stacking context on the page (a masked
+   text leaf, a lifted card), which would cover the panel and take its clicks. Closed, the host has no z-index. */
+.asw[data-appearance-switch][data-placement="inline"][data-open] {
+  z-index: var(--appearance-switch-z-index, 1000);
+}
+
+.asw[data-appearance-switch]:not([data-placement="inline"]) {
+  position: fixed;
+  z-index: var(--appearance-switch-z-index, 1000);
+}
+
+.asw[data-appearance-switch][data-placement^="top-"] {
+  top: calc(var(--appearance-switch-inset, 16px) + env(safe-area-inset-top, 0px));
+}
+
+.asw[data-appearance-switch][data-placement^="bottom-"] {
+  bottom: calc(var(--appearance-switch-inset, 16px) + env(safe-area-inset-bottom, 0px));
+}
+
+.asw[data-appearance-switch][data-placement$="-right"] {
+  right: calc(var(--appearance-switch-inset, 16px) + env(safe-area-inset-right, 0px));
+}
+
+.asw[data-appearance-switch][data-placement$="-left"] {
+  left: calc(var(--appearance-switch-inset, 16px) + env(safe-area-inset-left, 0px));
+}
+
+.asw[data-appearance-switch] button {
+  display: inline-grid;
+  place-items: center;
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: max(44px, var(--appearance-switch-size, 2.125rem));
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Each button's own focus ring is replaced by one on its visible part, below. */
+.asw[data-appearance-switch] button:focus-visible {
+  outline: none;
+}
+
+/*
+ * What is seen is smaller than what is pressed. Each button is a transparent
+ * target at least 44px square; inside it, the primary button shows a face
+ * `--appearance-switch-size` square (2.125rem, 34px at a 16px root), and the
+ * chevron button shows a small tab attached to the middle of the face's right
+ * side. The face sits at the right of its target and the tab at the left of
+ * its own, so the two visible parts meet at the line where the two targets
+ * meet, and every visible part lies inside its own button's box: the targets
+ * never overlap. Every visible size is a proportion of the one size.
+ *
+ * The tab starts a little under the face, which is stacked above it, so its
+ * edges meet the face's outline whatever the corner radius; a patch over the
+ * face's right border, inside the tab's height, opens the seam so one
+ * outline runs round both. The face's shadow is drawn by a layer below the
+ * tab, so it never falls on the tab. The face, tab and patch are filled with
+ * the raised surface laid over the canvas, so where they overlap a
+ * translucent surface does not paint twice. None of the drawn parts takes
+ * pointer events: each target is exactly its button's box.
+ *
+ * Proportions of the size: tab height 0.625, tab showing 0.45 beyond the
+ * face and tucked 0.25 under it, sun or moon 0.5, chevron 0.35.
+ */
+.asw[data-appearance-switch] .asw-toggle {
+  min-width: max(44px, var(--appearance-switch-size, 2.125rem));
+  place-items: center end;
+}
+
+.asw[data-appearance-switch] .asw-disclose {
+  place-items: center start;
+  color: var(--text-muted);
+}
+
+.asw[data-appearance-switch] .asw-face,
+.asw[data-appearance-switch] .asw-tab,
+.asw[data-appearance-switch] .asw-face::after {
+  background: linear-gradient(var(--surface-raised), var(--surface-raised)), var(--canvas);
+}
+
+.asw[data-appearance-switch] .asw-face {
+  position: relative;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: var(--appearance-switch-size, 2.125rem);
+  height: var(--appearance-switch-size, 2.125rem);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-control);
+  pointer-events: none;
+}
+
+.asw[data-appearance-switch] .asw-face::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: -1px;
+  border-radius: inherit;
+  box-shadow: var(--shadow-button);
+}
+
+.asw[data-appearance-switch] .asw-face::after {
+  content: "";
+  position: absolute;
+  top: calc(50% + 1px - var(--appearance-switch-size, 2.125rem) * 0.3125);
+  right: -1px;
+  width: calc(var(--appearance-switch-size, 2.125rem) * 0.25);
+  height: calc(var(--appearance-switch-size, 2.125rem) * 0.625 - 2px);
+}
+
+.asw[data-appearance-switch] .asw-toggle:hover .asw-face::before {
+  box-shadow: var(--shadow-hover);
+}
+
+/* Only the icon dims: a translucent face would show the tab stacked beneath it. */
+.asw[data-appearance-switch] .asw-toggle[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.asw[data-appearance-switch] .asw-toggle[aria-disabled="true"] .asw-face::before {
+  box-shadow: none;
+}
+
+.asw[data-appearance-switch] .asw-toggle[aria-disabled="true"] .asw-icon {
+  opacity: 0.55;
+}
+
+/* In flow, not absolutely placed: WebKit then keeps no stale scroll overflow after the panel closes. */
+.asw[data-appearance-switch] .asw-tab {
+  position: relative;
+  z-index: -1;
+  margin-left: calc(var(--appearance-switch-size, 2.125rem) * -0.25);
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  width: calc(var(--appearance-switch-size, 2.125rem) * 0.7);
+  height: calc(var(--appearance-switch-size, 2.125rem) * 0.625);
+  padding-left: calc(var(--appearance-switch-size, 2.125rem) * 0.25);
+  border: 1px solid var(--border-subtle);
+  border-left: 0;
+  border-radius: 0 var(--radius-control) var(--radius-control) 0;
+  box-shadow: var(--shadow-button);
+  pointer-events: none;
+}
+
+.asw[data-appearance-switch] .asw-disclose:hover,
+.asw[data-appearance-switch][data-open] .asw-disclose {
+  color: var(--text-primary);
+}
+
+.asw[data-appearance-switch] .asw-toggle:focus-visible .asw-face,
+.asw[data-appearance-switch] .asw-disclose:focus-visible .asw-tab {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.asw[data-appearance-switch] .asw-icon {
+  width: calc(var(--appearance-switch-size, 2.125rem) * 0.5);
+  height: calc(var(--appearance-switch-size, 2.125rem) * 0.5);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.asw[data-appearance-switch] .asw-chevron {
+  width: calc(var(--appearance-switch-size, 2.125rem) * 0.35);
+  height: calc(var(--appearance-switch-size, 2.125rem) * 0.35);
+  transition: transform var(--motion-fast) var(--motion-easing);
+}
+
+.asw[data-appearance-switch][data-open] .asw-chevron {
+  transform: rotate(180deg);
+}
+
+.asw[data-appearance-switch] .asw-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 50;
+  box-sizing: border-box;
+  width: min(20rem, calc(100vw - 16px));
+  padding: 0.75rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  /* Some themes' raised surface is translucent; laid over the canvas, the panel is opaque over page content. */
+  background: linear-gradient(var(--surface-raised), var(--surface-raised)), var(--canvas);
+  box-shadow: var(--shadow-card);
+  font-size: 0.9rem;
+  text-align: start;
+  /* Script caps the height to the room beside the switch; a taller panel scrolls rather than leaving the viewport. */
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  /* Its width is set, never taken from content; the theme rows query it (see .asw-row below). */
+  container-type: inline-size;
+}
+
+.asw[data-appearance-switch] .asw-panel[hidden] {
+  display: none;
+}
+
+.asw[data-appearance-switch] .asw-panel[data-side="above"] {
+  top: auto;
+  bottom: calc(100% + 6px);
+}
+
+.asw[data-appearance-switch] .asw-group {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.asw[data-appearance-switch] .asw-legend {
+  padding: 0 0 0.375rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.asw[data-appearance-switch] .asw-families {
+  margin-top: 0.75rem;
+  padding-top: 0.625rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* Each radio covers its whole choice, invisibly, so the choice is the target and the input keeps native behaviour. */
+.asw[data-appearance-switch] .asw-radio {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Equal thirds while the three fit on one line. When they do not (large text in a narrow panel), whole buttons
+   wrap to the next line and grow to fill it, so a label is never broken while a line has room for it. */
+.asw[data-appearance-switch] .asw-segments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 2px;
+  border-radius: var(--radius-control);
+  background: var(--surface-recessed);
+}
+
+.asw[data-appearance-switch] .asw-segment {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  /* A button is never narrower than its label on one line, unless the label alone is wider than the panel. */
+  min-width: fit-content;
+  min-height: 44px;
+  padding: 0 0.25rem;
+  border: 1px solid transparent;
+  text-align: center;
+  /* Only a label wider than the whole panel breaks, rather than pushing the panel wider than the viewport. */
+  overflow-wrap: anywhere;
+  border-radius: var(--radius-control);
+  color: var(--text-muted);
+}
+
+.asw[data-appearance-switch] .asw-segment:has(.asw-radio:checked) {
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-button);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.asw[data-appearance-switch] .asw-segment:has(.asw-radio:focus-visible),
+.asw[data-appearance-switch] .asw-row:has(.asw-radio:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+.asw[data-appearance-switch] .asw-hint,
+.asw[data-appearance-switch] .asw-note {
+  margin: 0.375rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.asw[data-appearance-switch] .asw-note {
+  margin-top: 0.625rem;
+  padding: 0.375rem 0.5rem;
+  border-radius: var(--radius-control);
+  background: var(--status-info-soft);
+  color: var(--status-info-text);
+}
+
+/* A theme catalog's loading and failure line (catalog pages only; empty and hidden otherwise). */
+.asw[data-appearance-switch] .asw-status {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  /* A failure names the stylesheet's URL, which has no break opportunities; it wraps inside the panel. */
+  overflow-wrap: anywhere;
+}
+
+.asw[data-appearance-switch] .asw-families[aria-busy="true"] .asw-radio[data-pending] + .asw-preview {
+  outline: 2px dashed var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.asw[data-appearance-switch] .asw-row {
+  position: relative;
+  display: grid;
+  /* The name column may shrink below its longest word, so the name wraps and the check mark stays in the panel. */
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.625rem;
+  min-height: 44px;
+  padding: 0 0.5rem;
+  border-radius: var(--radius-control);
+}
+
+/* A name breaks between words, and inside a word only when the word alone is wider than the row. */
+.asw[data-appearance-switch] .asw-row-name {
+  overflow-wrap: anywhere;
+}
+
+/* A panel narrower than 14em (large text in a narrow viewport) leaves a name beside its swatch and check mark too
+   little room for a whole word: the swatch, gaps, check mark and paddings take about 8em, and the longest word of a
+   canonical theme name about 6em. The name then takes a line of its own below them, wrapping between words. */
+@container (max-width: 14em) {
+  .asw[data-appearance-switch] .asw-row {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "preview . check" "name name name";
+    row-gap: 0.25rem;
+    padding-block: 0.375rem;
+  }
+
+  .asw[data-appearance-switch] .asw-preview {
+    grid-area: preview;
+  }
+
+  .asw[data-appearance-switch] .asw-row-name {
+    grid-area: name;
+  }
+
+  .asw[data-appearance-switch] .asw-check {
+    grid-area: check;
+  }
+}
+
+.asw[data-appearance-switch] .asw-row:hover {
+  background: var(--surface-muted);
+}
+
+.asw[data-appearance-switch] .asw-row:has(.asw-radio:checked) {
+  font-weight: 600;
+}
+
+.asw[data-appearance-switch] .asw-check {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+  stroke: var(--text-interactive);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  visibility: hidden;
+}
+
+.asw[data-appearance-switch] .asw-row:has(.asw-radio:checked) .asw-check {
+  visibility: visible;
+}
+
+/* A small card in the family's own palette and corners: page, raised surface, primary action. */
+.asw[data-appearance-switch] .asw-preview {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 2.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-control);
+  background: var(--canvas);
+}
+
+.asw[data-appearance-switch] .asw-swatch-surface {
+  background: var(--surface-raised);
+}
+
+.asw[data-appearance-switch] .asw-swatch-accent {
+  background: var(--interactive-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .asw[data-appearance-switch] .asw-chevron {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .asw[data-appearance-switch] .asw-face,
+  .asw[data-appearance-switch] .asw-tab,
+  .asw[data-appearance-switch] .asw-panel {
+    border-color: ButtonText;
+  }
+
+  /* System colours fill the face and the tab differently, so the seam stays drawn rather than patched. */
+  .asw[data-appearance-switch] .asw-face::after {
+    display: none;
+  }
+
+  .asw[data-appearance-switch] .asw-toggle:focus-visible .asw-face,
+  .asw[data-appearance-switch] .asw-disclose:focus-visible .asw-tab {
+    outline-color: Highlight;
+  }
+
+  .asw[data-appearance-switch] .asw-segment:has(.asw-radio:checked) {
+    border-color: Highlight;
+  }
+
+  .asw[data-appearance-switch] .asw-check {
+    stroke: CanvasText;
+  }
+
+  .asw[data-appearance-switch] .asw-segment:has(.asw-radio:focus-visible),
+  .asw[data-appearance-switch] .asw-row:has(.asw-radio:focus-visible) {
+    outline-color: Highlight;
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "title": "MinuteProof: red flags from board minutes, with proof",
+  "audience": "Judges and attendees of a one-hour Reducto hackathon, including viewers new to board minutes, due diligence, Reducto and DuckDB.",
+  "outcome": "The viewer understands that hundreds of pages of board minutes became a cited red-flag report in minutes: they can find the result, a recurring problem and its trail, and open the original page behind a flag.",
+  "tone": "Conversational and plain, second person, every term defined the first time; vision only over the outro card, worded as vision.",
+  "workflow": {
+    "mode": "delegated",
+    "transport": "native",
+    "participants": [
+      {
+        "id": "lead",
+        "sessionId": "team-lead@session-4b6fe013",
+        "agent": "Claude Code (team lead)",
+        "capabilities": [
+          "file-reading",
+          "image-inspection",
+          "delegation"
+        ]
+      },
+      {
+        "id": "producer",
+        "sessionId": "claude-producer@session-4b6fe013",
+        "agent": "Claude Code (demo producer)",
+        "capabilities": [
+          "file-reading",
+          "image-inspection"
+        ]
+      },
+      {
+        "id": "reviewer",
+        "sessionId": "reviewer-session-arranged-by-team-lead",
+        "agent": "a separate reviewer session arranged by the team lead",
+        "capabilities": [
+          "file-reading",
+          "image-inspection"
+        ]
+      }
+    ],
+    "roles": {
+      "coordinator": "lead",
+      "implementer": "producer",
+      "reviewer": "reviewer"
+    }
+  },
+  "sources": [
+    {
+      "id": "summary",
+      "file": "../site/data/due-diligence/summary.json",
+      "description": "Snapshot of /api/due-diligence/summary the page renders (equal to the live API on 2026-11-04): pages read, red flags, deferred or unresolved, reading time saved, extraction minutes and jobs. Authoritative for those totals as computed by the pipeline; not an independent audit of the minutes."
+    },
+    {
+      "id": "recurring",
+      "file": "../site/data/due-diligence/recurring.json",
+      "description": "Snapshot of /api/due-diligence/recurring: recurring issues with meetings, flagged mentions, first/last dates and the latest status and summary. Authoritative for what the page shows about recurring issues; derived from the Reducto extracts by DuckDB."
+    },
+    {
+      "id": "red-flags",
+      "file": "../site/data/due-diligence/red-flags.json",
+      "description": "Snapshot of /api/due-diligence/red-flags: every flagged item with date, category, reason, quote and cited page. Authoritative for what each flag says and which page it cites; the reasons are model-written summaries of the quoted paragraph."
+    },
+    {
+      "id": "spend",
+      "file": "../site/data/due-diligence/spend.json",
+      "description": "Snapshot of /api/due-diligence/spend: approved spend by quarter and category, the source of the spend chart. Silent on anything beyond quarterly totals."
+    },
+    {
+      "id": "minutes-1972-73",
+      "file": "../site/assets/docs/vaucluse-minutes-1972-73.pdf",
+      "description": "The Vaucluse House trust minute book 1972-73 (298 pages), the primary source; page 7 holds the 20 Feb 1972 wharf paragraph the first flag quotes."
+    },
+    {
+      "id": "minutes-1974-75",
+      "file": "../site/assets/docs/vaucluse-minutes-1974-75.pdf",
+      "description": "The Vaucluse House trust minute book 1974-75 (420 pages), the primary source for the latest wharf entry (page 273, 16 Mar 1975, the pile stump)."
+    },
+    {
+      "id": "contract",
+      "file": "../due-diligence/CONTRACT.md",
+      "description": "The team's build contract: how Reducto Extract output (with citations and absolute PDF pages) is flattened into items and grouped with DuckDB. Authoritative for how the pipeline is meant to work; it is a plan written by the team, not a measurement."
+    }
+  ],
+  "claims": [
+    {
+      "id": "pages-to-flags",
+      "chapterId": "hero",
+      "quote": "seven hundred eighteen pages of minutes became one hundred twenty-eight red flags",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary",
+        "red-flags"
+      ],
+      "requires": [
+        "hero-counts"
+      ]
+    },
+    {
+      "id": "deferred-count",
+      "chapterId": "tiles",
+      "quote": "one hundred thirty-four items were put off or left unresolved",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary"
+      ],
+      "requires": [
+        "tiles-values"
+      ]
+    },
+    {
+      "id": "hours-saved",
+      "chapterId": "tiles",
+      "quote": "you skip about twenty-four hours of reading",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary"
+      ],
+      "requires": [
+        "tiles-values"
+      ]
+    },
+    {
+      "id": "page-map",
+      "chapterId": "pagemap",
+      "quote": "This grid is every page, one square each. Red squares hold a red flag.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary",
+        "red-flags"
+      ],
+      "requires": [
+        "pagemap-shown"
+      ]
+    },
+    {
+      "id": "wharf-top",
+      "chapterId": "recurring",
+      "quote": "The top issue is the Nielsen Park wharf and its pool piles",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "recurring"
+      ],
+      "requires": [
+        "wharf-card"
+      ]
+    },
+    {
+      "id": "wharf-counts",
+      "chapterId": "recurring",
+      "quote": "It was raised at fourteen meetings, from nineteen seventy-two to nineteen seventy-five, and flagged nineteen times.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "recurring"
+      ],
+      "requires": [
+        "wharf-card"
+      ]
+    },
+    {
+      "id": "wharf-latest",
+      "chapterId": "recurring",
+      "quote": "The latest, in March nineteen seventy-five, is a dangerous old pile stump. It's still deferred",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "recurring",
+        "minutes-1974-75"
+      ],
+      "requires": [
+        "wharf-card"
+      ]
+    },
+    {
+      "id": "first-flag-date",
+      "chapterId": "first-flag",
+      "quote": "Its first flag is from February nineteen seventy-two.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "red-flags",
+        "minutes-1972-73"
+      ],
+      "requires": [
+        "wharf-filter",
+        "first-flag-card"
+      ]
+    },
+    {
+      "id": "first-flag-reason",
+      "chapterId": "first-flag",
+      "quote": "The board warned the wharf was getting worse, and two agencies couldn't agree who should maintain it.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "red-flags",
+        "minutes-1972-73"
+      ],
+      "requires": [
+        "first-flag-card"
+      ]
+    },
+    {
+      "id": "citation",
+      "chapterId": "first-flag",
+      "quote": "Below is the exact text, with its citation: the page it came from.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "red-flags",
+        "minutes-1972-73"
+      ],
+      "requires": [
+        "first-flag-card"
+      ]
+    },
+    {
+      "id": "opens-page",
+      "chapterId": "source-page",
+      "quote": "One click opens that page, so you can check it yourself.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "red-flags",
+        "minutes-1972-73"
+      ],
+      "requires": [
+        "pdf-page-7"
+      ]
+    },
+    {
+      "id": "white-ants",
+      "chapterId": "other-issues",
+      "quote": "White ants, which are termites, come up at six meetings.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "recurring"
+      ],
+      "requires": [
+        "other-cards"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "chapterId": "other-issues",
+      "quote": "The kitchen restoration is still deferred, too.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "recurring"
+      ],
+      "requires": [
+        "other-cards"
+      ]
+    },
+    {
+      "id": "filters",
+      "chapterId": "filters",
+      "quote": "These buttons filter the flags by type.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "red-flags"
+      ]
+    },
+    {
+      "id": "spend",
+      "chapterId": "spend",
+      "quote": "This chart follows the money, three months per bar.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "spend"
+      ],
+      "requires": [
+        "spend-chart"
+      ]
+    },
+    {
+      "id": "how-reducto",
+      "chapterId": "how-it-works",
+      "quote": "One: Reducto reads every page. Two: it pulls out each decision, repair, dollar amount and dispute, and notes its page.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "contract",
+        "summary"
+      ],
+      "requires": [
+        "how-it-works"
+      ]
+    },
+    {
+      "id": "how-duckdb",
+      "chapterId": "how-it-works",
+      "quote": "Three: DuckDB groups them over time, to find what keeps coming back. Four: every claim links to its page.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "contract",
+        "recurring",
+        "red-flags"
+      ],
+      "requires": [
+        "how-it-works"
+      ]
+    },
+    {
+      "id": "six-minutes",
+      "chapterId": "how-it-works",
+      "quote": "Here, the reading took about six minutes.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary"
+      ],
+      "requires": [
+        "how-it-works"
+      ]
+    },
+    {
+      "id": "takeaway",
+      "chapterId": "how-it-works",
+      "quote": "Hundreds of pages of board minutes became a cited red-flag report in minutes.",
+      "origin": {
+        "kind": "narration"
+      },
+      "sourceIds": [
+        "summary",
+        "red-flags"
+      ],
+      "requires": [
+        "how-it-works"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "chapters": [
+    { "id": "hero", "paragraphs": [
+      ["At the top: seven hundred eighteen pages of minutes became one hundred twenty-eight red flags."],
+      ["A red flag is something a buyer or funder should worry about."]
+    ] },
+    { "id": "tiles", "paragraphs": [
+      ["In the tiles below, one hundred thirty-four items were put off or left unresolved.", "And you skip about twenty-four hours of reading."]
+    ] },
+    { "id": "pagemap", "paragraphs": [
+      ["This grid is every page, one square each. Red squares hold a red flag."]
+    ] },
+    { "id": "recurring", "paragraphs": [
+      ["Next: what keeps coming back."],
+      ["The top issue is the Nielsen Park wharf and its pool piles, the posts in the water.", "It was raised at fourteen meetings, from nineteen seventy-two to nineteen seventy-five, and flagged nineteen times."],
+      ["Each dot is a meeting. Red dots were flagged."],
+      ["The latest, in March nineteen seventy-five, is a dangerous old pile stump. It's still deferred, meaning put off."]
+    ] },
+    { "id": "open-card", "paragraphs": [
+      ["Click the card."]
+    ] },
+    { "id": "first-flag", "paragraphs": [
+      ["Its first flag is from February nineteen seventy-two."],
+      ["The board warned the wharf was getting worse, and two agencies couldn't agree who should maintain it."],
+      ["Below is the exact text, with its citation: the page it came from."]
+    ] },
+    { "id": "source-page", "paragraphs": [
+      ["One click opens that page, so you can check it yourself."]
+    ] },
+    { "id": "other-issues", "paragraphs": [
+      ["Other problems repeat too. White ants, which are termites, come up at six meetings.", "The kitchen restoration is still deferred, too."]
+    ] },
+    { "id": "filters", "paragraphs": [
+      ["These buttons filter the flags by type."]
+    ] },
+    { "id": "spend", "paragraphs": [
+      ["This chart follows the money, three months per bar."]
+    ] },
+    { "id": "how-it-works", "paragraphs": [
+      ["Here's how it works."],
+      ["One: Reducto reads every page."],
+      ["Two: it pulls out each decision, repair, dollar amount and dispute, and notes its page."],
+      ["Three: DuckDB groups them over time, to find what keeps coming back."],
+      ["Four: every claim links to its page."],
+      ["Here, the reading took about six minutes."],
+      ["Hundreds of pages of board minutes became a cited red-flag report in minutes."]
+    ] }
+  ]
+}

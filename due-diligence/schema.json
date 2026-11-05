@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "description": "One entry per substantive agenda item, decision, expenditure, repair, dispute or financial report in the minutes. Skip attendance, apologies and confirmation of previous minutes.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "meeting_date": { "type": "string", "description": "Date of the meeting this item belongs to, ISO format YYYY-MM-DD." },
+          "category": {
+            "type": "string",
+            "enum": ["repair_maintenance", "capital_works", "expenditure", "income_funding", "dispute_legal", "insurance_risk", "staffing", "acquisition_collection", "governance", "other"],
+            "description": "Best-fitting category for the item."
+          },
+          "asset": { "type": "string", "description": "Physical asset or area concerned, short noun phrase (e.g. 'roof', 'Nielsen Park wharf', 'garden seats'). Empty string if none." },
+          "summary": { "type": "string", "description": "One plain-English sentence describing what happened or was decided." },
+          "amount_aud": { "type": "number", "description": "Dollar amount attached to this item in AUD, if any. Use the single most relevant figure; 0 if none." },
+          "status": {
+            "type": "string",
+            "enum": ["approved", "paid", "proposed", "deferred", "rejected", "unresolved", "noted"],
+            "description": "Outcome of the item at this meeting. Use 'deferred' when action is postponed or left pending, 'unresolved' when a problem is raised with no resolution."
+          },
+          "counterparty": { "type": "string", "description": "Contractor, agency or person the item involves (e.g. 'R. Contato', 'National Parks Service'). Empty string if none." },
+          "red_flag": { "type": "boolean", "description": "True if a prospective buyer, funder or auditor should worry about this: deferred or disputed maintenance, structural problems, funding shortfalls, cost overruns, legal disputes, safety or insurance issues, unclear responsibility for repairs." },
+          "red_flag_reason": { "type": "string", "description": "If red_flag is true, a short reason. Otherwise empty string." }
+        },
+        "required": ["meeting_date", "category", "asset", "summary", "amount_aud", "status", "counterparty", "red_flag", "red_flag_reason"]
+      }
+    }
+  },
+  "required": ["items"]
+}

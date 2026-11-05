@@ -1,0 +1,11 @@
+/**
+ * Optional root typography: the themed body font at 16px/1.55 on the document
+ * root. Load it when a product wants the theme to set its base type; leave it
+ * out when the product sets its own.
+ */
+
+:root {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+}

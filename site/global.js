@@ -449,6 +449,7 @@ function openProperty(id, updateHash = true) {
           <div><dt>Reducto</dt><dd>${parsedSources.length} parsed</dd></div>
         </dl>
 
+        ${house.id === "vaucluse-house" ? `<a class="dd-listing-cta" data-demo="listing-cta" href="./due-diligence.html" style="display:flex;align-items:center;justify-content:space-between;gap:16px;margin:24px 0 8px;padding:18px 22px;border-radius:14px;background:#1d252c;color:#fff;font-weight:700;font-size:16px;text-decoration:none;box-shadow:0 10px 30px rgba(162,79,63,.28);border-left:6px solid #a24f3f"><span>Run due diligence on the board minutes →<small style="display:block;margin-top:4px;font-weight:500;font-size:13px;opacity:.75">MinuteProof turns the trust minute books into cited red flags</small></span><b style="flex:none;padding:6px 12px;border-radius:999px;background:#a24f3f;font-size:12px;letter-spacing:.04em">RED FLAGS</b></a>` : ""}
         <section class="property-section">
           <h2>What’s special</h2>
           <p class="story-lede">${escapeHTML(brief.title || house.hook)}</p>

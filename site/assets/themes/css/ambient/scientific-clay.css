@@ -1,0 +1,67 @@
+/**
+ * Optional ambient decoration for Scientific Clay.
+ *
+ * Three fixed, blurred, pointer-ignoring fields behind all content. A page
+ * opts in by marking two of its own elements:
+ *
+ *   <body data-theme-ambient="page"> … <div data-theme-ambient="frame"> …
+ *
+ * The fields sit at a negative z-index inside an isolated stacking context,
+ * so they change no layout and take no input. They paint only under Scientific
+ * Clay, and the reduced-motion rule in foundations.css stops their drift.
+ */
+
+[data-theme="scientific-clay"] [data-theme-ambient] {
+  isolation: isolate;
+}
+
+/* Each field is a large, heavily blurred disc so it reads as glow, not shape, at desktop width; the
+   three animations run 8s, 10s and 12s on purpose, so the fields drift out of step and never sync. */
+[data-theme="scientific-clay"] [data-theme-ambient="page"]::before,
+[data-theme="scientific-clay"] [data-theme-ambient="page"]::after,
+[data-theme="scientific-clay"] [data-theme-ambient="frame"]::before {
+  position: fixed;
+  z-index: -1;
+  width: 28rem;
+  height: 28rem;
+  content: "";
+  pointer-events: none;
+  border-radius: 50%;
+  filter: blur(64px);
+}
+
+[data-theme="scientific-clay"] [data-theme-ambient="page"]::before {
+  top: -10rem;
+  left: -9rem;
+  background: var(--ambient-violet);
+  animation: atomicstrata-clay-float 8s var(--motion-easing) infinite alternate;
+}
+
+[data-theme="scientific-clay"] [data-theme-ambient="page"]::after {
+  top: 18%;
+  right: -11rem;
+  background: var(--ambient-pink);
+  animation: atomicstrata-clay-float-delayed 10s var(--motion-easing) infinite alternate;
+}
+
+[data-theme="scientific-clay"] [data-theme-ambient="frame"]::before {
+  bottom: -12rem;
+  left: 38%;
+  background: var(--ambient-sky);
+  animation: atomicstrata-clay-breathe 12s var(--motion-easing) infinite alternate;
+}
+
+@keyframes atomicstrata-clay-float {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(2rem, 1rem, 0); }
+}
+
+@keyframes atomicstrata-clay-float-delayed {
+  from { transform: translate3d(0, 1rem, 0); }
+  to { transform: translate3d(-2rem, -1rem, 0); }
+}
+
+@keyframes atomicstrata-clay-breathe {
+  from { transform: scale(0.94); opacity: 0.72; }
+  to { transform: scale(1.06); opacity: 1; }
+}
