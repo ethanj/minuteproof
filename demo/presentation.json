@@ -1,0 +1,416 @@
+{
+  "version": 2,
+  "intro": {
+    "kind": "image",
+    "image": "cards/intro-card.png",
+    "narration": {
+      "audio": "runs/narration/20261104T233408Z-narration-fc9697/intro.wav",
+      "text": "When you buy a home or fund a group, you get its board minutes: the official record of what the board decided. Often hundreds of pages. Checking them for problems is called due diligence. This is MinuteProof. It uses Reducto, an AI document reader, to turn the pages into data you can check, and DuckDB, a fast database, to spot the patterns."
+    },
+    "leadMs": 500,
+    "tailMs": 1500
+  },
+  "outro": {
+    "kind": "image",
+    "image": "cards/outro-card.png",
+    "narration": {
+      "audio": "runs/narration/20261104T233408Z-narration-fc9697/outro.wav",
+      "text": "That's MinuteProof. Next, imagine this on any pile of minutes: a homeowners' association packet before a home closing, city council and school board minutes, nonprofits, or a lender's files. Every buyer could get a cited due-diligence report in minutes."
+    },
+    "leadMs": 500,
+    "tailMs": 3000
+  },
+  "focus": [
+    {
+      "id": "hero-pages",
+      "chapter": "hero",
+      "target": "hero-pages",
+      "durationMs": 1800,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "hero-flags",
+      "chapter": "hero",
+      "target": "hero-flags",
+      "durationMs": 2200,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "stats-row",
+      "chapter": "tiles",
+      "target": "stats-row",
+      "durationMs": 1000,
+      "mode": "spotlight",
+      "dim": {
+        "amount": 0.35,
+        "padding": 8
+      }
+    },
+    {
+      "id": "deferred-tile",
+      "chapter": "tiles",
+      "target": "deferred-tile",
+      "durationMs": 2400,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "saved-pill",
+      "chapter": "tiles",
+      "target": "saved-pill",
+      "durationMs": 1900,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "pagemap",
+      "chapter": "pagemap",
+      "target": "pagemap",
+      "durationMs": 2500,
+      "mode": "spotlight",
+      "dim": {
+        "amount": 0.35,
+        "padding": 8
+      }
+    },
+    {
+      "id": "pagemap-legend",
+      "chapter": "pagemap",
+      "target": "pagemap-legend",
+      "durationMs": 1800,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "wharf-card",
+      "chapter": "recurring",
+      "target": "wharf-card",
+      "durationMs": 3600,
+      "mode": "spotlight",
+      "dim": {
+        "amount": 0.35,
+        "padding": 8
+      }
+    },
+    {
+      "id": "wharf-meetings",
+      "chapter": "recurring",
+      "target": "wharf-meetings",
+      "durationMs": 5800,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "wharf-timeline",
+      "chapter": "recurring",
+      "target": "wharf-timeline",
+      "durationMs": 2900,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "wharf-latest",
+      "chapter": "recurring",
+      "target": "wharf-latest",
+      "durationMs": 6800,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "feed-filter",
+      "chapter": "open-card",
+      "target": "feed-filter",
+      "durationMs": 1200,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "flag-date",
+      "chapter": "first-flag",
+      "target": "flag-date",
+      "durationMs": 2300,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "flag-reason",
+      "chapter": "first-flag",
+      "target": "flag-reason",
+      "durationMs": 5000,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "flag-quote",
+      "chapter": "first-flag",
+      "target": "flag-quote",
+      "durationMs": 1700,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "flag-page-link",
+      "chapter": "first-flag",
+      "target": "flag-page-link",
+      "durationMs": 2300,
+      "mode": "highlight",
+      "targetKind": "control",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "ants-meetings",
+      "chapter": "other-issues",
+      "target": "ants-meetings",
+      "durationMs": 2700,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "kitchen-badge",
+      "chapter": "other-issues",
+      "target": "kitchen-badge",
+      "durationMs": 2600,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "chips",
+      "chapter": "filters",
+      "target": "chips",
+      "durationMs": 1200,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "chip-pressed",
+      "chapter": "filters",
+      "target": "chip-pressed",
+      "durationMs": 1800,
+      "mode": "highlight",
+      "targetKind": "control",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "spend-chart",
+      "chapter": "spend",
+      "target": "spend-chart",
+      "durationMs": 1500,
+      "mode": "spotlight",
+      "dim": {
+        "amount": 0.35,
+        "padding": 8
+      }
+    },
+    {
+      "id": "spend-tooltip",
+      "chapter": "spend",
+      "target": "spend-tooltip",
+      "durationMs": 2200,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "step-1",
+      "chapter": "how-it-works",
+      "target": "step-1",
+      "durationMs": 2300,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "step-2",
+      "chapter": "how-it-works",
+      "target": "step-2",
+      "durationMs": 5900,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "step-3",
+      "chapter": "how-it-works",
+      "target": "step-3",
+      "durationMs": 4300,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "step-4",
+      "chapter": "how-it-works",
+      "target": "step-4",
+      "durationMs": 2700,
+      "mode": "highlight",
+      "targetKind": "region",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    },
+    {
+      "id": "extract-time",
+      "chapter": "how-it-works",
+      "target": "extract-time",
+      "durationMs": 2700,
+      "mode": "highlight",
+      "targetKind": "text",
+      "highlightStyle": "box",
+      "outline": {
+        "stroke": 3,
+        "gap": 6,
+        "color": "#ffd43b"
+      }
+    }
+  ],
+  "cursor": {
+    "sections": [
+      {
+        "chapter": "open-card",
+        "at": {
+          "chapterOffsetMs": 0
+        },
+        "durationMs": 2300
+      },
+      {
+        "chapter": "source-page",
+        "at": {
+          "chapterOffsetMs": 0
+        },
+        "durationMs": 600
+      }
+    ],
+    "pointer": {
+      "size": 32
+    },
+    "clicks": {},
+    "idle": {
+      "afterMs": 1200
+    }
+  }
+}

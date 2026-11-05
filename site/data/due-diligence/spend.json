@@ -1,0 +1,218 @@
+[
+  {
+    "period": "1972-Q1",
+    "category": "expenditure",
+    "amount_aud": 1690,
+    "items": 2
+  },
+  {
+    "period": "1972-Q1",
+    "category": "insurance_risk",
+    "amount_aud": 34,
+    "items": 1
+  },
+  {
+    "period": "1972-Q1",
+    "category": "repair_maintenance",
+    "amount_aud": 2898,
+    "items": 2
+  },
+  {
+    "period": "1972-Q2",
+    "category": "acquisition_collection",
+    "amount_aud": 50,
+    "items": 1
+  },
+  {
+    "period": "1972-Q2",
+    "category": "expenditure",
+    "amount_aud": 1680,
+    "items": 3
+  },
+  {
+    "period": "1972-Q2",
+    "category": "repair_maintenance",
+    "amount_aud": 3245,
+    "items": 4
+  },
+  {
+    "period": "1972-Q2",
+    "category": "staffing",
+    "amount_aud": 9,
+    "items": 1
+  },
+  {
+    "period": "1972-Q3",
+    "category": "repair_maintenance",
+    "amount_aud": 3500,
+    "items": 1
+  },
+  {
+    "period": "1972-Q4",
+    "category": "acquisition_collection",
+    "amount_aud": 190,
+    "items": 1
+  },
+  {
+    "period": "1972-Q4",
+    "category": "expenditure",
+    "amount_aud": 120,
+    "items": 1
+  },
+  {
+    "period": "1972-Q4",
+    "category": "repair_maintenance",
+    "amount_aud": 9490,
+    "items": 6
+  },
+  {
+    "period": "1973-Q1",
+    "category": "acquisition_collection",
+    "amount_aud": 27.95,
+    "items": 1
+  },
+  {
+    "period": "1973-Q1",
+    "category": "capital_works",
+    "amount_aud": 1185,
+    "items": 1
+  },
+  {
+    "period": "1973-Q1",
+    "category": "expenditure",
+    "amount_aud": 404,
+    "items": 1
+  },
+  {
+    "period": "1973-Q1",
+    "category": "repair_maintenance",
+    "amount_aud": 4424,
+    "items": 4
+  },
+  {
+    "period": "1973-Q2",
+    "category": "expenditure",
+    "amount_aud": 210.51,
+    "items": 1
+  },
+  {
+    "period": "1973-Q2",
+    "category": "governance",
+    "amount_aud": 300,
+    "items": 1
+  },
+  {
+    "period": "1974-Q3",
+    "category": "capital_works",
+    "amount_aud": 2500,
+    "items": 1
+  },
+  {
+    "period": "1974-Q3",
+    "category": "dispute_legal",
+    "amount_aud": 21.23,
+    "items": 1
+  },
+  {
+    "period": "1974-Q3",
+    "category": "expenditure",
+    "amount_aud": 2962.5,
+    "items": 1
+  },
+  {
+    "period": "1974-Q3",
+    "category": "governance",
+    "amount_aud": 1,
+    "items": 1
+  },
+  {
+    "period": "1974-Q3",
+    "category": "repair_maintenance",
+    "amount_aud": 2200,
+    "items": 3
+  },
+  {
+    "period": "1974-Q4",
+    "category": "acquisition_collection",
+    "amount_aud": 150,
+    "items": 1
+  },
+  {
+    "period": "1974-Q4",
+    "category": "capital_works",
+    "amount_aud": 3303,
+    "items": 2
+  },
+  {
+    "period": "1974-Q4",
+    "category": "expenditure",
+    "amount_aud": 1266.5,
+    "items": 7
+  },
+  {
+    "period": "1974-Q4",
+    "category": "staffing",
+    "amount_aud": 250,
+    "items": 1
+  },
+  {
+    "period": "1975-Q1",
+    "category": "capital_works",
+    "amount_aud": 1030,
+    "items": 1
+  },
+  {
+    "period": "1975-Q1",
+    "category": "expenditure",
+    "amount_aud": 556.2,
+    "items": 1
+  },
+  {
+    "period": "1975-Q1",
+    "category": "governance",
+    "amount_aud": 3000,
+    "items": 1
+  },
+  {
+    "period": "1975-Q1",
+    "category": "repair_maintenance",
+    "amount_aud": 2541,
+    "items": 5
+  },
+  {
+    "period": "1975-Q2",
+    "category": "acquisition_collection",
+    "amount_aud": 85,
+    "items": 1
+  },
+  {
+    "period": "1975-Q2",
+    "category": "capital_works",
+    "amount_aud": 2838,
+    "items": 1
+  },
+  {
+    "period": "1975-Q2",
+    "category": "expenditure",
+    "amount_aud": 556.2,
+    "items": 1
+  },
+  {
+    "period": "1975-Q2",
+    "category": "repair_maintenance",
+    "amount_aud": 1500,
+    "items": 1
+  },
+  {
+    "period": "undated",
+    "category": "expenditure",
+    "amount_aud": 3134.4,
+    "items": 1
+  },
+  {
+    "period": "undated",
+    "category": "repair_maintenance",
+    "amount_aud": 1900,
+    "items": 2
+  }
+]

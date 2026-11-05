@@ -1,0 +1,25 @@
+/**
+ * Accessibility foundations: visible keyboard focus and the motion policy.
+ *
+ * Declares no custom property and no colour. It sets no layout, background or
+ * typography, so loading it changes nothing a product has designed.
+ */
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* A person who asked for less motion gets no ornamental or interaction motion
+   anywhere in a themed document. Transitions are removed outright: a tiny
+   non-zero duration would instead start a transition on every property of
+   every element, so script reading a computed colour straight after a theme
+   change would see the old value. */
+@media (prefers-reduced-motion: reduce) {
+  [data-theme] *,
+  [data-theme] *::before,
+  [data-theme] *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

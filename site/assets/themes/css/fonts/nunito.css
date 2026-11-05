@@ -1,0 +1,28 @@
+/**
+ * Nunito, latin subset, self-hosted (SIL Open Font License 1.1).
+ * Addresses are relative to this file. See manifest.json for provenance.
+ */
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./nunito-latin-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./nunito-latin-800-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./nunito-latin-900-normal.woff2") format("woff2");
+}

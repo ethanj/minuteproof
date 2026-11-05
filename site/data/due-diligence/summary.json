@@ -1,0 +1,28 @@
+{
+  "pages_read": 718,
+  "books": [
+    {
+      "book": "1972-73",
+      "pages": 298,
+      "pdf": "./assets/docs/vaucluse-minutes-1972-73.pdf"
+    },
+    {
+      "book": "1974-75",
+      "pages": 420,
+      "pdf": "./assets/docs/vaucluse-minutes-1974-75.pdf"
+    }
+  ],
+  "meetings": 38,
+  "items": 968,
+  "red_flags": 128,
+  "deferred_or_unresolved": 134,
+  "total_committed_aud": 59252.49,
+  "date_range": {
+    "start": "1972-02-20",
+    "end": "1975-06-15"
+  },
+  "reading_time_saved_hours": 23.933333333333334,
+  "generated_at": "2026-11-04T23:13:57.097Z",
+  "extract_minutes": 5.8,
+  "extract_jobs": 12
+}

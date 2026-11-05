@@ -1,0 +1,11 @@
+/**
+ * Every self-hosted face the canonical themes use: thirteen files in four
+ * families. A product that offers only some themes can import the family
+ * files it needs from ./fonts/ instead. A face is fetched only when a theme in
+ * force names its family.
+ */
+
+@import url("./fonts/dm-sans.css");
+@import url("./fonts/nunito.css");
+@import url("./fonts/space-grotesk.css");
+@import url("./fonts/jetbrains-mono.css");

@@ -1,0 +1,18 @@
+/**
+ * Ordered entrypoint: font faces, safe defaults, the four canonical theme
+ * maps, Minimal's explicit modes (rules that only a page with theme families
+ * matches), then the accessibility foundations.
+ *
+ * Link it after the pre-paint script and before the product's own stylesheet.
+ * It contains no reset, no layout and no legacy names. Optional layers are
+ * separate files a product loads by name: typography-root.css, control.css,
+ * ambient/scientific-clay.css, adapters/ and profiles/.
+ */
+
+@import url("./fonts.css");
+@import url("./tokens/base.css");
+@import url("./themes/minimal.css");
+@import url("./themes/scientific-clay.css");
+@import url("./themes/nebula.css");
+@import url("./themes/minimal-explicit.css");
+@import url("./foundations.css");

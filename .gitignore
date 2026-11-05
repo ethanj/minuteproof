@@ -4,3 +4,8 @@
 node_modules/
 *.part
 *.log
+
+# MinuteProof hackathon: generated media and scratch (kept locally, not versioned)
+demo/runs/
+work/
+due-diligence/.load*

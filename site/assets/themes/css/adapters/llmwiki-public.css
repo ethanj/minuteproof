@@ -1,0 +1,183 @@
+/**
+ * Optional adapter: the llmwiki viewer's public token names, version 1.
+ *
+ * For stylesheets written against the viewer's older vocabulary (--bg-shell,
+ * --fg-body, --accent, --ok and the rest). Load it after theme.css. It is not
+ * part of theme.css and must not share a root with another vocabulary that
+ * uses the same names: --accent and --border here mean the action colour and
+ * the hairline, which is not what shadcn-style systems mean by them.
+ *
+ * Direction is one way. Every name here is defined from a semantic token or a
+ * literal; no semantic token is defined from a name in this file. Where the
+ * older vocabulary has more shades than the semantic contract (Nebula's extra
+ * foregrounds, backgrounds and borders, and the warning and danger panels),
+ * the shade is kept as a literal instead of being collapsed. Nebula's tints
+ * are the dark palette's for both Nebula ids, as they have always been.
+ *
+ * The viewer's graph names are not here; they belong to the viewer.
+ */
+
+:root {
+  --font-sans: var(--font-body);
+  --radius-badge: 4px;
+  --radius-chip: 6px;
+  --radius-row: 8px;
+  --radius-tile: min(var(--radius-card), 20px);
+  --radius-panel: min(var(--radius-container), 24px);
+  --space-6: 6px;
+  --space-9: 9px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --type-metric: 600 32px/1 var(--font-sans);
+  --type-page-title: 600 26px/1 var(--font-sans);
+  --type-panel-title: 600 13.5px/1 var(--font-sans);
+  --type-row: 400 13px/1.35 var(--font-sans);
+  --type-body: 400 12.5px/1.5 var(--font-sans);
+  --type-provenance: 500 11px/1 var(--font-mono);
+  --type-metadata: 400 11px/1 var(--font-mono);
+  --type-label: 500 9.5px/1 var(--font-mono);
+  --type-badge: 500 9.5px/1 var(--font-mono);
+
+  --bg-shell: var(--canvas);
+  --bg-sidebar: var(--surface-raised);
+  --bg-card: var(--surface-base);
+  --bg-inset: var(--surface-recessed);
+  --bg-hover: var(--surface-muted);
+  --bg-sunken: var(--surface-recessed);
+  --bg-chip: var(--surface-muted);
+  --border: var(--border-subtle);
+  --border-soft: var(--border-subtle);
+  --border-strong: var(--border-subtle);
+  --border-chip: var(--border-subtle);
+  --border-button: var(--border-subtle);
+  --fg: var(--text-primary);
+  --fg-strong: var(--text-primary);
+  --fg-body: var(--text-primary);
+  --fg-muted: var(--text-muted);
+  --fg-dim: var(--text-muted);
+  --fg-faint: var(--text-muted);
+  --fg-ghost: var(--text-muted);
+  --fg-disabled: var(--text-muted);
+  --accent: var(--interactive-primary);
+  --accent-text: var(--text-interactive);
+  --accent-hover: var(--text-interactive);
+  --on-accent: var(--text-inverse);
+
+  --ok: var(--status-success-text);
+  --warn: var(--status-warning-text);
+  --danger: var(--status-danger-text);
+  --warn-bg: #fff8f0;
+  --warn-border: #efd6b6;
+  --warn-divider: #f3e0c8;
+  --warn-divider-soft: #f8ecda;
+  --warn-surface: #fdf1e1;
+  --warn-muted: #79502e;
+  --danger-surface: #fdf3f2;
+  --danger-border: #f8d4d3;
+  --danger-edge: #b42332;
+  --danger-muted: #8d3a30;
+  --bar-track: var(--surface-recessed);
+  --on-warning: #ffffff;
+
+  --accent-a03: color-mix(in srgb, var(--accent) 3%, transparent);
+  --accent-a05: color-mix(in srgb, var(--accent) 5%, transparent);
+  --accent-a12: color-mix(in srgb, var(--accent) 12%, transparent);
+  --accent-a16: color-mix(in srgb, var(--accent) 16%, transparent);
+  --accent-a22: color-mix(in srgb, var(--accent) 22%, transparent);
+  --accent-a26: color-mix(in srgb, var(--accent) 26%, transparent);
+  --accent-a30: color-mix(in srgb, var(--accent) 30%, transparent);
+  --ok-a10: color-mix(in srgb, var(--ok) 10%, transparent);
+  --ok-a24: color-mix(in srgb, var(--ok) 24%, transparent);
+  --warn-a12: color-mix(in srgb, var(--warn) 12%, transparent);
+  --warn-a13: color-mix(in srgb, var(--warn) 13%, transparent);
+  --danger-a12: color-mix(in srgb, var(--danger) 12%, transparent);
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme="minimal"] {
+    --warn-bg: #30251c;
+    --warn-border: #745333;
+    --warn-divider: #5a402b;
+    --warn-divider-soft: #453324;
+    --warn-surface: #38291e;
+    --warn-muted: #e5b98e;
+    --danger-surface: #321f24;
+    --danger-border: #70414b;
+    --danger-edge: #ffa0a8;
+    --danger-muted: #efb4bd;
+    --on-warning: #16181d;
+  }
+}
+
+/* Nebula shades the semantic contract has no name for. */
+[data-theme="nebula-dark"],
+[data-theme="nebula-light"] {
+  --radius-tile: 11px;
+  --radius-panel: 12px;
+  --bg-inset: #12111c;
+  --bg-chip: #191727;
+  --border-soft: #1c1a2a;
+  --border-strong: #262338;
+  --border-chip: #2a2740;
+  --border-button: #2f2b46;
+  --fg: #f7f6fc;
+  --fg-strong: #f4f2fb;
+  --fg-dim: #7d7896;
+  --fg-faint: #6f6a89;
+  --fg-ghost: #5e5a79;
+  --fg-disabled: #4d4964;
+  --accent-hover: #c4b5fd;
+  --bar-track: #1c1a2a;
+  --on-warning: var(--warn-surface);
+  --accent-a03: rgba(139, 92, 246, 0.03);
+  --accent-a05: rgba(139, 92, 246, 0.05);
+  --accent-a12: rgba(139, 92, 246, 0.12);
+  --accent-a16: rgba(139, 92, 246, 0.16);
+  --accent-a22: rgba(139, 92, 246, 0.22);
+  --accent-a26: rgba(139, 92, 246, 0.26);
+  --accent-a30: rgba(139, 92, 246, 0.3);
+  --ok-a10: rgba(94, 234, 212, 0.1);
+  --ok-a24: rgba(94, 234, 212, 0.24);
+  --warn-a12: rgba(251, 146, 60, 0.12);
+  --warn-a13: rgba(251, 146, 60, 0.13);
+  --danger-a12: rgba(248, 113, 113, 0.12);
+}
+
+/* Nebula Dark's warning and danger panels; Nebula Light keeps the root's. */
+[data-theme="nebula-dark"] {
+  --warn-bg: #171120;
+  --warn-border: #3a2a1c;
+  --warn-divider: #2b2130;
+  --warn-divider-soft: #221a29;
+  --warn-surface: #1a1322;
+  --warn-muted: #a1876b;
+  --danger-surface: #1f1a1b;
+  --danger-border: #3a2b2b;
+  --danger-edge: rgba(248, 113, 113, 0.5);
+  --danger-muted: #e0a99f;
+}
+
+[data-theme="nebula-light"] {
+  --bg-inset: #ffffff;
+  --bg-chip: #f0eef8;
+  --border-soft: #e7e4f1;
+  --border-strong: #e2ddee;
+  --border-chip: #ded9ec;
+  --border-button: #d6d0e6;
+  --fg: #141221;
+  --fg-strong: #141221;
+  --fg-dim: #6d6884;
+  --fg-faint: #787391;
+  --fg-ghost: #8f8aa3;
+  --fg-disabled: #adaabb;
+  --accent-hover: #5b21b6;
+  /* The viewer's own Nebula Light inks, kept as they were for its components. */
+  --ok: #0d9488;
+  --warn: #c2610a;
+  --danger: #dc2626;
+  /* Nebula Light's warning and danger panels are the root's, except these two. */
+  --warn-muted: #8d6440;
+  --danger-edge: rgba(220, 38, 38, 0.4);
+  --bar-track: #eeebf7;
+}

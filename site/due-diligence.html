@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hundreds of pages of Vaucluse House trust minutes, turned into a cited red-flag report with Reducto and DuckDB." />
+    <title>MinuteProof — Board minutes due diligence</title>
+    <link rel="icon" href="data:," />
+    <script src="./assets/themes/dist/prepaint.global.js" data-storage-key="unlisted.duediligence.theme.v1" data-default="nebula-dark"></script>
+    <link rel="stylesheet" href="./assets/themes/css/theme.css" />
+    <link rel="stylesheet" href="./due-diligence.css" />
+  </head>
+  <body>
+    <div class="dd-glow" aria-hidden="true"></div>
+
+    <header class="dd-topbar">
+      <a class="dd-brand" href="./due-diligence.html" aria-label="MinuteProof: red flags from board minutes, with proof">
+        <svg viewBox="0 0 28 28" aria-hidden="true"><path d="M7 3.5h10l5 5V24.5H7z"></path><path d="M17 3.5v5h5"></path><path class="dd-brand-check" d="m10.5 16 3 3 5.5-6"></path></svg>
+        <span>MinuteProof</span>
+      </a>
+      <a class="dd-topbar-title" href="./">by The Unlisted Project</a>
+      <div class="dd-topbar-right">
+        <span class="dd-source" id="dd-source" data-demo="source-badge" data-source="loading"><i></i><span>Loading…</span></span>
+        <label class="dd-theme">
+          <span class="dd-sr">Theme</span>
+          <select data-theme-select data-demo="theme-select" aria-label="Theme"></select>
+        </label>
+      </div>
+    </header>
+
+    <main class="dd-main">
+      <section class="dd-hero" data-demo="hero" aria-labelledby="dd-hero-title">
+        <p class="dd-eyebrow" id="dd-eyebrow">MinuteProof · Vaucluse House Trust · minute books</p>
+        <h1 id="dd-hero-title" class="dd-hero-title">
+          <span class="dd-before"><b data-count="pages_read">0</b> pages of trust minutes</span>
+          <span class="dd-arrow" aria-hidden="true">→</span>
+          <span class="dd-after"><b data-count="red_flags">0</b> red flags</span>
+          <span class="dd-cited">each one quoted and linked to its page in the minutes</span>
+        </h1>
+        <p class="dd-lede" id="dd-lede">Reducto read every page, pulled out each decision with a citation, and DuckDB found what keeps coming back. You read the findings, not the minute books.</p>
+
+        <dl class="dd-stats" data-demo="stats">
+          <div class="dd-stat"><dt>Pages read</dt><dd data-count="pages_read">0</dd></div>
+          <div class="dd-stat"><dt>Meetings</dt><dd data-count="meetings">0</dd></div>
+          <div class="dd-stat"><dt>Decisions extracted</dt><dd data-count="items">0</dd></div>
+          <div class="dd-stat dd-stat-danger"><dt>Red flags</dt><dd data-count="red_flags">0</dd></div>
+          <div class="dd-stat dd-stat-warning"><dt>Deferred or unresolved</dt><dd data-count="deferred_or_unresolved">0</dd></div>
+          <div class="dd-stat" title="Amounts the board approved or paid in these minutes; excludes income and recoupment bookkeeping."><dt>Approved spend</dt><dd data-count="total_committed_aud" data-format="aud">$0</dd></div>
+        </dl>
+        <p class="dd-saved"><span class="dd-saved-pill">≈ <b data-count="reading_time_saved_hours" data-format="hours">0</b> hours of reading saved<span id="dd-hero-extract"></span></span></p>
+
+        <figure class="dd-pagemap" id="dd-pagemap" data-demo="pagemap" aria-labelledby="dd-pagemap-caption">
+          <figcaption id="dd-pagemap-caption">
+            <span><b>Every page, read.</b> One square per page. Red squares hold a red flag; select one to open that page.</span>
+            <span class="dd-legend"><i class="dd-key dd-key-flag"></i>Red flag <i class="dd-key dd-key-item"></i>Decision <i class="dd-key dd-key-page"></i>Page</span>
+          </figcaption>
+          <div class="dd-pagemap-books" id="dd-pagemap-books"></div>
+        </figure>
+      </section>
+
+      <section class="dd-section" id="recurring" data-demo="recurring" aria-labelledby="dd-recurring-title">
+        <header class="dd-section-head">
+          <p class="dd-kicker">The pattern a skim would miss</p>
+          <h2 id="dd-recurring-title">What keeps coming back</h2>
+          <p>Issues raised at two or more meetings, ranked by how often they were flagged. Each dot is a meeting; red dots were flagged. Select a card to see its flags.</p>
+        </header>
+        <div class="dd-recurring" id="dd-recurring"></div>
+      </section>
+
+      <section class="dd-section" id="flags" aria-labelledby="dd-flags-title">
+        <header class="dd-section-head">
+          <p class="dd-kicker">Cited, not summarised away</p>
+          <h2 id="dd-flags-title">Red flags</h2>
+          <p>Every flag quotes the minutes and opens the exact page of the source PDF.</p>
+        </header>
+        <div class="dd-chips" id="dd-chips" role="group" aria-label="Filter red flags by category"></div>
+        <div class="dd-feed-filter" data-demo="feed-filter" role="status" hidden></div>
+        <div class="dd-feed" id="dd-feed" data-demo="feed" aria-live="polite"></div>
+      </section>
+
+      <section class="dd-section" id="spend" aria-labelledby="dd-spend-title">
+        <header class="dd-section-head">
+          <p class="dd-kicker">Follow the money</p>
+          <h2 id="dd-spend-title">Spend over time</h2>
+          <p>Amounts recorded in the minutes, by quarter and category.</p>
+        </header>
+        <div class="dd-chart-card">
+          <div class="dd-chart" id="dd-chart" data-demo="spend-chart"></div>
+          <div class="dd-chart-legend" id="dd-chart-legend"></div>
+          <p class="dd-chart-note" id="dd-chart-note" data-demo="spend-undated" hidden></p>
+          <div class="dd-tooltip" id="dd-tooltip" role="status" hidden></div>
+        </div>
+      </section>
+
+      <section class="dd-how" data-demo="how-it-works" aria-labelledby="dd-how-title">
+        <h2 id="dd-how-title" class="dd-sr">How it works</h2>
+        <ol class="dd-steps">
+          <li><b>PDF minute books</b><span id="dd-how-books">Scanned, typed and handwritten</span></li>
+          <li><b>Reducto Extract</b><span>Cited fields: every value with its page</span></li>
+          <li><b>DuckDB</b><span>Recurring issues, flags, spend</span></li>
+          <li><b>This page</b><span>Cited red flags in minutes</span></li>
+        </ol>
+        <p class="dd-extract-time" data-demo="extract-time" hidden></p>
+      </section>
+    </main>
+
+    <footer class="dd-footer">
+      <span>The Unlisted Project · Source: Historic Houses Trust minute books, Vaucluse House.</span>
+      <span id="dd-generated"></span>
+    </footer>
+
+    <script type="module" src="./due-diligence.js"></script>
+  </body>
+</html>

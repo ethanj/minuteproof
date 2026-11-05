@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "title": "MinuteProof hackathon demo (3 minutes, novice viewer)",
+  "briefFile": "review-brief.json",
+  "scenarioFile": "scenario/minuteproof.scenario.mjs",
+  "policyFile": "policy.json",
+  "stateDir": "runs/production",
+  "rounds": {
+    "max": 1
+  },
+  "decisions": [
+    {
+      "id": "voice",
+      "topic": "narration voice",
+      "decision": "Heart (Kokoro af_heart, stock voice profile heart) at --speed 1.0; room tone, reverb and microphone character explicitly on at their subtle defaults.",
+      "by": "person",
+      "note": "Relayed by the team lead. Pace does not apply to Kokoro."
+    },
+    {
+      "id": "length",
+      "topic": "length",
+      "decision": "Target 180 s, ceiling 200 s (ceiling an assumption).",
+      "by": "person",
+      "note": "Composition 173.4 s."
+    },
+    {
+      "id": "display",
+      "topic": "captions, chapter titles, music",
+      "decision": "Captions off, chapter titles off, no music.",
+      "by": "person",
+      "note": ""
+    },
+    {
+      "id": "cards",
+      "topic": "intro and outro cards",
+      "decision": "Narrated image cards with the exact script text, rendered from demo/cards/cards.html in the product theme; title cards cannot hold 306 characters or line breaks.",
+      "by": "producer",
+      "note": "Outro tail 3000 ms, the runtime maximum (script asked about 3.5 s)."
+    },
+    {
+      "id": "split-scene-5",
+      "topic": "result timing",
+      "decision": "Scene 5 split into open-card, first-flag and source-page chapters with the same words, so each result is heard after its check.",
+      "by": "producer",
+      "note": ""
+    },
+    {
+      "id": "pdf-same-tab",
+      "topic": "scene 5 PDF",
+      "decision": "The real click opens the PDF in a new tab; the scenario closes that tab and shows the same address in the recorded tab (only the scenario tab is recorded). Installed Chrome (--browser chrome) renders the PDF.",
+      "by": "producer",
+      "note": ""
+    },
+    {
+      "id": "reduced-motion",
+      "topic": "picture check",
+      "decision": "Capture with prefers-reduced-motion so the page stops its looping pulse and arrow; counters show final values and the card click jumps.",
+      "by": "producer",
+      "note": ""
+    },
+    {
+      "id": "viewport",
+      "topic": "viewport",
+      "decision": "1600 x 900 (16:9) instead of the assumed 1440 x 900.",
+      "by": "producer",
+      "note": ""
+    },
+    {
+      "id": "cursor",
+      "topic": "cursor effects",
+      "decision": "Pointer, press rings and idle fade only in scene 5 clicks (open-card, and source-page before the page changes); smoothing is authored.",
+      "by": "producer",
+      "note": "Within the user decision: scene 5 clicks only."
+    },
+    {
+      "id": "rounds",
+      "topic": "review round budget",
+      "decision": "One review round (rounds.max 1): the user is almost out of time.",
+      "by": "person",
+      "note": "Relayed by the team lead."
+    },
+    {
+      "id": "delivery",
+      "topic": "delivery",
+      "decision": "Local delivery copy at /Users/ethan/Downloads/minuteproof-demo-2026-11-04-v1.mp4; nothing uploaded.",
+      "by": "person",
+      "note": "Relayed by the team lead."
+    },
+    {
+      "id": "quiet-share",
+      "topic": "readiness policy",
+      "decision": "maxQuietShare 0.35 (default 0.3): the quiet stretches are deliberate reading holds for a novice audience.",
+      "by": "person",
+      "note": "Chosen by the user on 2026-11-04, relayed by the team lead. v1 stays the delivery; no new take."
+    }
+  ],
+  "scenes": [
+    {
+      "chapterId": "hero",
+      "outcome": "Hundreds of pages became a short list of red flags; what a red flag is.",
+      "narration": "At the top: seven hundred eighteen pages of minutes became one hundred twenty-eight red flags. A red flag is something a buyer or funder should worry about.",
+      "evidence": [
+        "hero-counts"
+      ],
+      "resultClaims": [
+        "pages-to-flags"
+      ],
+      "wait": "None: the page is loaded before the video starts (prepare); the counters are checked, then the voice starts 0.3 s later.",
+      "readingMs": 2000,
+      "transition": "Stays on the top of the page; the tiles are already on screen below.",
+      "focus": "text: boxes on the 718 and 128 counters as each number is said"
+    },
+    {
+      "chapterId": "tiles",
+      "outcome": "How much was put off and how much reading is saved.",
+      "narration": "In the tiles below, one hundred thirty-four items were put off or left unresolved. And you skip about twenty-four hours of reading.",
+      "evidence": [
+        "tiles-values"
+      ],
+      "resultClaims": [
+        "deferred-count",
+        "hours-saved"
+      ],
+      "wait": "None: no scroll; checked values then voice.",
+      "readingMs": 2500,
+      "transition": "Smooth scroll down to the page map.",
+      "focus": "region then text: a light spotlight on the tile row, then boxes on the 134 tile and the 24 hours pill as named"
+    },
+    {
+      "chapterId": "pagemap",
+      "outcome": "Every page was read; red marks the flagged pages.",
+      "narration": "This grid is every page, one square each. Red squares hold a red flag.",
+      "evidence": [
+        "pagemap-shown"
+      ],
+      "resultClaims": [
+        "page-map"
+      ],
+      "wait": "About 1 s of smooth scrolling before the voice (rehearsal).",
+      "readingMs": 2000,
+      "transition": "Smooth scroll to What keeps coming back.",
+      "focus": "region: spotlight on the grid, then a box on the Red flag legend as Red squares is said"
+    },
+    {
+      "chapterId": "recurring",
+      "outcome": "The wharf is the problem that kept coming back, and it is still put off.",
+      "narration": "Next: what keeps coming back. The top issue is the Nielsen Park wharf and its pool piles, the posts in the water. It was raised at fourteen meetings, from nineteen seventy-two to nineteen seventy-five, and flagged nineteen times. Each dot is a meeting. Red dots were flagged. The latest, in March nineteen seventy-five, is a dangerous old pile stump. It's still deferred, meaning put off.",
+      "evidence": [
+        "wharf-card"
+      ],
+      "resultClaims": [
+        "wharf-top",
+        "wharf-counts",
+        "wharf-latest"
+      ],
+      "wait": "About 1 s of smooth scrolling before the voice.",
+      "readingMs": 3000,
+      "transition": "Stays; the next chapter clicks the card.",
+      "focus": "region and text: spotlight on the wharf card, then boxes on the headline (meetings, years, flags), the timeline dots and the latest entry as each is named"
+    },
+    {
+      "chapterId": "open-card",
+      "outcome": "Clicking a recurring issue shows its flags.",
+      "narration": "Click the card.",
+      "evidence": [
+        "wharf-filter"
+      ],
+      "resultClaims": [],
+      "wait": "None: the click lands as the line is said; the list appears at once (reduced motion).",
+      "readingMs": 1200,
+      "transition": "A short scroll brings the first wharf flag fully into view.",
+      "focus": "text: a box on the Showing 19 flags filter bar after the click; cursor pointer and press ring drawn from the recorded pointer in this chapter"
+    },
+    {
+      "chapterId": "first-flag",
+      "outcome": "Each flag quotes the minutes and cites its page.",
+      "narration": "Its first flag is from February nineteen seventy-two. The board warned the wharf was getting worse, and two agencies couldn't agree who should maintain it. Below is the exact text, with its citation: the page it came from.",
+      "evidence": [
+        "first-flag-card"
+      ],
+      "resultClaims": [
+        "first-flag-date",
+        "first-flag-reason",
+        "citation"
+      ],
+      "wait": "None.",
+      "readingMs": 3000,
+      "transition": "The next chapter clicks View page 7.",
+      "focus": "text and control: boxes on the date, the reason, the quote and the View page 7 link, each as named"
+    },
+    {
+      "chapterId": "source-page",
+      "outcome": "One click opens the original page to check it.",
+      "narration": "One click opens that page, so you can check it yourself.",
+      "evidence": [
+        "pdf-page-7"
+      ],
+      "resultClaims": [
+        "opens-page"
+      ],
+      "wait": "About 1.5 s while the PDF opens at page 7 (shown in the recorded tab; the product opens a new tab, which is closed); the voice starts once it is checked.",
+      "readingMs": 3000,
+      "transition": "Back to MinuteProof, then a scroll to the kitchen and white ants cards.",
+      "focus": "none on the PDF (script); cursor pointer and press ring on the click only, before the page changes"
+    },
+    {
+      "chapterId": "other-issues",
+      "outcome": "Other problems repeat too.",
+      "narration": "Other problems repeat too. White ants, which are termites, come up at six meetings. The kitchen restoration is still deferred, too.",
+      "evidence": [
+        "other-cards"
+      ],
+      "resultClaims": [
+        "white-ants",
+        "kitchen"
+      ],
+      "wait": "About 1.3 s for Back and the scroll before the voice.",
+      "readingMs": 2000,
+      "transition": "Smooth scroll to the red-flag list.",
+      "focus": "text: boxes on the white ants headline and the kitchen Still Deferred badge as named"
+    },
+    {
+      "chapterId": "filters",
+      "outcome": "Flags can be filtered by type.",
+      "narration": "These buttons filter the flags by type.",
+      "evidence": [
+        "repairs-filtered"
+      ],
+      "resultClaims": [],
+      "wait": "None: the chip click lands on the word type and the list narrows at once.",
+      "readingMs": 2500,
+      "transition": "Smooth scroll to Spend over time.",
+      "focus": "region then control: the chip row, then the pressed Repairs and maintenance chip"
+    },
+    {
+      "chapterId": "spend",
+      "outcome": "The money is charted by quarter.",
+      "narration": "This chart follows the money, three months per bar.",
+      "evidence": [
+        "spend-chart",
+        "spend-tooltip"
+      ],
+      "resultClaims": [
+        "spend"
+      ],
+      "wait": "About 1 s of scrolling before the voice; the tooltip appears on the hover.",
+      "readingMs": 2500,
+      "transition": "Smooth scroll to How it works.",
+      "focus": "region: a light spotlight on the chart, then a box on the 1972 Q4 tooltip"
+    },
+    {
+      "chapterId": "how-it-works",
+      "outcome": "How it works in four plain steps, and the takeaway.",
+      "narration": "Here's how it works. One: Reducto reads every page. Two: it pulls out each decision, repair, dollar amount and dispute, and notes its page. Three: DuckDB groups them over time, to find what keeps coming back. Four: every claim links to its page. Here, the reading took about six minutes. Hundreds of pages of board minutes became a cited red-flag report in minutes.",
+      "evidence": [
+        "how-it-works"
+      ],
+      "resultClaims": [
+        "how-reducto",
+        "how-duckdb",
+        "six-minutes",
+        "takeaway"
+      ],
+      "wait": "About 1 s of scrolling before the voice.",
+      "readingMs": 2500,
+      "transition": "Cut to the outro card.",
+      "focus": "region: each of the four steps boxed as One, Two, Three, Four are said, then the extraction time"
+    }
+  ]
+}
